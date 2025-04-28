@@ -1,0 +1,35 @@
+\newcounter{voraufgabe}
+\renewcommand\thevoraufgabe{\Alph{voraufgabe}}
+%\newenvironment{hausaufgabe}[1][]{
+%	\refstepcounter{hausaufgabe}
+%	\noindent{\strut \textbf{\LARGE H.\thehausaufgabe:~#1}}\vspace{0.5cm}
+%}
+
+ \newenvironment{voraufgabe}[1]% environment name
+{% begin code
+	\par\vspace{\baselineskip}\refstepcounter{voraufgabe}\noindent
+	\textbf{\large Voraufgabe \Alph{voraufgabe}:~#1}%\begin{itshape}%
+		\par\vspace{\baselineskip}\noindent\ignorespaces
+	}%
+	{% end code
+	%\end{itshape}\ignorespacesafterend
+	\ignorespacesafterend
+} 
+
+
+\newcounter{aufgabe}
+%\newenvironment{hausaufgabe}[1][]{
+%	\refstepcounter{hausaufgabe}
+%	\noindent{\strut \textbf{\LARGE H.\thehausaufgabe:~#1}}\vspace{0.5cm}
+%}
+
+ \newenvironment{aufgabe}[1]% environment name
+{% begin code
+	\par\vspace{\baselineskip}\refstepcounter{aufgabe}\noindent
+	\textbf{\LARGE H.\theaufgabe:~#1}%\begin{itshape}%
+		\par\vspace{\baselineskip}\noindent\ignorespaces
+	}%
+	{% end code
+	%\end{itshape}\ignorespacesafterend
+	\ignorespacesafterend
+} 
