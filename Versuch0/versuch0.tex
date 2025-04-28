@@ -1,11 +1,10 @@
-% !TeX spellcheck = de_DE
 \documentclass[ngerman]{scrartcl} 
 %\KOMAoptions{fontsize=12pt, paper=a4}
 %\KOMAoptions{DIV=11}
 \usepackage[ngerman]{babel}
 \def\nummer{0}
 \author{Cornelius Heiming}	
-\title{Versuch \nummer\:  Einf\"uhrungen und Vorversuch}
+\title{Versuch \nummer~:  Einf\"uhrungen und Vorversuch}
 \date{29.04.2025}		
 \usepackage{amsmath, amssymb, amsthm} 
 \usepackage{geometry}
@@ -49,7 +48,7 @@
     &= \frac{1}{2T}\int_{-T}^T \sin^2(\omega t)\,dt + \frac{1}{2T}\int_{-T}^T \sin^2(\omega t)\,dt \\
     &= \frac{1}{2T}\int_{-T}^T \sin^2(\omega t)\,dt + \frac{1}{2T}\int_{-T}^T \cos^2\left(\omega\left(t - \frac{\pi}{2\omega}\right)\right)\,dt \\
     &= \frac{1}{2T}\int_{-T}^T \sin^2(\omega t)\,dt + \frac{1}{2T}\int_{-T - \frac{\pi}{2\omega}}^{T - \frac{\pi}{2\omega}} \cos^2(\omega t)\,dt \\
-    &= \frac{1}{2T}\int_{-T}^T \sin^2(\omega t)\,dt + \frac{1}{2T}\int_{-T}^{T} \cos^2(\omega t)\,dt \quad \text{(Periodizität von } \cos) \\
+    &= \frac{1}{2T}\int_{-T}^T \sin^2(\omega t)\,dt + \frac{1}{2T}\int_{-T}^{T} \cos^2(\omega t)\,dt \quad \text{(Periodizität von $\cos$)} \\
     &= \frac{1}{2T}\int_{-T}^T \left[\sin^2(\omega t) + \cos^2(\omega t)\right]\,dt \\
     &= \frac{1}{2T}\int_{-T}^T 1\,dt = 1 \\
     \Rightarrow \langle \sin^2(\omega t) \rangle &= \lim_{T \to \infty} \frac{1}{2T}\int_{-T}^T \sin^2(\omega t)\,dt = \frac{1}{2}

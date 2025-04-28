@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber versuch0"] 1745866792 "versuch0.bcf" "versuch0.bbl" "versuch0" 1745866868
-  "versuch0.bcf" 1745866868 106638 4147cbca2ef1bcd88966ccccbbea61f9 "pdflatex"
+["biber versuch0"] 1745866792 "versuch0.bcf" "versuch0.bbl" "versuch0" 1745867887
+  "versuch0.bcf" 1745867887 106638 4147cbca2ef1bcd88966ccccbbea61f9 "pdflatex"
   (generated)
   "versuch0.bbl"
   "versuch0.blg"
-["pdflatex"] 1745866866 "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch0/versuch0.tex" "versuch0.pdf" "versuch0" 1745866868
+["pdflatex"] 1745867885 "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch0/versuch0.tex" "versuch0.pdf" "versuch0" 1745867887
   "../aufgaben.sty" 1745783570 1404 d39171c30d1d938b207324dd888c0d31 ""
-  "../pakete.sty" 1745753525 2499 2e7bb84e27528b847815f7a26502d902 ""
-  "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch0/versuch0.tex" 1745866866 8440 7b56b8ac7724b5bae3be231f2e2b47da ""
+  "../pakete.sty" 1745867605 2499 2e7bb84e27528b847815f7a26502d902 ""
+  "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch0/versuch0.tex" 1745867884 8415 759e1136b8c7157c8d9864b322aba460 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -28,8 +28,10 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1246382020 928 2dc8d444221b7a635bb58038579b861a ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1246382020 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -187,11 +189,11 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1664531518 2826440 2b743cd67fcbe78a12a87612f5077cdd ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "versuch0.aux" 1745866868 3703 a6a6b467d992daa0487c144b5d281dd9 "pdflatex"
+  "versuch0.aux" 1745867887 3703 d6db1b97135790c031cd810cf5329ecd "pdflatex"
   "versuch0.bbl" 1745866794 466 ee04f40f768daeed26442158e95aba61 "biber versuch0"
   "versuch0.out" 0 -1 0 "pdflatex"
-  "versuch0.run.xml" 1745866868 2366 e8fd6a7cc1b6f558233fa4d04cef400d "pdflatex"
-  "versuch0.tex" 1745866866 8440 7b56b8ac7724b5bae3be231f2e2b47da ""
+  "versuch0.run.xml" 1745867887 2366 e8fd6a7cc1b6f558233fa4d04cef400d "pdflatex"
+  "versuch0.tex" 1745867884 8415 759e1136b8c7157c8d9864b322aba460 ""
   (generated)
   "versuch0.aux"
   "versuch0.bcf"
