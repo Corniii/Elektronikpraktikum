@@ -33,12 +33,56 @@
 \begin{document}
 	\maketitle
 	\section{Einleitung}
+		In diesem Versuch wird untersucht, wie Signale durch Leitungen verzögert, gedämpft und reflektiert werden. Dazu werden ein Signalgenerator, ein Oszilloskop, verschiedene Verzögerungskabel und ein Differenzierglied verwendet. Letzteres wird zunächst untersucht, um dann in der Folge als Impulsgenerator zu dienen. Diese werden dann mittels des Oszillographen in verschiedenen Konfigurationen gemessen. Danach wird der Abschluss eines Leiters und dessen Signalverzögerung untersucht. Zuletzt werden Klippkabel verwendet, um Impulse auf eine definierte Länge zu kürzen.
 		%TODO Was wird gemessen?
 		%TODO Wodurch ist der Versuch motiviert, was ist das Ziel des Versuches
 	\section{Theorie}
+		
 		%TODO Kurze Darstellung der Physik für den Versuch, Grundlagen, Voraussetzungen
 		%TODO Formeln, die in der Auswertung verwendet werden
 		%TODO Prägnanz
+		Koaxialkabel sind Leitungen, die aus einem Innenleiter und einem Außenleiter bestehen. Diese können als Kondensator aufgefasst werden, dem Kabel kann also eine Kapazität $C'$ pro Längeneinheit zugeordnet werden. Weiterhin besitzt das Kabel eine Induktivität $L'$ pro Längeneinheit. Diese beiden Größen sind gegeben durch:
+		\begin{align*}
+			C' &= \epsilon_r \epsilon_0\frac{2 \pi}{\ln({R_\mathrm{a}/R_\mathrm{i}})}\\
+			L' &= \mu_r \mu_0\frac{\ln({R_\mathrm{a}/R_\mathrm{i}})}{2 \pi}
+		\end{align*}
+		mit $R_\mathrm{a}$ und $R_\mathrm{i}$ dem Außen- und Innenradius des Kabels und den wohlbekannten Konstanten. Neben diesen Größen existieren noch die beiden anderen Leitungskonstanten $R'$ und $G'$, Widerstand pro Längeneinheit und Leitungsverluste pro Längeneinheit. Zusammen können sie die Übertragung elektrischer Energie beschreiben. 
+
+		Die Leitungsgleichungen kann man nun mittels des folgenden Modells eines verlustfreien Leiters motivieren: Das Kabel wird als Kette von infinitesimal großen LC-Gliedern der Länge $\Delta x$ mit Längsimpedanz $\Delta Z = i \omega \Delta L + \Delta R$ und Queraddmitanz $\Delta Y = i \omega \Delta C + \Delta G$ betrachtet.
+		Für die Spannung und den Strom lassen sich dann Differentialgleichungen herleiten, die als Lösung für Spannung und Stromstärke eine Überlagerung von hin- und rücklaufenden Wellen ergeben:
+		\begin{align*}
+			U(x,t) &= U_\mathrm{h} + U_\mathrm{r} \\
+			&= (U_\mathrm{h0} e^{-\Upsilon x} + U_\mathrm{r0} e^{\Upsilon x}) e^{-i \omega t} \\
+			I(x,t) &= I_\mathrm{h} + I_\mathrm{r} \\
+			&= (U_\mathrm{h0} e^{-\Upsilon x} - U_\mathrm{r0} e^{\Upsilon x}) e^{-i \omega t} \sqrt{\frac{G' + i \omega C'}{R' + i \omega L'}} \\
+		\end{align*}
+		mit 
+		\begin {equation*}
+			\Upsilon = \sqrt{(R' + i \omega L')(G' + i \omega C')} =: \alpha + i \beta 
+		\end{equation*}
+		$\Upsilon$ beschreibt die Dämpfung, $\alpha$ die Dämpfungskonstante, die im verlustfreien Fall $0$ ist, d.h. dann gilt $\beta = \omega \sqrt{L'C'}$, wodurch $\beta$ zur Kreisfrequenz der Phase wird. Die Phasengeschwindigkeit $v_\mathrm{ph}$ ergibt sich also wie folgt:
+		\begin{align*}
+			v_\mathrm{ph} &= \frac{\omega}{\beta} = \frac{1}{\sqrt{L'C'}} \\
+		\end{align*}
+		Diese gleicht in dem Fall der Gruppengeschwindigkeit $v_\mathrm{g} = \frac{c_0}{\sqrt{\epsilon_r \mu_r}}$.
+		Der Wellenwiderstand $Z$ wird dann im verlustfreien Fall definiert als:
+		\begin{align*}
+			Z &= \frac{U_\mathrm{h}}{I_\mathrm{h}} = \sqrt{\frac{L'}{C'}} \\ 
+		\end{align*}
+		Weiterhin gilt für den Abschlusswiderstand: 
+		\begin{align*}
+    		R_\mathrm{A}=\frac{U_\mathrm{h}(l)+U_\mathrm{r}(l)}{I_\mathrm{h}(l)+I_\mathrm{r}(l)}=Z\frac{1+r}{1-r}
+		\end{align*}
+		mit dem Reflexionskoeffizienten: 
+		\begin{align*}
+    		r = \frac{U_\mathrm{rl}}{U_\mathrm{hl}} = \frac{R_\mathrm{A}-Z}{R_\mathrm{A}+Z}
+		\end{align*}
+		Somit lassen sich drei Fälle unterscheiden:
+		\begin{enumerate}
+			\item $R_\mathrm{A} = Z$: In diesem Fall ist $r=0$, es gibt keine reflektierte Welle.
+			\item $R_\mathrm{A} = \infty$: In diesem Fall ist $r=1$, die Amplitude der reflektierten Welle entspricht der der hinlaufenden.
+			\item $R_\mathrm{A} = \SI{0}{\ohm}$: In diesem Fall ist $r=-1$, die Amplitude der reflektierten Welle entspricht dem negativen Wert der Amplitude der hinlaufenden Welle.
+		\end{enumerate}
 	\section{Voraufgaben}
 		%TODO Voraufgaben
 		\begin{voraufgabe}{Was muss man tun, um große Verzögerungszeuten zu erreichen?}

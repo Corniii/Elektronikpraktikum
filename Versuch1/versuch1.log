@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.30)  28 APR 2025 21:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.30)  28 APR 2025 23:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -966,37 +966,34 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<Aufbau_1_1_Differenzierglied.png, id=31, 458.71375pt x 202.7575pt>
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<Aufbau_1_1_Differenzierglied.png, id=36, 458.71375pt x 202.7575pt>
 File: Aufbau_1_1_Differenzierglied.png Graphic file (type png)
 <use Aufbau_1_1_Differenzierglied.png>
-Package pdftex.def Info: Aufbau_1_1_Differenzierglied.png  used on input line 71.
+Package pdftex.def Info: Aufbau_1_1_Differenzierglied.png  used on input line 115.
 (pdftex.def)             Requested size: 341.43437pt x 150.92612pt.
-<Aufbau_1_2_Impulse_auf_Kabeln.png, id=35, 458.71375pt x 213.79875pt>
+ [3]
+<Aufbau_1_2_Impulse_auf_Kabeln.png, id=54, 458.71375pt x 213.79875pt>
 File: Aufbau_1_2_Impulse_auf_Kabeln.png Graphic file (type png)
 <use Aufbau_1_2_Impulse_auf_Kabeln.png>
-Package pdftex.def Info: Aufbau_1_2_Impulse_auf_Kabeln.png  used on input line 82.
+Package pdftex.def Info: Aufbau_1_2_Impulse_auf_Kabeln.png  used on input line 126.
 (pdftex.def)             Requested size: 341.43437pt x 159.14487pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[2 <./Aufbau_1_1_Differenzierglied.png>]
-<Aufbau_1_3_Leitungsabschluss.png, id=52, 458.71375pt x 213.79875pt>
+<Aufbau_1_3_Leitungsabschluss.png, id=57, 458.71375pt x 213.79875pt>
 File: Aufbau_1_3_Leitungsabschluss.png Graphic file (type png)
 <use Aufbau_1_3_Leitungsabschluss.png>
-Package pdftex.def Info: Aufbau_1_3_Leitungsabschluss.png  used on input line 93.
+Package pdftex.def Info: Aufbau_1_3_Leitungsabschluss.png  used on input line 137.
 (pdftex.def)             Requested size: 341.43437pt x 159.14487pt.
- [3 <./Aufbau_1_2_Impulse_auf_Kabeln.png> <./Aufbau_1_3_Leitungsabschluss.png>]
-<Aufbau_1_4_Klippkabel.png, id=66, 458.71375pt x 213.79875pt>
+ [4 <./Aufbau_1_1_Differenzierglied.png> <./Aufbau_1_2_Impulse_auf_Kabeln.png>]
+<Aufbau_1_4_Klippkabel.png, id=72, 458.71375pt x 213.79875pt>
 File: Aufbau_1_4_Klippkabel.png Graphic file (type png)
 <use Aufbau_1_4_Klippkabel.png>
-Package pdftex.def Info: Aufbau_1_4_Klippkabel.png  used on input line 108.
+Package pdftex.def Info: Aufbau_1_4_Klippkabel.png  used on input line 152.
 (pdftex.def)             Requested size: 341.43437pt x 159.14487pt.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 135.
+ [5 <./Aufbau_1_3_Leitungsabschluss.png> <./Aufbau_1_4_Klippkabel.png>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 179.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [4 <./Aufbau_1_4_Klippkabel.png>] (./versuch1.aux)
+) [6] (./versuch1.aux)
 Package rerunfilecheck Info: File `versuch1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'versuch1.run.xml'.
@@ -1004,18 +1001,18 @@ Package logreq Info: Writing requests to 'versuch1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31580 strings out of 478268
- 616101 string characters out of 5846347
- 1447426 words of memory out of 5000000
+ 31585 strings out of 478268
+ 616133 string characters out of 5846347
+ 1449426 words of memory out of 5000000
  49375 multiletter control sequences out of 15000+600000
  488567 words of font info for 79 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,10n,106p,10693b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on versuch1.pdf (4 pages, 400995 bytes).
+ 108i,11n,106p,10693b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on versuch1.pdf (6 pages, 421096 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
+ 219 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
