@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.30)  28 APR 2025 23:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.30)  29 APR 2025 22:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -967,29 +967,29 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<Aufbau_1_1_Differenzierglied.png, id=36, 458.71375pt x 202.7575pt>
-File: Aufbau_1_1_Differenzierglied.png Graphic file (type png)
-<use Aufbau_1_1_Differenzierglied.png>
-Package pdftex.def Info: Aufbau_1_1_Differenzierglied.png  used on input line 115.
+<figs/Aufbau_1_1_Differenzierglied.png, id=36, 458.71375pt x 202.7575pt>
+File: figs/Aufbau_1_1_Differenzierglied.png Graphic file (type png)
+<use figs/Aufbau_1_1_Differenzierglied.png>
+Package pdftex.def Info: figs/Aufbau_1_1_Differenzierglied.png  used on input line 115.
 (pdftex.def)             Requested size: 341.43437pt x 150.92612pt.
  [3]
-<Aufbau_1_2_Impulse_auf_Kabeln.png, id=54, 458.71375pt x 213.79875pt>
-File: Aufbau_1_2_Impulse_auf_Kabeln.png Graphic file (type png)
-<use Aufbau_1_2_Impulse_auf_Kabeln.png>
-Package pdftex.def Info: Aufbau_1_2_Impulse_auf_Kabeln.png  used on input line 126.
+<figs/Aufbau_1_2_Impulse_auf_Kabeln.png, id=54, 458.71375pt x 213.79875pt>
+File: figs/Aufbau_1_2_Impulse_auf_Kabeln.png Graphic file (type png)
+<use figs/Aufbau_1_2_Impulse_auf_Kabeln.png>
+Package pdftex.def Info: figs/Aufbau_1_2_Impulse_auf_Kabeln.png  used on input line 126.
 (pdftex.def)             Requested size: 341.43437pt x 159.14487pt.
-<Aufbau_1_3_Leitungsabschluss.png, id=57, 458.71375pt x 213.79875pt>
-File: Aufbau_1_3_Leitungsabschluss.png Graphic file (type png)
-<use Aufbau_1_3_Leitungsabschluss.png>
-Package pdftex.def Info: Aufbau_1_3_Leitungsabschluss.png  used on input line 137.
+<figs/Aufbau_1_3_Leitungsabschluss.png, id=57, 458.71375pt x 213.79875pt>
+File: figs/Aufbau_1_3_Leitungsabschluss.png Graphic file (type png)
+<use figs/Aufbau_1_3_Leitungsabschluss.png>
+Package pdftex.def Info: figs/Aufbau_1_3_Leitungsabschluss.png  used on input line 137.
 (pdftex.def)             Requested size: 341.43437pt x 159.14487pt.
- [4 <./Aufbau_1_1_Differenzierglied.png> <./Aufbau_1_2_Impulse_auf_Kabeln.png>]
-<Aufbau_1_4_Klippkabel.png, id=72, 458.71375pt x 213.79875pt>
-File: Aufbau_1_4_Klippkabel.png Graphic file (type png)
-<use Aufbau_1_4_Klippkabel.png>
-Package pdftex.def Info: Aufbau_1_4_Klippkabel.png  used on input line 152.
+ [4 <./figs/Aufbau_1_1_Differenzierglied.png> <./figs/Aufbau_1_2_Impulse_auf_Kabeln.png>]
+<figs/Aufbau_1_4_Klippkabel.png, id=72, 458.71375pt x 213.79875pt>
+File: figs/Aufbau_1_4_Klippkabel.png Graphic file (type png)
+<use figs/Aufbau_1_4_Klippkabel.png>
+Package pdftex.def Info: figs/Aufbau_1_4_Klippkabel.png  used on input line 152.
 (pdftex.def)             Requested size: 341.43437pt x 159.14487pt.
- [5 <./Aufbau_1_3_Leitungsabschluss.png> <./Aufbau_1_4_Klippkabel.png>]
+ [5 <./figs/Aufbau_1_3_Leitungsabschluss.png> <./figs/Aufbau_1_4_Klippkabel.png>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 179.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -1001,8 +1001,8 @@ Package logreq Info: Writing requests to 'versuch1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31585 strings out of 478268
- 616133 string characters out of 5846347
+ 31586 strings out of 478268
+ 616258 string characters out of 5846347
  1449426 words of memory out of 5000000
  49375 multiletter control sequences out of 15000+600000
  488567 words of font info for 79 fonts, out of 8000000 for 9000

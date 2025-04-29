@@ -1,14 +1,14 @@
 # Fdb version 3
-["biber versuch1"] 1745867118 "versuch1.bcf" "versuch1.bbl" "versuch1" 1745876452
+["biber versuch1"] 1745867118 "versuch1.bcf" "versuch1.bbl" "versuch1" 1745958698
   "../referenzen.bib" 1745753525 1197 17d3ac3f4962637134fafc0855121987 ""
-  "versuch1.bcf" 1745876452 107447 ecceab9b59effdea95675f1980f29ca6 "pdflatex"
+  "versuch1.bcf" 1745958698 107447 ecceab9b59effdea95675f1980f29ca6 "pdflatex"
   (generated)
   "versuch1.bbl"
   "versuch1.blg"
-["pdflatex"] 1745876450 "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch1/versuch1.tex" "versuch1.pdf" "versuch1" 1745876452
+["pdflatex"] 1745958696 "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch1/versuch1.tex" "versuch1.pdf" "versuch1" 1745958698
   "../aufgaben.sty" 1745783570 1404 d39171c30d1d938b207324dd888c0d31 ""
   "../pakete.sty" 1745867605 2499 2e7bb84e27528b847815f7a26502d902 ""
-  "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch1/versuch1.tex" 1745876448 12485 dbb9e549c50a21cd665799a68598f327 ""
+  "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch1/versuch1.tex" 1745958695 12505 ade1201aa8862756e62bb5a0fe0d6041 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -193,15 +193,15 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1664531518 2826440 2b743cd67fcbe78a12a87612f5077cdd ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Aufbau_1_1_Differenzierglied.png" 1745774735 46203 6ad4f0d9133aaad8a3a6d2e74c7085a6 ""
-  "Aufbau_1_2_Impulse_auf_Kabeln.png" 1745780661 61182 0bebf5eb14e45081a69301bb26548f5f ""
-  "Aufbau_1_3_Leitungsabschluss.png" 1745782542 53819 8736a163b455a09aa29eb12e091b8f36 ""
-  "Aufbau_1_4_Klippkabel.png" 1745785398 47918 679b1b7d1cf0264890ada12bd161cacd ""
-  "versuch1.aux" 1745876452 4937 e5bfcedb56cd874bf54ed93b265d4473 "pdflatex"
+  "figs/Aufbau_1_1_Differenzierglied.png" 1745774735 46203 6ad4f0d9133aaad8a3a6d2e74c7085a6 ""
+  "figs/Aufbau_1_2_Impulse_auf_Kabeln.png" 1745780661 61182 0bebf5eb14e45081a69301bb26548f5f ""
+  "figs/Aufbau_1_3_Leitungsabschluss.png" 1745782542 53819 8736a163b455a09aa29eb12e091b8f36 ""
+  "figs/Aufbau_1_4_Klippkabel.png" 1745785398 47918 679b1b7d1cf0264890ada12bd161cacd ""
+  "versuch1.aux" 1745958698 4937 e5bfcedb56cd874bf54ed93b265d4473 "pdflatex"
   "versuch1.bbl" 1745867120 944 1f96a906b4e56d88ae15561c25355856 "biber versuch1"
   "versuch1.out" 0 -1 0 "pdflatex"
-  "versuch1.run.xml" 1745876452 2366 c6436fa23f71fc8f0834ee6f70e01ed6 "pdflatex"
-  "versuch1.tex" 1745876448 12485 dbb9e549c50a21cd665799a68598f327 ""
+  "versuch1.run.xml" 1745958698 2366 c6436fa23f71fc8f0834ee6f70e01ed6 "pdflatex"
+  "versuch1.tex" 1745958695 12505 ade1201aa8862756e62bb5a0fe0d6041 ""
   (generated)
   "versuch1.aux"
   "versuch1.bcf"

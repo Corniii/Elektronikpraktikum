@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber versuch0"] 1745866792 "versuch0.bcf" "versuch0.bbl" "versuch0" 1745869212
-  "versuch0.bcf" 1745869212 106638 4147cbca2ef1bcd88966ccccbbea61f9 "pdflatex"
+["biber versuch0"] 1745866792 "versuch0.bcf" "versuch0.bbl" "versuch0" 1745957360
+  "versuch0.bcf" 1745957359 106638 4147cbca2ef1bcd88966ccccbbea61f9 "pdflatex"
   (generated)
   "versuch0.bbl"
   "versuch0.blg"
-["pdflatex"] 1745869211 "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch0/versuch0.tex" "versuch0.pdf" "versuch0" 1745869212
+["pdflatex"] 1745957358 "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch0/versuch0.tex" "versuch0.pdf" "versuch0" 1745957360
   "../aufgaben.sty" 1745783570 1404 d39171c30d1d938b207324dd888c0d31 ""
   "../pakete.sty" 1745867605 2499 2e7bb84e27528b847815f7a26502d902 ""
-  "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch0/versuch0.tex" 1745869209 8433 c6cdcc5ebdfd16efb44c3ca288fb663f ""
+  "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch0/versuch0.tex" 1745957355 8435 7f0d7ab894c9667998282da3084af6f7 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -189,11 +189,11 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1664531518 2826440 2b743cd67fcbe78a12a87612f5077cdd ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "versuch0.aux" 1745869212 3703 d6db1b97135790c031cd810cf5329ecd "pdflatex"
+  "versuch0.aux" 1745957359 3703 9dbcfc310f3af5e525a999ba25c2cc52 "pdflatex"
   "versuch0.bbl" 1745866794 466 ee04f40f768daeed26442158e95aba61 "biber versuch0"
   "versuch0.out" 0 -1 0 "pdflatex"
-  "versuch0.run.xml" 1745869212 2366 e8fd6a7cc1b6f558233fa4d04cef400d "pdflatex"
-  "versuch0.tex" 1745869209 8433 c6cdcc5ebdfd16efb44c3ca288fb663f ""
+  "versuch0.run.xml" 1745957359 2366 e8fd6a7cc1b6f558233fa4d04cef400d "pdflatex"
+  "versuch0.tex" 1745957355 8435 7f0d7ab894c9667998282da3084af6f7 ""
   (generated)
   "versuch0.aux"
   "versuch0.bcf"
