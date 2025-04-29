@@ -16,8 +16,9 @@
 	\ignorespacesafterend
 } 
 
-
 \newcounter{aufgabe}
+\newcounter{unteraufgabe}
+\newcommand{\abschnittstyp}{}
 %\newenvironment{hausaufgabe}[1][]{
 %	\refstepcounter{hausaufgabe}
 %	\noindent{\strut \textbf{\LARGE H.\thehausaufgabe:~#1}}\vspace{0.5cm}
@@ -28,23 +29,39 @@
 	\par\vspace{\baselineskip}\refstepcounter{aufgabe}\noindent
 	\textbf{\Large Versuchsaufgabe \theaufgabe:~#1}%\begin{itshape}%
 		\par\vspace{\baselineskip}\noindent\ignorespaces
+		\setcounter{unteraufgabe}{0}%
 	}%
 	{% end code
 	%\end{itshape}\ignorespacesafterend
 	\ignorespacesafterend
-} 
-
-% Eigene Zähler definieren
-\newcounter{unteraufgabe}[aufgabe]
-
-% Eigene Befehle
-\newcommand{\aufgabse}[1]{%
-  \stepcounter{aufgabse}%
-  \setcounter{unteraufgabe}{0}%
-  \noindent\textbf{Aufgabe \theaufgabe:\quad #1}\par\medskip
 }
+\newcommand{\abschnittslabel}{}  % z.B. A, M, Au
+\newcommand{\abschnittsname}{}  
+
+\newcommand{\aufbau}{%
+  \renewcommand{\abschnittslabel}{A}%
+  \renewcommand{\abschnittsname}{Aufbau}%
+  \setcounter{unteraufgabe}{0}%
+  \subsection*{\theaufgabe~- Aufbau \& Durchführung}
+}
+
+\newcommand{\messwerte}{%
+  \renewcommand{\abschnittslabel}{M}%
+  \renewcommand{\abschnittsname}{Messwerte}%
+  \setcounter{unteraufgabe}{0}%
+  \subsection*{\theaufgabe~- Messergebnisse}
+}
+
+\newcommand{\auswertung}{%
+  \renewcommand{\abschnittslabel}{Au}%
+  \renewcommand{\abschnittsname}{Auswertung}%
+  \setcounter{unteraufgabe}{0}%
+  \subsection*{\theaufgabe~- Auswertung}
+}
+% Eigene Zähler definieren
+
 
 \newcommand{\unteraufgabe}[1]{%
   \stepcounter{unteraufgabe}%
-  \noindent\hspace{1em}\textbf{(\theaufgabe.\theunteraufgabe)\quad #1}\par\medskip
+  \noindent\textbf{(\theaufgabe.\abschnittslabel.\alph{\theunteraufgabe})}\quad\textit{\abschnittsname:} #1\par\vspace{0.3em}
 }
