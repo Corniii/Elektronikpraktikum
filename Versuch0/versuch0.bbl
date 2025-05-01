@@ -16,5 +16,19 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{anleitung}{misc}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://ecampus.uni-bonn.de/goto_ecampus_file_3695287_download.html}}
+      \field{month}{4}
+      \field{title}{Elektronik-Praktikum - Versuchsbeschreibungen}
+      \field{year}{2025}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

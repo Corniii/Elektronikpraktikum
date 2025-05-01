@@ -146,12 +146,7 @@
 			\end{figure}
 			Ein RC-Glied wird (ohne $\SI{2.2}{\kilo\ohm}$ Abschluss) zwischen einen Funktionsgenerator und einen Oszillographen geschaltet. Der Funktionsgenerator wird auf eine Frequenz von $\SI{200}{\kilo\hertz}$ eingestellt. Dann wird das Oszillogramm gezeichnet und dasselbe mit dem $\SI{2.2}{\kilo\ohm}$ Abschlusswiderstand wiederholt.
 			\messwerte
-			\begin{figure}[H]
-				\centering
-				\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0000.png}
-				\caption{Differenzierglied ohne Abschlusswiderstand}
-				\label{fig:DS0000}
-			\end{figure}
+			
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0001.png}
@@ -159,12 +154,18 @@
 				\caption{Differenzierglied mit Abschlusswiderstand (unten vergrößerte Ordinate)}
 				\label{fig:DS0001,2}
 			\end{figure}
-			\clearpage
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0000.png}
+				\caption{Differenzierglied ohne Abschlusswiderstand}
+				\label{fig:DS0000}
+			\end{figure}
 			\auswertung
+				Wie in \ref{fig:DS0000} zu erkennen ist, wird das Rechtecksignal des Funktionsgenerators durch das Differenzierglied in ein Impulsignal umgewandelt. Die Spikes sind hierbei gut zu erkennen. Dies ist im Fall mit dem Abschlusswiderstand anders, dort "schluckt" das Differenzierglied die Impulse (vgl. \ref{fig:DS0001,2} oben), diese sind nur noch wesentlich schwächer zu sehen (vgl. \ref{fig:DS0001,2} unten). Dies ist darauf zurückzuführen, dass der Abschlusswiderstand den Stromfluss behindert und somit die Impulse nicht mehr so stark ausgeprägt sind. Der Abschlusswiderstand hat also eine dämpfende Wirkung auf das Signal.
 
 			%TODO: Messwerte & Auswertung
 		\end{aufgabe}
-
+\clearpage
 % === Aufgabe 2 ===
 
 		\begin{aufgabe}{Impulse auf Kabeln}
@@ -176,15 +177,22 @@
 				\label{fig:aufbau_1_1_impulseAufKabeln}
 			\end{figure}
 			Jetzt sollen die Impulse auf einem an beiden Enden offenen Kabel untersucht werden. Dazu wird ein Funktionsgenerator, welcher im Rechteckmodus mit $\SI{100}{\kilo\hertz}$ betrieben wird, vor ein RC-Glied mit Abschluss, welches als Impulsgeber dient, geschaltet. Diese Impulse werden einerseits im CH1 des Oszillographen angezeigt, andererseits durch zwei hintereinandergeschaltete Kabel mit jeweils $\SI{50}{\ohm}$ Wellenwiderstand geschickt. Zwischen den beiden Kabeln wird der Oszillograph im CH2 geschaltet. Der Funktionsgenerator dient als externer Trigger für den Oszillographen, die beiden Kanäle werden mit derselben Empfindlichkeit betrieben.
+			\auswertung
+			Auf der größeren Zeitachse (vgl. \ref{fig:DS0004}) kann man die Impulse des Funktionsgenerators wiedererkennen. Hier klingen diese nicht instantan durch die Darstellung im Oszillographen ab, sondern wandern durch die beiden Kabel, sodass nur ein Teil der Amplitude im Oszillographen ankommt. In der detaillierteren Darstellung (vgl. \ref{fig:DS0005}) kann man nun die einzelnen Durchläufe durch die beiden Kabel erkennen. Besonders gut dabei zu sehen ist, dass der Impuls den Punkt zwischen den beiden Kabeln doppelt so häufig passiert, wie den Punkt am Anfang des Kabels. Das macht also eine tatsächliche Bewegung des Signales über die Länge der Kabel deutlich. Dies kann man auch aus der Verzögerung der beiden Signale relativ zueinander erkennen, die in etwa der Hälfte der Periode vom Mittelpunkt bzw. einem Viertel der Periode vom Anfang des Kabels entspricht. 
 			\messwerte
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0004.png}
-				\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0005.png}
-				\caption{Impulse auf Kabeln (oben: Übersicht ($\SI{1}{\micro\second\per\centi\meter}$), unten: Detailansicht ($\SI{0.05}{\micro\second\per\centi\meter}$))}
-				\label{fig:DS0004,5}
+				\caption{Impulse auf Kabeln (Übersicht ($\SI{1}{\micro\second\per\centi\meter}$))}
+				\label{fig:DS0004}
 			\end{figure}
-		\auswertung
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0005.png}
+				\caption{Impulse auf Kabeln (Detailansicht ($\SI{0.05}{\micro\second\per\centi\meter}$))}
+				\label{fig:DS0005}
+			\end{figure}
+		
 
 			
 		\end{aufgabe}
@@ -208,6 +216,7 @@
 			\end{enumerate}
 			\MesswUndAusw
 			\begin{unteraufgabe}
+				%TODO: Auswertung 3(a)
 				\begin{figure}[H]
 					\centering
 					\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0006.png}
@@ -216,6 +225,7 @@
 					\label{fig:DS0006,7}
 				\end{figure}
 			\end{unteraufgabe}
+\clearpage
 			\begin{unteraufgabe}
 				\begin{figure}[H]
 					\centering
@@ -224,8 +234,11 @@
 					\caption{Leitungsabschluss offenes Ende (oben: mit Anpassunsgwiderstand, unten: ohne Anpassungswiderstand) vergrößert}
 					\label{fig:DS0009.8}
 				\end{figure}
+				%TODO: Auswertung 3(b)
 			\end{unteraufgabe}
+
 			\begin{unteraufgabe}
+				%TODO: Auswertung 3(c)
 				\begin{figure}[H]
 					\centering
 					\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0012.png}
@@ -234,6 +247,7 @@
 					\label{fig:DS000}
 				\end{figure}
 			\end{unteraufgabe}
+\clearpage
 			\begin{unteraufgabe}
 				\begin{figure}[H]
 					\centering
@@ -263,9 +277,10 @@
 					\caption{Leitungsabschluss mit Wellenwiderstand}
 					\label{fig:DS0016}
 				\end{figure}
+				%TODO: Auswertung 3(d)
 			\end{unteraufgabe}
 		\end{aufgabe}
-
+\clearpage
 % === Aufgabe 4 ===		
 
 		\begin{aufgabe}{Klippkabel, Dämpfung}

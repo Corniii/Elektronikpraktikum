@@ -2,7 +2,7 @@ import os
 from PIL import Image
 
 # Wurzelverzeichnis festlegen (aktuelles Verzeichnis)
-root_dir = "./Versuch1"
+root_dir = "./Versuch0"
 
 # Alle Dateien durchlaufen
 for dirpath, dirnames, filenames in os.walk(root_dir):

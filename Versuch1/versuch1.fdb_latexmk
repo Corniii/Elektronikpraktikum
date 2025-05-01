@@ -1,14 +1,14 @@
 # Fdb version 3
-["biber versuch1"] 1746095546 "versuch1.bcf" "versuch1.bbl" "versuch1" 1746096456
+["biber versuch1"] 1746095546 "versuch1.bcf" "versuch1.bbl" "versuch1" 1746099002
   "../referenzen.bib" 1745753525 1197 17d3ac3f4962637134fafc0855121987 ""
-  "versuch1.bcf" 1746096456 107447 ecceab9b59effdea95675f1980f29ca6 "pdflatex"
+  "versuch1.bcf" 1746099002 107447 ecceab9b59effdea95675f1980f29ca6 "pdflatex"
   (generated)
   "versuch1.bbl"
   "versuch1.blg"
-["pdflatex"] 1746096454 "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch1/versuch1.tex" "versuch1.pdf" "versuch1" 1746096456
-  "../aufgaben.sty" 1746093476 2268 433fd48a64ae6bde6a42bbef14c1323e ""
+["pdflatex"] 1746099000 "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch1/versuch1.tex" "versuch1.pdf" "versuch1" 1746099002
+  "../aufgaben.sty" 1746098388 2285 6500f76c3c51bcdc7ca67401445d9d6e ""
   "../pakete.sty" 1745867605 2499 2e7bb84e27528b847815f7a26502d902 ""
-  "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch1/versuch1.tex" 1746096452 17177 452828ba370094ee44c1b0ae34ba159d ""
+  "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch1/versuch1.tex" 1746098998 18929 d3f4b3d7c6b993e4efc487c7e1396498 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -219,11 +219,11 @@
   "figs/Aufbau_1_2_Impulse_auf_Kabeln.png" 1745780661 61182 0bebf5eb14e45081a69301bb26548f5f ""
   "figs/Aufbau_1_3_Leitungsabschluss.png" 1745782542 53819 8736a163b455a09aa29eb12e091b8f36 ""
   "figs/Aufbau_1_4_Klippkabel.png" 1745785398 47918 679b1b7d1cf0264890ada12bd161cacd ""
-  "versuch1.aux" 1746096456 9691 c657394644ffbf60322b89016f97cd14 "pdflatex"
+  "versuch1.aux" 1746099002 9890 bc65df8f009b740acca33e9a38a25eda "pdflatex"
   "versuch1.bbl" 1746095548 944 1f96a906b4e56d88ae15561c25355856 "biber versuch1"
   "versuch1.out" 0 -1 0 "pdflatex"
-  "versuch1.run.xml" 1746096456 2366 c6436fa23f71fc8f0834ee6f70e01ed6 "pdflatex"
-  "versuch1.tex" 1746096452 17177 452828ba370094ee44c1b0ae34ba159d ""
+  "versuch1.run.xml" 1746099002 2366 c6436fa23f71fc8f0834ee6f70e01ed6 "pdflatex"
+  "versuch1.tex" 1746098998 18929 d3f4b3d7c6b993e4efc487c7e1396498 ""
   (generated)
   "versuch1.aux"
   "versuch1.bcf"

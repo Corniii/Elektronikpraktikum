@@ -113,32 +113,66 @@ Also gilt:
 
 \end{voraufgabe}
 		%TODO Voraufgaben
-	\section{Versuchsaufbau und -durchführung}
-	\begin{aufgabe}{Bestimmung der Anstiegszeit des Oszillographen}
-		In dieser Aufgabe soll der Oszillograph untersucht werden. Dafür wird der Generatorausgang mit dem CH1 Eingang des Oszilloskops mittels eines Koaxialkabels verbunden. Nach dem Triggern können verschiedene Oszillogramme beobachtet werden.
+% === Aufbau, Durchführung, Messwerte und Auswertung ===
+	\section{Versuchsaufbau, -durchführung, Messwerte und Auswertung}
+		\begin{aufgabe}{Bestimmung der Anstiegszeit des Oszillographen}
+			\aufbau
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.8\textwidth]{figs/Aufbau_0_1_Oszilloskop.png}
+				\caption{Schaltplan Funktionsgenerator und Oszilloskop~\cite{anleitung}}
+				\label{fig:aufbau_0_1_oszilloskop.png}
+			\end{figure}
+			\begin{enumerate}[(a)]
+				\item In dieser Aufgabe soll der Oszillograph untersucht werden. Dafür wird der Generatorausgang mit dem CH1 Eingang des Oszilloskops mittels eines Koaxialkabels verbunden. Nach dem Triggern können verschiedene Oszillogramme beobachtet werden.
+				\item Danach wird ein Rechtecksignal mit einer Frequenz von $\SI{2}{\mega\hertz}$ und einer Amplitude von beispielsweise $\SI{1}{\volt}$ eingestellt. Die Anstiegszeit $\Delta t_\mathrm{gemessen}$ wird bestimmt, indem die Zeitdifferenz zwischen dem Zeitpunkt, an dem $U(t)$ den Wert $0.1 U_0$ erreicht, und dem Zeitpunkt, an dem $U(t)$ den Wert $0.9 U_0$ erreicht, gemessen wird.
+				\item Zuletzt wird der Generatorausgang mit einem R-C-Filter verbunden. Es soll eine Zeitkonstante von $\tau = \mathcal{O}(\SI{10}{\micro\second} \text{ bis } \SI{100}{\micro\second})$ realisiert werden, also können bspw. $R = \SI{1}{\kilo\ohm}$ und $C = \SI{10}{\micro\farad}$ gewählt werden. Der R-C-Filter wird erneut mit dem CH1-Eingang des Oszilloskops verbunden. Der Generator wird auf ein Sinus-Signal mit 10 verschiedenen Frequenzen eingestellt. Dabei wird sich jeweils die Amplitude am Signalgenerator notiert.
+			\end{enumerate}
+			\MesswUndAusw
+			\begin{unteraufgabe}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch0/A0000DS.png}
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch0/A0001DS.png}
+					\caption{Oben: Rechtecksignal, unten: Dreieckssignal}
+					\label{fig:A0000DS,1}
+				\end{figure}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch0/A0002DS.png}
+					\caption{Sinussignal}
+					\label{fig:A0002DS}
+				\end{figure}
+			\end{unteraufgabe}
+			\begin{unteraufgabe}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch0/A0005DS.png}
+					\caption{Rechteckssignalanstieg (detailliert)}
+					\label{fig:A0005DS}
+				\end{figure}
+				Aus der Grafik \ref{fig:A0005DS} kann die Anstiegszeit $\Delta t_\mathrm{gemessen}$ abgelesen werden. Dafür wurden die $10\%$ und $90\%$ markiert und damit die Zeitpunkte ermittelt, an denen die Spannung $U(t)$ den Wert $0.1 U_0$ und $0.9 U_0$ erreicht. Die Anstiegszeit $\Delta t_\mathrm{gemessen}$ beträgt dann $\SI{16}{\nano\second}$ (Genau $8$ Einheiten der Skala, die je $\frac{1}{5}$ von $\SI{10}{\nano\second}$ sind). Der Messfehler beträgt $4$ Pixel, also $\Delta(\Delta t) =  \SI{1}{\nano\second}$. 
+			\end{unteraufgabe}
+
+		\end{aufgabe}
+			%TODO Beschreiben Sie die Methode zur Bestimmung der Anstiegszeit.
+			%TODO Geben Sie die gemessenen Werte und die berechnete Anstiegszeit an.
 		
-		Danach wird ein Rechtecksignal mit einer Frequenz von $\SI{2}{\mega\hertz}$ und einer Amplitude von beispielsweise $\SI{1}{\volt}$ eingestellt. Die Anstiegszeit $\Delta t_\mathrm{gemessen}$ wird bestimmt, indem die Zeitdifferenz zwischen dem Zeitpunkt, an dem $U(t)$ den Wert $0.1 U_0$ erreicht, und dem Zeitpunkt, an dem $U(t)$ den Wert $0.9 U_0$ erreicht, gemessen wird.
 		
-		Zuletzt wird der Generatorausgang mit einem R-C-Filter verbunden. Es soll eine Zeitkonstante von $\tau = \mathcal{O}(\SI{10}{\micro\second} \text{ bis } \SI{100}{\micro\second})$ realisiert werden, also können bspw. $R = \SI{1}{\kilo\ohm}$ und $C = \SI{10}{\micro\farad}$ gewählt werden. Der R-C-Filter wird erneut mit dem CH1-Eingang des Oszilloskops verbunden. Der Generator wird auf ein Sinus-Signal mit 10 verschiedenen Frequenzen eingestellt. Dabei wird sich jeweils die Amplitude am Signalgenerator notiert.
-	\end{aufgabe}
-		%TODO Beschreiben Sie die Methode zur Bestimmung der Anstiegszeit.
-		%TODO Geben Sie die gemessenen Werte und die berechnete Anstiegszeit an.
-	
-	
-		%TODO Aufbau/Schaltskizze (beschrieben in wenigen Worten)
-		%TODO Versuchsdurchführung: Messgrößen, unabh. Parameter, Messmethode, Einheiten, Genauigkeit, wie oft
-		%TODO Abgezeichnetes Messprotokoll vorhanden?
-	\section{Auswertung}
-		%TODO Auswertung (in Worten & Formeln)
-		%TODO Formeln symbolisch und numerisch
-		%TODO Runden
-		%TODO Grafiken & Diagramme: Überschrift, Messwerte mit Fehlerbalken, (nur) gefittete Kurven, Achsenbeschriftung
-		%TODO Fehlerrechnung und -diskussion
-		%TODO Jede Tabelle eine Formel
-	\section{Endresultat}
-		%TODO Vollständiger Satz
-	\section{Ergebnisdiskussion/Plausibilitätskontrolle}
-		%TODO Messergebnisse bewerten und evtl. mit Literaturwerten vergleichen
-		%TODO Untersuchung Fehlerquellen (statistisch, systematisch, blödsinnig)
-	%\printbibliography
+			%TODO Aufbau/Schaltskizze (beschrieben in wenigen Worten)
+			%TODO Versuchsdurchführung: Messgrößen, unabh. Parameter, Messmethode, Einheiten, Genauigkeit, wie oft
+			%TODO Abgezeichnetes Messprotokoll vorhanden?
+		\section{Auswertung}
+			%TODO Auswertung (in Worten & Formeln)
+			%TODO Formeln symbolisch und numerisch
+			%TODO Runden
+			%TODO Grafiken & Diagramme: Überschrift, Messwerte mit Fehlerbalken, (nur) gefittete Kurven, Achsenbeschriftung
+			%TODO Fehlerrechnung und -diskussion
+			%TODO Jede Tabelle eine Formel
+		\section{Endresultat}
+			%TODO Vollständiger Satz
+		\section{Ergebnisdiskussion/Plausibilitätskontrolle}
+			%TODO Messergebnisse bewerten und evtl. mit Literaturwerten vergleichen
+			%TODO Untersuchung Fehlerquellen (statistisch, systematisch, blödsinnig)
+		%\printbibliography
 \end{document}
