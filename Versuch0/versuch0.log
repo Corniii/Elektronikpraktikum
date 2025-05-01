@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.30)  1 MAY 2025 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.30)  1 MAY 2025 21:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -998,7 +998,13 @@ File: MesswerteVersuch0/A0005DS.png Graphic file (type png)
 <use MesswerteVersuch0/A0005DS.png>
 Package pdftex.def Info: MesswerteVersuch0/A0005DS.png  used on input line 150.
 (pdftex.def)             Requested size: 341.43437pt x 249.68216pt.
- [6 <./MesswerteVersuch0/A0002DS.png> <./MesswerteVersuch0/A0005DS.png>] [7] (./versuch0.aux)
+ [6 <./MesswerteVersuch0/A0002DS.png> <./MesswerteVersuch0/A0005DS.png>]
+<pythonAuswertungen/Versuch 0 Aufgabe 1 (c)_plot.jpg, id=94, 462.528pt x 346.896pt>
+File: pythonAuswertungen/Versuch 0 Aufgabe 1 (c)_plot.jpg Graphic file (type jpg)
+<use pythonAuswertungen/Versuch 0 Aufgabe 1 (c)_plot.jpg>
+Package pdftex.def Info: pythonAuswertungen/Versuch 0 Aufgabe 1 (c)_plot.jpg  used on input line 178.
+(pdftex.def)             Requested size: 341.43437pt x 256.09029pt.
+ [7 <./pythonAuswertungen/Versuch 0 Aufgabe 1 (c)_plot.jpg>] (./versuch0.aux)
 Package rerunfilecheck Info: File `versuch0.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'versuch0.run.xml'.
@@ -1006,21 +1012,24 @@ Package logreq Info: Writing requests to 'versuch0.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31590 strings out of 478268
- 615968 string characters out of 5846347
- 1453613 words of memory out of 5000000
- 49385 multiletter control sequences out of 15000+600000
+ 31604 strings out of 478268
+ 616528 string characters out of 5846347
+ 1453706 words of memory out of 5000000
+ 49395 multiletter control sequences out of 15000+600000
  489669 words of font info for 82 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,18n,106p,10693b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
+pdfTeX warning (dest): name{cite.0@oszibedienungsanleitung} has been referenced but does not exist, replaced by a fixed one
+
+
 pdfTeX warning (dest): name{cite.0@anleitung} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on versuch0.pdf (7 pages, 325134 bytes).
+Output written on versuch0.pdf (7 pages, 466240 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 82 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 224 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 79 words of extra memory for PDF output out of 10000 (max. 10000000)
 

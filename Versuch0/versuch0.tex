@@ -151,18 +151,41 @@ Also gilt:
 					\caption{Rechteckssignalanstieg (detailliert)}
 					\label{fig:A0005DS}
 				\end{figure}
-				Aus der Grafik \ref{fig:A0005DS} kann die Anstiegszeit $\Delta t_\mathrm{gemessen}$ abgelesen werden. Dafür wurden die $10\%$ und $90\%$ markiert und damit die Zeitpunkte ermittelt, an denen die Spannung $U(t)$ den Wert $0.1 U_0$ und $0.9 U_0$ erreicht. Die Anstiegszeit $\Delta t_\mathrm{gemessen}$ beträgt dann $\SI{16}{\nano\second}$ (Genau $8$ Einheiten der Skala, die je $\frac{1}{5}$ von $\SI{10}{\nano\second}$ sind). Der Messfehler beträgt $4$ Pixel, also $\Delta(\Delta t) =  \SI{1}{\nano\second}$. 
+				Aus der Grafik \ref{fig:A0005DS} kann die Anstiegszeit $\Delta t_\mathrm{gemessen}$ abgelesen werden. Dafür wurden die $10\%$ und $90\%$ markiert und damit die Zeitpunkte ermittelt, an denen die Spannung $U(t)$ den Wert $0.1 U_0$ und $0.9 U_0$ erreicht. Die Anstiegszeit $\Delta t_\mathrm{gemessen}$ beträgt dann $\SI{16}{\nano\second}$ (Genau $8$ Einheiten der Skala, die je $\frac{1}{5}$ von $\SI{10}{\nano\second}$ sind). Der Messfehler beträgt $4$ Pixel, also $\Delta(\Delta t_\mathrm{gemessen}) =  \SI{1}{\nano\second}$. Der Betriebsanleitung des Oszilloskops \cite{oszibedienungsanleitung} zufolge beträgt die Bandbreite des Oszilloskops $B = \SI{50}{\mega\hertz}$. Daraus folgt mit der Formel $B \cdot \Delta t = \SI{0.35}{}$ (siehe Voraufgabe~\ref{voraufgabeD}) die Anstiegszeit:
+				\begin{align*}
+					\Delta t_\mathrm{Oszi} = \frac{0.35}{\SI{50}{\mega\hertz}} = \SI{7}{\nano\second}
+				\end{align*}
+				Für die Anstiegszeit des Signals $\Delta t_\mathrm{Signal}$ gilt nach der Anleitung\cite{anleitung} die Näherung:
+				\begin{align*}
+					(\Delta t_\mathrm{Signal})^2 &= (\Delta t_\mathrm{Oszi})^2 - (\Delta t_\mathrm{gemessen})^2 \\
+					\Delta t_\mathrm{Signal} &= \sqrt{(\Delta t_\mathrm{Oszi})^2 - (\Delta t_\mathrm{gemessen})^2} \\
+					&= \sqrt{(\SI{16}{\nano\second})^2 - (\SI{7}{\nano\second})^2} \approx \SI{14.39}{\nano\second}
+				\end{align*}
+				Mittels Gaußscher Fehlerfortpflanzung ergibt sich:
+				\begin{align*}
+					\Delta(\Delta t_\mathrm{Signal}) &= \frac{2 t_\mathrm{gemessen}}{\sqrt{(\Delta t_\mathrm{gemessen})^2 - (\Delta t_\mathrm{Oszi})^2}} \cdot \Delta(\Delta t_\mathrm{gemessen}) \\
+					&= \frac{2 \SI{16}{\nano\second}}{\sqrt{(\SI{16}{\nano\second})^2 - (\SI{7}{\nano\second})^2}} \cdot \SI{1}{\nano\second} \\
+					&\approx \SI{2.3}{\nano\second}
+				\end{align*}
+				Also ergibt sich für die Anstiegszeit des Signals:
+				\begin{align*}
+					\Delta t_\mathrm{Signal} &= \SI{14.4}{\nano\second} \pm \SI{2.3}{\nano\second}
+				\end{align*}
+			\end{unteraufgabe}
+			\begin{unteraufgabe}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.8\textwidth]{pythonAuswertungen/Versuch 0 Aufgabe 1 (c)_plot.jpg}
+					\caption{Dämpfungsplot}
+					\label{0_1_(c)_Dämpfung}
+				\end{figure}
+				%TODO: c) Tabelle machen, auswerten.
 			\end{unteraufgabe}
 
 		\end{aufgabe}
-			%TODO Beschreiben Sie die Methode zur Bestimmung der Anstiegszeit.
-			%TODO Geben Sie die gemessenen Werte und die berechnete Anstiegszeit an.
-		
-		
 			%TODO Aufbau/Schaltskizze (beschrieben in wenigen Worten)
 			%TODO Versuchsdurchführung: Messgrößen, unabh. Parameter, Messmethode, Einheiten, Genauigkeit, wie oft
 			%TODO Abgezeichnetes Messprotokoll vorhanden?
-		\section{Auswertung}
 			%TODO Auswertung (in Worten & Formeln)
 			%TODO Formeln symbolisch und numerisch
 			%TODO Runden
@@ -172,6 +195,7 @@ Also gilt:
 		\section{Endresultat}
 			%TODO Vollständiger Satz
 		\section{Ergebnisdiskussion/Plausibilitätskontrolle}
+			
 			%TODO Messergebnisse bewerten und evtl. mit Literaturwerten vergleichen
 			%TODO Untersuchung Fehlerquellen (statistisch, systematisch, blödsinnig)
 		%\printbibliography

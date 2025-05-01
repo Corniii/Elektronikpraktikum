@@ -19,6 +19,19 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{oszibedienungsanleitung}{manual}{}
+      \list{location}{1}{%
+        {\url{https://cdn-reichelt.de/documents/datenblatt/D100/GDS-1052-U_QUICKSTARTGUIDE_DE.pdf}}%
+      }
+      \list{organization}{1}{%
+        {Reichelt electronic}%
+      }
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeltitlesource}{title}
+      \field{edition}{GDS-1052-U}
+      \field{title}{Bedienungsanleitung Digital Speicher Oszilloskop}
+    \endentry
     \entry{anleitung}{misc}{}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
