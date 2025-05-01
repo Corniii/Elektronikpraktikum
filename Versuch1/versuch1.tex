@@ -4,10 +4,13 @@
 %\KOMAoptions{DIV=11}
 \usepackage[ngerman]{babel}
 \def\nummer{1}
-\author{Cornelius Heiming}
+\def\autoren{Cornelius Heiming}
+\def\datum{29.04.2025}
+\def\titel{Ausbreitung von Signalen auf Leitungen}
 %TODO: Name, Nummer, Datum	
-\title{Versuch \nummer~:  Ausbreitung von Signalen auf Leitungen}
-\date{29.04.2025}		
+\title{Versuch \nummer~-  \titel}
+\date{\datum}
+\author{Cornelius Heiming}
 \usepackage{amsmath, amssymb, amsthm} 
 \usepackage{geometry}
 \usepackage[utf8]{inputenc}
@@ -16,6 +19,13 @@
 
 \usepackage{../pakete}
 \usepackage{../aufgaben}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Cornelius Heiming}
+\chead{Versuch {\nummer}}
+\lhead{\datum}
+\rfoot{\thepage}
 
 \addbibresource{../referenzen.bib}
 \geometry{a4paper, left=3cm, right=3cm, top=3cm, bottom=3cm}
@@ -32,11 +42,17 @@
 
 \begin{document}
 	\maketitle
+	
+% === Einleitung ===	
+	
 	\section{Einleitung}
 		In diesem Versuch wird untersucht, wie Signale durch Leitungen verzögert, gedämpft und reflektiert werden. Dazu werden ein Signalgenerator, ein Oszilloskop, verschiedene Verzögerungskabel und ein Differenzierglied verwendet. Letzteres wird zunächst untersucht, um dann in der Folge als Impulsgenerator zu dienen. Diese werden dann mittels des Oszillographen in verschiedenen Konfigurationen gemessen. Danach wird der Abschluss eines Leiters und dessen Signalverzögerung untersucht. Zuletzt werden Klippkabel verwendet, um Impulse auf eine definierte Länge zu kürzen.
 		%TODO Was wird gemessen?
 		%TODO Wodurch ist der Versuch motiviert, was ist das Ziel des Versuches
-	\section{Theorie}
+	
+% === Theorie ===	
+	
+		\section{Theorie}
 		
 		%TODO Kurze Darstellung der Physik für den Versuch, Grundlagen, Voraussetzungen
 		%TODO Formeln, die in der Auswertung verwendet werden
@@ -57,10 +73,10 @@
 			&= (U_\mathrm{h0} e^{-\Upsilon x} - U_\mathrm{r0} e^{\Upsilon x}) e^{-i \omega t} \sqrt{\frac{G' + i \omega C'}{R' + i \omega L'}} \\
 		\end{align*}
 		mit 
-		\begin {equation*}
+		\begin{equation*}
 			\Upsilon = \sqrt{(R' + i \omega L')(G' + i \omega C')} =: \alpha + i \beta 
 		\end{equation*}
-		$\Upsilon$ beschreibt die Dämpfung, $\alpha$ die Dämpfungskonstante, die im verlustfreien Fall $0$ ist, d.h. dann gilt $\beta = \omega \sqrt{L'C'}$, wodurch $\beta$ zur Kreisfrequenz der Phase wird. Die Phasengeschwindigkeit $v_\mathrm{ph}$ ergibt sich also wie folgt:
+		$\Upsilon$ beschreibt die Dämpfung, $\alpha$ die Dämpfungskonstante, die im verlustfreien Fall $0$ ist, d.h. dann gilt\ $\beta = \omega \sqrt{L'C'}$, wodurch $\beta$ zur Kreisfrequenz der Phase wird. Die Phasengeschwindigkeit $v_\mathrm{ph}$ ergibt sich also wie folgt:
 		\begin{align*}
 			v_\mathrm{ph} &= \frac{\omega}{\beta} = \frac{1}{\sqrt{L'C'}} \\
 		\end{align*}
@@ -83,6 +99,10 @@
 			\item $R_\mathrm{A} = \infty$: In diesem Fall ist $r=1$, die Amplitude der reflektierten Welle entspricht der der hinlaufenden.
 			\item $R_\mathrm{A} = \SI{0}{\ohm}$: In diesem Fall ist $r=-1$, die Amplitude der reflektierten Welle entspricht dem negativen Wert der Amplitude der hinlaufenden Welle.
 		\end{enumerate}
+\clearpage
+% === Voraufgaben ===
+		
+
 	\section{Voraufgaben}
 		%TODO Voraufgaben
 		\begin{voraufgabe}{Was muss man tun, um große Verzögerungszeuten zu erreichen?}
@@ -107,14 +127,21 @@
 			
 		\end{voraufgabe}
 
+\clearpage
+% === Aufbau, Durchführung, Messwerte und Auswertung ===
+
 	\section{Versuchsaufbau, -durchführung, Messwerte und Auswertung}
 		Zunächst werden die Seriennummern der verwendeten Laborgeräte notiert.
+		
+		
+% === Aufgabe 1 ===
+		
 		\begin{aufgabe}{Differenzierglied}
 			\aufbau
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=0.8\textwidth]{figs/Aufbau_1_1_Differenzierglied.png}
-				\caption{Aufbau des Differenzierglieds~\cite{anleitung}}
+				\caption{Schaltplan eines Differenzierglieds~\cite{anleitung}}
 				\label{fig:aufbau_1_1_differenzierglied}
 			\end{figure}
 			Ein RC-Glied wird (ohne $\SI{2.2}{\kilo\ohm}$ Abschluss) zwischen einen Funktionsgenerator und einen Oszillographen geschaltet. Der Funktionsgenerator wird auf eine Frequenz von $\SI{200}{\kilo\hertz}$ eingestellt. Dann wird das Oszillogramm gezeichnet und dasselbe mit dem $\SI{2.2}{\kilo\ohm}$ Abschlusswiderstand wiederholt.
@@ -132,10 +159,14 @@
 				\caption{Differenzierglied mit Abschlusswiderstand (unten vergrößerte Ordinate)}
 				\label{fig:DS0001,2}
 			\end{figure}
+			\clearpage
 			\auswertung
 
 			%TODO: Messwerte & Auswertung
 		\end{aufgabe}
+
+% === Aufgabe 2 ===
+
 		\begin{aufgabe}{Impulse auf Kabeln}
 			\aufbau
 			\begin{figure}[H]
@@ -148,16 +179,20 @@
 			\messwerte
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0003.png}
 				\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0004.png}
 				\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0005.png}
-				\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0006.png}
-				\caption{Impulse auf Kabeln}
-				\label{fig:DS0003,4}
+				\caption{Impulse auf Kabeln (oben: Übersicht ($\SI{1}{\micro\second\per\centi\meter}$), unten: Detailansicht ($\SI{0.05}{\micro\second\per\centi\meter}$))}
+				\label{fig:DS0004,5}
 			\end{figure}
+		\auswertung
+
 			
 		\end{aufgabe}
+\clearpage
+% === Aufgabe 3 ===
+
 		\begin{aufgabe}{Leitungsabschluss, Verzögerungszeit}
+			\aufbau
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=0.8\textwidth]{figs/Aufbau_1_3_Leitungsabschluss.png}
@@ -171,7 +206,68 @@
 				\item Kurzgeschlossenes Ende
 				\item Kurzgeschlossenes Ende \& variierende Frequenzen (Zeitablenktung von $\SI{0.2}{\micro\second\per\centi\meter}$)
 			\end{enumerate}
+			\MesswUndAusw
+			\begin{unteraufgabe}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0006.png}
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0007.png}
+					\caption{Leitungsabschluss offenes Ende (oben: mit Anpassunsgwiderstand, unten: ohne Anpassungswiderstand)}
+					\label{fig:DS0006,7}
+				\end{figure}
+			\end{unteraufgabe}
+			\begin{unteraufgabe}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0009.png}
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0008.png}
+					\caption{Leitungsabschluss offenes Ende (oben: mit Anpassunsgwiderstand, unten: ohne Anpassungswiderstand) vergrößert}
+					\label{fig:DS0009.8}
+				\end{figure}
+			\end{unteraufgabe}
+			\begin{unteraufgabe}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0012.png}
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0011.png}
+					\caption{Leitungsabschluss kurzgeschlossenes Ende (oben: mit Anpassunsgwiderstand, unten: ohne Anpassungswiderstand)}
+					\label{fig:DS000}
+				\end{figure}
+			\end{unteraufgabe}
+			\begin{unteraufgabe}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0013.png}	
+
+					\caption{Leitungsabschluss kurzgeschlossenes Ende, Frequenz: $\SI{100}{\kilo\hertz}$}
+					\label{fig:DS0013}
+				\end{figure}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0014.png}	
+
+					\caption{Leitungsabschluss kurzgeschlossenes Ende, Frequenz: $\SI{200}{\kilo\hertz}$}
+					\label{fig:DS0014}
+				\end{figure}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0015.png}	
+
+					\caption{Leitungsabschluss kurzgeschlossenes Ende, Frequenz: $\SI{300}{\kilo\hertz}$}
+					\label{fig:DS0015}
+				\end{figure}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0016.png}	
+
+					\caption{Leitungsabschluss mit Wellenwiderstand}
+					\label{fig:DS0016}
+				\end{figure}
+			\end{unteraufgabe}
 		\end{aufgabe}
+
+% === Aufgabe 4 ===		
+
 		\begin{aufgabe}{Klippkabel, Dämpfung}
 			\begin{figure}[H]
 				\centering
@@ -186,6 +282,39 @@
 				\item Klippkabel kurzgeschlossen mit variierter Frequenz
 				\item $\SI{2}{\meter}$ Klippkabel kurzgeschlossen 
 			\end{enumerate}
+			\MesswUndAusw
+			\begin{unteraufgabe}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0017.png}
+					\caption{Klippkabel mit offenem Ende}
+					\label{fig:DS0017}
+				\end{figure}
+			\end{unteraufgabe}
+			\begin{unteraufgabe}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0025.png}
+					\caption{Klippkabel mit kurzgeschlossenem Ende}
+					\label{fig:DS0025}
+				\end{figure}
+			\end{unteraufgabe}
+			\begin{unteraufgabe}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0027.png}
+					\caption{Klippkabel mit offenem Ende bei $\SI{30}{\kilo\hertz}$}
+					\label{fig:DS0030}
+				\end{figure}
+			\end{unteraufgabe}
+			\begin{unteraufgabe}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.8\textwidth]{MesswerteVersuch1/DS0026.png}
+					\caption{Klippkabel mit offenem Ende bei $\SI{80}{\kilo\hertz}$}
+					\label{fig:DS0030}
+				\end{figure}
+			\end{unteraufgabe}
 		\end{aufgabe}
 		
 		%TODO Aufbau/Schaltskizze (beschrieben in wenigen Worten)

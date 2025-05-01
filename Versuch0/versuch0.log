@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.30)  29 APR 2025 23:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.30)  1 MAY 2025 11:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -979,10 +979,10 @@ Package logreq Info: Writing requests to 'versuch0.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31306 strings out of 478268
- 609818 string characters out of 5846347
- 1453183 words of memory out of 5000000
- 49124 multiletter control sequences out of 15000+600000
+ 31307 strings out of 478268
+ 609830 string characters out of 5846347
+ 1453301 words of memory out of 5000000
+ 49125 multiletter control sequences out of 15000+600000
  488209 words of font info for 80 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,18n,106p,10693b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s

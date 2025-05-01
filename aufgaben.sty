@@ -34,6 +34,7 @@
 	{% end code
 	%\end{itshape}\ignorespacesafterend
 	\ignorespacesafterend
+	
 }
 \newcommand{\abschnittslabel}{}  % z.B. A, M, Au
 \newcommand{\abschnittsname}{}  
@@ -42,26 +43,39 @@
   \renewcommand{\abschnittslabel}{A}%
   \renewcommand{\abschnittsname}{Aufbau}%
   \setcounter{unteraufgabe}{0}%
+%   \pagebreak 
   \subsection*{\theaufgabe~- Aufbau \& Durchführung}
+  
 }
 
 \newcommand{\messwerte}{%
   \renewcommand{\abschnittslabel}{M}%
-  \renewcommand{\abschnittsname}{Messwerte}%
+  \renewcommand{\abschnittsname}{Messergebnisse}%
   \setcounter{unteraufgabe}{0}%
+%   \pagebreak 
   \subsection*{\theaufgabe~- Messergebnisse}
+  
 }
 
 \newcommand{\auswertung}{%
   \renewcommand{\abschnittslabel}{Au}%
   \renewcommand{\abschnittsname}{Auswertung}%
   \setcounter{unteraufgabe}{0}%
+%   \pagebreak 
   \subsection*{\theaufgabe~- Auswertung}
+  
 }
 % Eigene Zähler definieren
+\newcommand{\MesswUndAusw}{%
+  \renewcommand{\abschnittslabel}{Me\&Au}%
+  \renewcommand{\abschnittsname}{Messwergebnisse \& Auswertung}%
+  \setcounter{unteraufgabe}{0}%
+%   \pagebreak
+  \subsection*{\theaufgabe~- Messergebnisse \& Auswertung}
+  
+}
 
-
-\newcommand{\unteraufgabe}[1]{%
+\newcommand{\unteraufgabe}{%
   \stepcounter{unteraufgabe}%
-  \noindent\textbf{(\theaufgabe.\abschnittslabel.\alph{\theunteraufgabe})}\quad\textit{\abschnittsname:} #1\par\vspace{0.3em}
+   \noindent\textbf{\theaufgabe.(\alph{unteraufgabe})}\quad\textit{\abschnittsname:} \par\vspace{0.3em}
 }

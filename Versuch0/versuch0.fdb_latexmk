@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber versuch0"] 1745866792 "versuch0.bcf" "versuch0.bbl" "versuch0" 1745961229
-  "versuch0.bcf" 1745961229 106638 4147cbca2ef1bcd88966ccccbbea61f9 "pdflatex"
+["biber versuch0"] 1745866792 "versuch0.bcf" "versuch0.bbl" "versuch0" 1746093479
+  "versuch0.bcf" 1746093479 106638 4147cbca2ef1bcd88966ccccbbea61f9 "pdflatex"
   (generated)
   "versuch0.bbl"
   "versuch0.blg"
-["pdflatex"] 1745961228 "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch0/versuch0.tex" "versuch0.pdf" "versuch0" 1745961229
-  "../aufgaben.sty" 1745961228 1982 29e2a71c3859abcd6240678a47dcbb6b ""
+["pdflatex"] 1746093478 "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch0/versuch0.tex" "versuch0.pdf" "versuch0" 1746093479
+  "../aufgaben.sty" 1746093476 2268 433fd48a64ae6bde6a42bbef14c1323e ""
   "../pakete.sty" 1745867605 2499 2e7bb84e27528b847815f7a26502d902 ""
   "/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch0/versuch0.tex" 1745957355 8435 7f0d7ab894c9667998282da3084af6f7 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -189,10 +189,10 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1664531518 2826440 2b743cd67fcbe78a12a87612f5077cdd ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "versuch0.aux" 1745961229 3703 9dbcfc310f3af5e525a999ba25c2cc52 "pdflatex"
+  "versuch0.aux" 1746093479 3703 9dbcfc310f3af5e525a999ba25c2cc52 "pdflatex"
   "versuch0.bbl" 1745866794 466 ee04f40f768daeed26442158e95aba61 "biber versuch0"
   "versuch0.out" 0 -1 0 "pdflatex"
-  "versuch0.run.xml" 1745961229 2366 e8fd6a7cc1b6f558233fa4d04cef400d "pdflatex"
+  "versuch0.run.xml" 1746093479 2366 e8fd6a7cc1b6f558233fa4d04cef400d "pdflatex"
   "versuch0.tex" 1745957355 8435 7f0d7ab894c9667998282da3084af6f7 ""
   (generated)
   "versuch0.aux"
