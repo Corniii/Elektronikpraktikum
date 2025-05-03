@@ -1,0 +1,6 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Theorie}{1}{section.1}%
+\contentsline {section}{\numberline {2}Voraufgaben}{2}{section.2}%
+\contentsline {section}{\numberline {3}Versuchsaufbau, -durchführung, Messwerte und Auswertung}{4}{section.3}%
+\contentsline {section}{\numberline {4}Endresultat}{8}{section.4}%
+\contentsline {section}{\numberline {5}Ergebnisdiskussion/Plausibilitätskontrolle}{8}{section.5}%
