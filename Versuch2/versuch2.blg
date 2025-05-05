@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'versuch2.blg'
+[73] biber-darwin:340> INFO - === Mon May  5, 2025, 19:21:52
+[89] Biber.pm:418> INFO - Reading 'versuch2.bcf'
+[182] Biber.pm:972> INFO - Found 1 citekeys in bib section 0
+[195] Biber.pm:4383> INFO - Processing section 0
+[205] Biber.pm:4574> INFO - Looking for bibtex file '../referenzen.bib' for section 0
+[206] bibtex.pm:1713> INFO - LaTeX decoding ...
+[210] bibtex.pm:1518> INFO - Found BibTeX data source '../referenzen.bib'
+[241] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[241] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[241] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[241] Biber.pm:4209> INFO - No sort tailoring available for locale 'de-DE'
+[242] bbl.pm:654> INFO - Writing 'versuch2.bbl' with encoding 'UTF-8'
+[242] bbl.pm:757> INFO - Output to versuch2.bbl
