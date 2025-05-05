@@ -7,5 +7,5 @@
 \contentsline {subsection}{\numberline {2.4}Gleichrichter}{3}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Voraufgaben}{4}{section.3}%
 \contentsline {section}{\numberline {4}Versuchsaufbau, -durchführung, Messwerte und Auswertung}{10}{section.4}%
-\contentsline {section}{\numberline {5}Fazit}{10}{section.5}%
+\contentsline {section}{\numberline {5}Fazit}{13}{section.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

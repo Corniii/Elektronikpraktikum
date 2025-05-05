@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.30)  5 MAY 2025 21:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.30)  6 MAY 2025 00:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -815,7 +815,14 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 \c@korollar=\count459
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (./versuch2.aux)
+ (./versuch2.aux
+
+LaTeX Warning: Label `aufbau_2_3' multiply defined.
+
+
+LaTeX Warning: Label `aufbau_2_3' multiply defined.
+
+)
 \openout1 = `versuch2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
@@ -976,7 +983,7 @@ File: figs/fig2_1.png Graphic file (type png)
 <use figs/fig2_1.png>
 Package pdftex.def Info: figs/fig2_1.png  used on input line 63.
 (pdftex.def)             Requested size: 341.43437pt x 88.06927pt.
-<figs/fig2_2.png, id=37, 505.89pt x 241.90375pt>
+<figs/fig2_2.png, id=39, 505.89pt x 241.90375pt>
 File: figs/fig2_2.png Graphic file (type png)
 <use figs/fig2_2.png>
 Package pdftex.def Info: figs/fig2_2.png  used on input line 72.
@@ -984,60 +991,94 @@ Package pdftex.def Info: figs/fig2_2.png  used on input line 72.
  [2
 
  <./figs/fig2_1.png>]
-<figs/fig2_4mod.png, id=49, 505.89pt x 241.90375pt>
+<figs/fig2_4mod.png, id=54, 505.89pt x 241.90375pt>
 File: figs/fig2_4mod.png Graphic file (type png)
 <use figs/fig2_4mod.png>
 Package pdftex.def Info: figs/fig2_4mod.png  used on input line 81.
 (pdftex.def)             Requested size: 341.43437pt x 163.2669pt.
  [3 <./figs/fig2_2.png> <./figs/fig2_4mod.png>]
-<figs/fig2_3.png, id=60, 505.89pt x 241.90375pt>
+<figs/fig2_3.png, id=67, 505.89pt x 241.90375pt>
 File: figs/fig2_3.png Graphic file (type png)
 <use figs/fig2_3.png>
 Package pdftex.def Info: figs/fig2_3.png  used on input line 108.
 (pdftex.def)             Requested size: 341.43437pt x 163.2669pt.
-
-
-LaTeX Warning: File `figs/figC.png' not found on input line 114.
-
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 114.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [4 <./figs/fig2_3.png>]
-<figs/fig2_4.png, id=81, 505.89pt x 241.90375pt>
+<figs/fig2_C.png, id=70, 1385.175pt x 1003.75pt>
+File: figs/fig2_C.png Graphic file (type png)
+<use figs/fig2_C.png>
+Package pdftex.def Info: figs/fig2_C.png  used on input line 114.
+(pdftex.def)             Requested size: 341.43437pt x 247.41422pt.
+ [4 <./figs/fig2_3.png>]
+<figs/fig2_4.png, id=91, 505.89pt x 241.90375pt>
 File: figs/fig2_4.png Graphic file (type png)
 <use figs/fig2_4.png>
-Package pdftex.def Info: figs/fig2_4.png  used on input line 124.
+Package pdftex.def Info: figs/fig2_4.png  used on input line 127.
 (pdftex.def)             Requested size: 341.43437pt x 163.2669pt.
-
-
-LaTeX Warning: File `figs/figD.png' not found on input line 130.
-
-[5 <./figs/fig2_4.png>] [6]
-<figs/fig2_8.png, id=100, 525.965pt x 174.6525pt>
+<figs/fig2_D.png, id=94, 4015.0pt x 889.3225pt>
+File: figs/fig2_D.png Graphic file (type png)
+<use figs/fig2_D.png>
+Package pdftex.def Info: figs/fig2_D.png  used on input line 133.
+(pdftex.def)             Requested size: 341.43437pt x 75.62534pt.
+ [5 <./figs/fig2_C.png>] [6 <./figs/fig2_4.png> <./figs/fig2_D.png>]
+<figs/fig2_8.png, id=114, 525.965pt x 174.6525pt>
 File: figs/fig2_8.png Graphic file (type png)
 <use figs/fig2_8.png>
-Package pdftex.def Info: figs/fig2_8.png  used on input line 150.
+Package pdftex.def Info: figs/fig2_8.png  used on input line 162.
 (pdftex.def)             Requested size: 341.43437pt x 113.38153pt.
-<figs/fig2_9.png, id=103, 525.965pt x 307.1475pt>
+<figs/fig2_9.png, id=118, 525.965pt x 307.1475pt>
 File: figs/fig2_9.png Graphic file (type png)
 <use figs/fig2_9.png>
-Package pdftex.def Info: figs/fig2_9.png  used on input line 171.
+Package pdftex.def Info: figs/fig2_9.png  used on input line 179.
 (pdftex.def)             Requested size: 341.43437pt x 199.39511pt.
-
-
-LaTeX Warning: File `figs/figI.png' not found on input line 177.
-
-[7 <./figs/fig2_8.png>] [8 <./figs/fig2_9.png>]
-<figs/fig2_11.png, id=128, 525.965pt x 187.70125pt>
+<figs/fig2_I.png, id=121, 4015.0pt x 780.9175pt>
+File: figs/fig2_I.png Graphic file (type png)
+<use figs/fig2_I.png>
+Package pdftex.def Info: figs/fig2_I.png  used on input line 185.
+(pdftex.def)             Requested size: 341.43437pt x 66.40689pt.
+ [7 <./figs/fig2_8.png> <./figs/fig2_9.png>]
+<figs/fig2_11.png, id=136, 525.965pt x 187.70125pt>
 File: figs/fig2_11.png Graphic file (type png)
 <use figs/fig2_11.png>
-Package pdftex.def Info: figs/fig2_11.png  used on input line 186.
+Package pdftex.def Info: figs/fig2_11.png  used on input line 194.
 (pdftex.def)             Requested size: 341.43437pt x 121.85257pt.
+<figs/fig2_J.png, id=139, 2625.81pt x 1003.75pt>
+File: figs/fig2_J.png Graphic file (type png)
+<use figs/fig2_J.png>
+Package pdftex.def Info: figs/fig2_J.png  used on input line 200.
+(pdftex.def)             Requested size: 341.43437pt x 130.50739pt.
+ [8 <./figs/fig2_I.png> <./figs/fig2_11.png> <./figs/fig2_J.png>] [9]
+<figs/fig2_6.png, id=159, 525.965pt x 241.90375pt>
+File: figs/fig2_6.png Graphic file (type png)
+<use figs/fig2_6.png>
+Package pdftex.def Info: figs/fig2_6.png  used on input line 251.
+(pdftex.def)             Requested size: 341.43437pt x 157.03993pt.
 
 
-LaTeX Warning: File `figs/figJ.png' not found on input line 192.
+LaTeX Warning: File `figs/Aufbau_2_2.png' not found on input line 262.
 
-[9 <./figs/fig2_11.png>] [10] (./versuch2.aux)
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 262.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [10
+
+ <./figs/fig2_6.png>]
+<figs/fig2_10.png, id=178, 525.965pt x 254.9525pt>
+File: figs/fig2_10.png Graphic file (type png)
+<use figs/fig2_10.png>
+Package pdftex.def Info: figs/fig2_10.png  used on input line 273.
+(pdftex.def)             Requested size: 341.43437pt x 165.51096pt.
+ [11]
+
+LaTeX Warning: File `figs/Aufbau_2_3.png' not found on input line 284.
+
+[12 <./figs/fig2_10.png>]
+File: figs/fig2_11.png Graphic file (type png)
+<use figs/fig2_11.png>
+Package pdftex.def Info: figs/fig2_11.png  used on input line 294.
+(pdftex.def)             Requested size: 341.43437pt x 121.85257pt.
+ [13] (./versuch2.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `versuch2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'versuch2.run.xml'.
@@ -1045,21 +1086,21 @@ Package logreq Info: Writing requests to 'versuch2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31823 strings out of 478268
- 620200 string characters out of 5846347
- 1450192 words of memory out of 5000000
- 49573 multiletter control sequences out of 15000+600000
- 490532 words of font info for 82 fonts, out of 8000000 for 9000
+ 31824 strings out of 478268
+ 620277 string characters out of 5846347
+ 1448650 words of memory out of 5000000
+ 49557 multiletter control sequences out of 15000+600000
+ 491307 words of font info for 83 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,12n,106p,10693b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{cite.0@anleitung} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on versuch2.pdf (10 pages, 510980 bytes).
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on versuch2.pdf (13 pages, 2317656 bytes).
 PDF statistics:
- 269 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
- 46 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 

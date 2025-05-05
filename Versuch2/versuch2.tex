@@ -61,7 +61,7 @@
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{figs/fig2_1.png}
-        \caption{Schaltzeichen Diode}
+        \caption{Schaltzeichen Diode\cite{anleitung}}
         \label{fig:Abb2.1}
     \end{figure}
 
@@ -70,7 +70,7 @@
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{figs/fig2_2.png}
-        \caption{Diodenkennlinie}
+        \caption{Diodenkennlinie\cite{anleitung}}
         \label{fig:Abb2.2}
     \end{figure}
     \subsection{Gleichrichter}
@@ -79,7 +79,7 @@
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{figs/fig2_4mod.png}
-        \caption{Ein- und Zweiweggleichrichter}
+        \caption{Ein- und Zweiweggleichrichter\cite{anleitung}}
         \label{fig:Abb2.4mod}
     \end{figure}
     
@@ -106,15 +106,18 @@
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{figs/fig2_3.png}
-        \caption{Einige Zweipole}
+        \caption{Einige Zweipole\cite{anleitung}}
         \label{fig:Abb2.3}
     \end{figure}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.8\textwidth, draft]{figs/figC.png}
+        \includegraphics[width=0.8\textwidth]{figs/fig2_C.png}
         \caption{Kennlinienverläufe einiger Zweipole}
         \label{figC}
     \end{figure}
+    Bei c) ist der Widerstand hinter der Diode in Reihe geschaltet. Für den Bereich, in dem die Diode keinen Strom durchlässt, ist der Strom $0$, woran auch der Widerstand nichts ändert. Lässt die Diode allerdings Strom durch, so spiegelt sich der lineare Anstieg durch den Widerstand wider.
+
+    Bei d) sind Diode und Widerstand parallel geschaltet. In Sperrrichtung sorgt eine zu hohe Spannung für eine Zerstörung der Diode, wodurch diese zu einem Leiter wird, weshalb der Strom haupsächlich über diese fließt. Bei einer geringen Sperrrichtungsspannung wird die Diode nahezu ignoriert, weshalb ein linearer Anstieg vorliegt. Wird die Diode leitend, handelt es sich um parallelgeschaltete Widerstände, was einen höheren Strom ermöglicht.
 
 \end{voraufgabe}
 % == D ==
@@ -122,12 +125,12 @@
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{figs/fig2_4.png}
-        \caption{Ein- und Zweiweggleichrichter}
+        \caption{Ein- und Zweiweggleichrichter\cite{anleitung}}
         \label{fig:Abb2.4}
     \end{figure}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.8\textwidth, draft]{figs/figD.png}
+        \includegraphics[width=0.8\textwidth]{figs/fig2_D.png}
         \caption{Zeitlicher Verlauf der Ausgansspannungen von Ein- und Zweiweggleichrichter}
         \label{figD}
     \end{figure}
@@ -138,23 +141,28 @@ Je größer die Kapazität $C$, desto länger dauert der Entladevorgang des Kond
 
 \end{voraufgabe}
 % == F ==
+\label{F}
 \begin{voraufgabe}{Wie würden Sie Strom- und Spannungsmessgerät zur Messung der Kennlinie in Durchlassrichtung und in Sperrrichtung anordnen? Berückstichtigen Sie die Innenwiderstände der beiden Geräte.}
 Im Allgemeinen müssen Strommessgeräte in Reihe und Spannungsmessgeräte parallelgeschaltet werden. In Sperrichtung hat die Diode einen vergleichsweise hohen Widerstand, welcher für einen geringen Strom durch die Diode sorgt. Dieser sollte möglichst genau gemessen werden, weshalb die Spannungsmessung um die Diode und das Strommessgerät herum erfolgen sollte. Andersherum hat die Diode in Durchlassrichtung einen geringen Widerstand, was für einen hohen Strom sorgt, die Abweichung durch eine Spannungsmessung direkt an der Diode sind also eher gering, also zu bevorzugen.
 
+
 \end{voraufgabe}
 % == G ==
+\label{G}
 \begin{voraufgabe}{Wie kann man sich eine zu einem Strom proportionale Spannung herstellen?}
     Über einen ohmschen Widerstand fällt die Spannung proportional zur Stromstärke ab.
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.8\textwidth]{figs/fig2_8.png}
-        \caption{Einweggleichrichtung}
-        \label{fig:Abb2.8}
-    \end{figure}
+    
 
 \end{voraufgabe}
 % == H ==
+
 \begin{voraufgabe}{Für Abb. 2.8 (\ref{fig:Abb2.8}): Berechnen Sie größenordnungsmäßig die größte Kapazität, die benutzt werden darf, ohne die Grenzwerte der Si-Diode zu überschreiten. Nehmen Sie dazu an, dass sich $U$ beim Einschalten um $\SI{1}{\volt}$ in $\SI{100}{\micro\second}$ ändert und vernachlässigen Sie den Einfluss von $R_L$.}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{figs/fig2_8.png}
+        \caption{Einweggleichrichtung\cite{anleitung}}
+        \label{fig:Abb2.8}
+    \end{figure}
 Der Maximalstrom $I_\mathrm{max}$ einer Si-Diode beträgt $\SI{1000}{\milli\ampere}$ (Seite 27 der Anleitung\cite{anleitung}). Wegen Ladungserhaltung gilt:
 \begin{equation*}
     C_\mathrm{max} \Delta U = I_\mathrm{max} \Delta t
@@ -169,12 +177,12 @@ Also:
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{figs/fig2_9.png}
-        \caption{Ein- und Zweiweggleichrichtung mit dem Diodenschaltbrett}
+        \caption{Ein- und Zweiweggleichrichtung mit dem Diodenschaltbrett\cite{anleitung}}
         \label{fig:Abb2.9}
     \end{figure}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.8\textwidth, draft]{figs/figI.png}
+        \includegraphics[width=0.8\textwidth]{figs/fig2_I.png}
         \caption{Zeitlicher Verlauf der Spannung am Ausgang der Ein- und Zweiweggleichrichtungsschaltungen}
         \label{figI}
     \end{figure}
@@ -184,12 +192,12 @@ Also:
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{figs/fig2_11.png}
-        \caption{Spannungsstabilisierung mittels Zenerdiode}
+        \caption{Spannungsstabilisierung mittels Zenerdiode\cite{anleitung}}
         \label{fig:Abb2.11}
     \end{figure}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.8\textwidth, draft]{figs/figJ.png}
+        \includegraphics[width=0.8\textwidth]{figs/fig2_J.png}
         \caption{Lastabhängigkeit der Spannung $U'$}
         \label{figJ}
     \end{figure}
@@ -232,9 +240,62 @@ Also:
 \end{voraufgabe}
 
 
-
+\clearpage
 % === Aufbau, Durchführung, Messwerte und Auswertung ===
+% == Aufgabe 1 ==
 \section{Versuchsaufbau, -durchführung, Messwerte und Auswertung}
+\begin{aufgabe}{Statische Messung der Diodenkennlinie} 
+    \aufbau
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{figs/fig2_6.png}
+        \caption{oberer Teil des Diodenschaltbretts\cite{anleitung}}
+        \label{aufbau_2_1}
+    \end{figure}
+Zunächst soll die Diodenkennlinie der unbekannten Dioden D1 und D2 mittels einer statischen Messung ermittelt werden. Dafür wird entsprechend der Voraufgabe~F~(\ref{F}) mit Ampère- und Voltmeter gemessen.
+\end{aufgabe}
+
+% == Aufgabe 2 ==
+\begin{aufgabe}{Oszillogramm der Diodenkennlinie}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth, draft]{figs/Aufbau_2_2.png}
+        \caption{oberer Teil des Diodenschaltbretts\cite{anleitung}}
+        \label{aufbau_2_2}
+    \end{figure}
+Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillographens. Hierfür wird der Strom gemäß Voraufgabe~G~(\ref{G}) in eine Spannung umgewandelt und dann im Oszillographen im x-y-Modus gegen die anliegende Spannung aufgetragen. 
+\end{aufgabe}
+
+% == Aufgabe 3 ==
+\begin{aufgabe}{Oszillogramm des Einweggleichrichters}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{figs/fig2_10.png}
+        \caption{unterer Teil des Diodenschaltbretts\cite{anleitung}}
+        \label{aufbau_2_3}
+    \end{figure}
+\end{aufgabe}
+
+
+% == Aufgabe 4 ==
+\begin{aufgabe}{Oszillogramm des Zweiweggleichrichters}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth, draft]{figs/Aufbau_2_3.png}
+        \caption{unterer Teil des Diodenschaltbretts\cite{anleitung}}
+        \label{aufbau_2_3}
+    \end{figure}
+\end{aufgabe}
+
+% == Aufgabe 5 ==
+\begin{aufgabe}{Oszillogramm des Einweggleichrichters}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{figs/fig2_11.png}
+        \caption{Spannungsstabilisierung mittels Zenerdiode~\cite{anleitung}}
+        \label{aufbau_2_3}
+    \end{figure}
+\end{aufgabe}
 
 
 % === Fazit ===
