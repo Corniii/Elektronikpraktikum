@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.30)  6 MAY 2025 00:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.30)  8 MAY 2025 13:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -819,9 +819,6 @@ Package csquotes Info: ... found 'babel' package.
 
 LaTeX Warning: Label `aufbau_2_3' multiply defined.
 
-
-LaTeX Warning: Label `aufbau_2_3' multiply defined.
-
 )
 \openout1 = `versuch2.aux'.
 
@@ -1061,21 +1058,462 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [10
 
  <./figs/fig2_6.png>]
-<figs/fig2_10.png, id=178, 525.965pt x 254.9525pt>
-File: figs/fig2_10.png Graphic file (type png)
-<use figs/fig2_10.png>
-Package pdftex.def Info: figs/fig2_10.png  used on input line 273.
-(pdftex.def)             Requested size: 341.43437pt x 165.51096pt.
- [11]
+<MesswerteVersuch2/DS0000.png, id=178, 321.2pt x 234.8775pt>
+File: MesswerteVersuch2/DS0000.png Graphic file (type png)
+<use MesswerteVersuch2/DS0000.png>
+Package pdftex.def Info: MesswerteVersuch2/DS0000.png  used on input line 271.
+(pdftex.def)             Requested size: 102.43134pt x 74.9007pt.
+<MesswerteVersuch2/DS0001.png, id=179, 321.2pt x 234.8775pt>
+File: MesswerteVersuch2/DS0001.png Graphic file (type png)
+<use MesswerteVersuch2/DS0001.png>
+Package pdftex.def Info: MesswerteVersuch2/DS0001.png  used on input line 275.
+(pdftex.def)             Requested size: 341.43437pt x 249.68216pt.
 
-LaTeX Warning: File `figs/Aufbau_2_3.png' not found on input line 284.
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:278: Undefined control sequence.
+\subcaption@endminipage ...ption@endminipage@hook 
+                                                  \endminipage 
+l.278         \end{subfigure}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-[12 <./figs/fig2_10.png>]
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:278: Missing } inserted.
+<inserted text> 
+                }
+l.278         \end{subfigure}
+                             
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:278: Undefined control sequence.
+\endminipage ...\expandafter \@iiiparbox \@mpargs 
+                                                  {\unvbox \@tempboxa }
+l.278         \end{subfigure}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Missing number, treated as zero.
+<to be read again> 
+                   M
+l.280             \caption
+                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   M
+l.280             \caption
+                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (71.07414pt too wide) in paragraph at lines 280--280
+[][][]|[] 
+ []
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Missing number, treated as zero.
+<to be read again> 
+                   \def 
+l.280             \caption
+                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \def 
+l.280             \caption
+                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: LaTeX Error: \begin{figure} on input line 268 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.280             \caption
+                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Missing endcsname inserted.
+<to be read again> 
+                   relax 
+l.280             \caption
+                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: relax invalid in file name. Lost: .
+l.280             \caption
+                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Missing endcsname inserted.
+<to be read again> 
+                   relax 
+l.280             \caption
+                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: relax invalid in file name. Lost: .
+l.280             \caption
+                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Missing endcsname inserted.
+<to be read again> 
+                   relax 
+l.280             \caption
+                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: relax invalid in file name. Lost: .
+l.280             \caption
+                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: LaTeX Error: File `\relax ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.280             \caption
+                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Missing \endcsname inserted.
+<to be read again> 
+                   \textwidth 
+l.280             \caption
+                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Missing number, treated as zero.
+<to be read again> 
+                   \endcsname 
+l.280             \caption
+                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \endcsname 
+l.280             \caption
+                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.280             \caption
+                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
+I'm ignoring this, since I wasn't doing a \csname.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:282: Undefined control sequence.
+\subcaption@endminipage ...ption@endminipage@hook 
+                                                  \endminipage 
+l.282         \end{subfigure}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:282: Extra }, or forgotten \endgroup.
+\endminipage ...pagefalse \color@endgroup \egroup 
+                                                  \expandafter \@iiiparbox \...
+l.282         \end{subfigure}
+                             
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:282: Undefined control sequence.
+\endminipage ...\expandafter \@iiiparbox \@mpargs 
+                                                  {\unvbox \@tempboxa }
+l.282         \end{subfigure}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.290         \includegraphics
+                              [width=0.8\textwidth]{figs/fig2_10.png}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.290         \includegraphics
+                              [width=0.8\textwidth]{figs/fig2_10.png}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Missing endcsname inserted.
+<to be read again> 
+                   scan_stop: 
+l.290         \includegraphics
+                              [width=0.8\textwidth]{figs/fig2_10.png}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: scan_stop: invalid in file name. Lost: mode_...
+l.290         \includegraphics
+                              [width=0.8\textwidth]{figs/fig2_10.png}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Missing endcsname inserted.
+<to be read again> 
+                   scan_stop: 
+l.290         \includegraphics
+                              [width=0.8\textwidth]{figs/fig2_10.png}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: scan_stop: invalid in file name. Lost: mode_...
+l.290         \includegraphics
+                              [width=0.8\textwidth]{figs/fig2_10.png}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Missing endcsname inserted.
+<to be read again> 
+                   scan_stop: 
+l.290         \includegraphics
+                              [width=0.8\textwidth]{figs/fig2_10.png}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: scan_stop: invalid in file name. Lost: mode_...
+l.290         \includegraphics
+                              [width=0.8\textwidth]{figs/fig2_10.png}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: LaTeX Error: File `\@@par ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.290         \includegraphics
+                              [width=0.8\textwidth]{figs/fig2_10.png}
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Runaway argument?
+{\@checkend {subfigure}\expandafter \endgroup \if@endpe \@doendpe \fi \ETC.
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Paragraph ended before \setlength was complete.
+<to be read again> 
+                   \par 
+l.290         \includegraphics
+                              [width=0.8\textwidth]{figs/fig2_10.png}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.290 ...    \includegraphics[width=0.8\textwidth]
+                                                  {figs/fig2_10.png}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.290 ...    \includegraphics[width=0.8\textwidth]
+                                                  {figs/fig2_10.png}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Missing $ inserted.
+<inserted text> 
+                $
+l.290 ...egraphics[width=0.8\textwidth]{figs/fig2_
+                                                  10.png}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Extra }, or forgotten $.
+l.290 ...cs[width=0.8\textwidth]{figs/fig2_10.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:291: Missing $ inserted.
+<inserted text> 
+                $
+l.291 ...l des Diodenschaltbretts\cite{anleitung}}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:293: Package hypcap Error: You have forgotten to use \caption.
+
+See the hypcap package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.293     \end{figure}
+                      
+\global 
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:293: Missing } inserted.
+<inserted text> 
+                }
+l.293     \end{figure}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:293: Extra }, or forgotten \endgroup.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.293     \end{figure}
+                      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:293: LaTeX Error: \begin{aufgabe} on input line 290 ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.293     \end{figure}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: File `figs/Aufbau_2_3.png' not found on input line 301.
+
+[11]
 File: figs/fig2_11.png Graphic file (type png)
 <use figs/fig2_11.png>
-Package pdftex.def Info: figs/fig2_11.png  used on input line 294.
+Package pdftex.def Info: figs/fig2_11.png  used on input line 311.
 (pdftex.def)             Requested size: 341.43437pt x 121.85257pt.
- [13] (./versuch2.aux)
+
+
+/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:322: LaTeX Error: \begin{aufgabe} on input line 259 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.322 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[12] (./versuch2.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1084,23 +1522,27 @@ Package rerunfilecheck Info: File `versuch2.out' has not changed.
 Package logreq Info: Writing requests to 'versuch2.run.xml'.
 \openout1 = `versuch2.run.xml'.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 259 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 31824 strings out of 478268
- 620277 string characters out of 5846347
- 1448650 words of memory out of 5000000
- 49557 multiletter control sequences out of 15000+600000
- 491307 words of font info for 83 fonts, out of 8000000 for 9000
+ 31873 strings out of 478268
+ 621066 string characters out of 5846347
+ 1448730 words of memory out of 5000000
+ 49604 multiletter control sequences out of 15000+600000
+ 492070 words of font info for 84 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,12n,106p,10693b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{cite.0@anleitung} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on versuch2.pdf (13 pages, 2317656 bytes).
+Output written on versuch2.pdf (12 pages, 2275595 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 244 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 337 PDF objects out of 1000 (max. 8388607)
+ 239 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 
