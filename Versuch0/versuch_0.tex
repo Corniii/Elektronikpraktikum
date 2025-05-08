@@ -95,16 +95,18 @@
 %\displaystyle \lim_{x \to \infty}
 
 \begin{document}
-\begin{titlepage}
-    \title{Elektronikpraktikum \\ Versuch 0: Einführung und Vorversuch}
-    \author[1]{Carlos Pascua\thanks{s87cpasc@uni-bonn.de}}
+    \title{Elektronikpraktikum \\ \textbf{Versuch 0: Einführung und Vorversuch}}
+    \author[1]{Carlos Pascua \thanks{s87cpasc@uni-bonn.de}}
     \author[1]{Anna Maróti\thanks{s32amaro@uni-bonn.de}}
     \author[1]{Cornelius Heiming\thanks{s64cheim@uni-bonn.de}}
     \affil[1]{Uni Bonn}
     %\date{\today}
-\end{titlepage}
 	\pagenumbering{gobble}
-\maketitle
+    \begin{titlepage}
+     \maketitle   
+    \end{titlepage}
+        
+
 \tableofcontents
 \newpage
 \pagenumbering{arabic}
@@ -116,7 +118,9 @@
 \section{Theorie}
 
 \subsection*{Einführung}
-In diesem Versuch soll der Umgang mit  relevanten Geräten des Elektronikpraktikums geübt werden, indem verschiedene Signaltypen eines Funktionsgenerators analysiert werden. Im Anschluss wird die Anstiegszeit eines Rechtecksignals bestimmt.
+In diesem Versuch soll der Umgang mit  relevanten Geräten des Elektronikpraktikums geübt werden, 
+indem verschiedene Signaltypen eines Funktionsgenerators analysiert werden. 
+Im Anschluss wird die Anstiegszeit eines Rechtecksignals bestimmt. 
 
 
 \subsection*{Signalquellen}
@@ -127,13 +131,18 @@ In diesem Versuch soll der Umgang mit  relevanten Geräten des Elektronikpraktik
 \end{itemize}
 
 
-\subsection*{Das Oszilloskop}
+\subsection{Das Oszilloskop}
 
 Das Oszilloskop, ein elektronisches Messgerät mit welchem periodische Signale dargestellt werden können, besteht aus den folgenden Bauteilen
 \begin{itemize}
     \item Netzteil
-    \item Elektronenstrahlröhre: bestehend aus einem Glaskolben mit einer Glühkathode und einer Lochanode, die sich innerhalb eines Wehneltzylinders befinden (1). Zwischen Kathode, woraus Elektronen emittiert werden, und der Lochanode herrscht ein elektrsches Feld, wodurch die Elektonen zur Anode beschleunigt werden. Danach geht der gebündelte Elektronenstrahl durch zwei weiteren Elektroden mit elektrischen Feldern(2) wodurch er weiter abgelenkt wird. Schließlich trifft der Strahl (4) auf einen Leuchtschirm (3), auf dem er als leuchtender Punkt (5) sichtbar wird \ref{fig:elektronenstrahlröhre} \\
-?? %ich muss die Einstellung raussuchen, wo ich hyperlink machen kann für die Bilder, damit da nicht so eine lonly 1 steht
+    \item Elektronenstrahlröhre: bestehend aus einem Glaskolben mit einer Glühkathode und einer Lochanode,
+     die sich innerhalb eines Wehneltzylinders befinden (1). Zwischen Kathode, woraus Elektronen emittiert
+      werden, und der Lochanode herrscht ein elektrsches Feld, wodurch die Elektonen zur Anode beschleunigt 
+      werden. Danach geht der gebündelte Elektronenstrahl durch zwei weiteren Elektroden mit elektrischen 
+      Feldern(2) wodurch er weiter abgelenkt wird. Schließlich trifft der Strahl (4) auf einen Leuchtschirm
+       (3), auf dem er als leuchtender Punkt (5) sichtbar wird \ref{fig:elektronenstrahlröhre} \\
+        %ich muss die Einstellung raussuchen, wo ich hyperlink machen kann für die Bilder, damit da nicht so eine lonly 1 steht
     
     \item y-Verstärker: ein Breitbandverstärker
     
@@ -141,8 +150,14 @@ Das Oszilloskop, ein elektronisches Messgerät mit welchem periodische Signale d
 
     
 \end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figs/Versuch0_Elektrodenstrahlröhre.png}
+    \caption{Aufbau eines Elektronenstrahlröhres \cite{anleitung}}
+    \label{fig:elektronenstrahlröhre}
+\end{figure}
 
-\subsection*{Bandbreite}
+\subsection{Bandbreite}
 Die Bandbreite wird bei diesem Versuch durch einen RC-Tiefpass begrenzt, welches die hohen Frequenzen vollständig dämpft.
 \begin{align}
   B = f_{grenz}= \frac{1}{2\pi RC}=  \frac{1}{2\pi \tau}
@@ -150,8 +165,19 @@ Die Bandbreite wird bei diesem Versuch durch einen RC-Tiefpass begrenzt, welches
 Hier entspricht $R$ dem Ohmschen Widerstand und $C$ ist die Kapazität des Kondensators. 
 
 \subsection*{Anstiegszeit}
-Bei einem realen Rechtecksignal weist der Spannungsverlauf eine endliche Anstiegszeit $\Delta t$ auf, bevor das Signal seinen Maximalwert erreicht. Die Anstiegszeit ist definiert als der Zeitraum zwischen  $t(0,9\cdot U_{max}- 0,1\cdot U_{max})$, also die Zeit des Spannungsantiegs von 10$\%$ auf 90 $\%$.\autoref{fig:anstiegzeit} %schon wieder die Ref
-Dieser gemessene Wert setzt sich aus dem theoretischen Wert der Anstiegszeit und dem Anstiegszeit des Oszilloskops folgendermaßen zusammen:
+Bei einem realen Rechtecksignal weist der Spannungsverlauf eine endliche Anstiegszeit $\Delta t$
+ auf, bevor das Signal seinen Maximalwert erreicht. Die Anstiegszeit ist definiert als der
+  Zeitraum zwischen  $t(0,9\cdot U_{max}- 0,1\cdot U_{max})$, also die Zeit des Spannungsantiegs 
+  von 10$\%$ auf 90 $\%$.\autoref{fig:anstiegzeit} %schon wieder die Ref
+Dieser gemessene Wert setzt sich aus dem theoretischen Wert der Anstiegszeit und dem 
+Anstiegszeit des Oszilloskops folgendermaßen zusammen:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figs/Verusch0_Anstiegszeit.png}
+    \caption{Anstiegszeit eines Rechtecksignals\cite{anleitung}}
+    \label{fig:anstiegzeit}
+\end{figure}
 \begin{equation}
     \Delta t_{gemessen}^2 = \Delta t_{signal}^2 + t_{Oszi}^2
 \end{equation}
@@ -187,6 +213,14 @@ Der Effektivwert eines symmetrischen Rechtecksignals mit $U_S= 10 V$ entspricht:
 \end{equation}
 
 \subsection*{Aufgabe C}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figs/Versuch0_Ersatzbild.png}
+    \caption{Ersatzschaltbild der Generator-Spannungsquelle\cite{anleitung}}
+    \label{fig:Ersatzbild}
+\end{figure}
+
 Für die Bestimmung des Innenwiderstandes des Generatorausgangs, kann die Spannung zunächst so ausgedrückt werden:
 \begin{equation}
 \label{Gl 1}
@@ -232,22 +266,23 @@ Anordnung des Oszilloskops wurde studiert und sich über die Funktion der Elemen
 
 \subsection*{Aufgabe E}
 \label{subsec:afgE}
-Für den Tiefpass soll folgender Zusammenhang geprüft werden:  $B\cdot \Delta t = 0,35$.\\
+Folgender Zusammenhang wird für den Tiefpass geprüft:  $B\cdot \Delta t = 0,35$.\\
 Bei Tiefpassfilter gilt für die Bandbreite: 
 \begin{equation}
     B = f_{grenz} = \frac{1}{2\pi RC} = \frac{1}{2\pi \tau}
 \end{equation}
-Mit der Anstiegszeit, welches die Zeit ist, die ein Signal braucht um von 10\% auf 90\% anzusteigen, ergibt sich die Formel zu: \\
+Die Anstiegszeit entspricht:
  \begin{equation*}
      \Delta t = (ln(0,9)-ln(0,1))\cdot \tau 
  \end{equation*}
+Also erhält man die folgende Formel:
  \begin{equation*}
      \iff B = \frac{1}{2\pi \tau} \cdot (ln(0,9)-ln(0,1))\cdot \tau 
  \end{equation*}
  \begin{equation*}
      \iff B = \frac{ln(0,9)-ln(0,1)}{2 \pi} \approx 0,35
  \end{equation*}
- Somit wurde der Zusammenhang bewiesen. 
+ Also entspricht dieses dem genannten Zusammenhang.
 
  \section{Versuchsaufbau, -durchführung, Messwerte und Auswertung}
  \subsection*{Bestimmung der Anstiegszeit des Oszillographen}
@@ -274,6 +309,7 @@ Mit der Anstiegszeit, welches die Zeit ist, die ein Signal braucht um von 10\% a
              \caption{Sinussignal}
              \label{fig:A0002DS}
          \end{figure}
+         Rechtecks-, Dreiecks- und Sinussignal konnten erfolgreich eingestellt werden. Hiermit konnten die Zusammenhänge der Amplitude und Frequenz des Funktiongenerators im Zusammenhang mit dem Bild des Oszillogramms untersucht werden. Die Amplitude hat eine proportionale Auswirkung auf $U_S$, also der y-Achse, und die Frequenz beeinflusst antiproportional die Darstellung auf der x-Achse (je höher die Frequenz desto gestauchter ist das Signal).
 
          \item Danach wird ein Rechtecksignal mit einer Frequenz von $\SI{2}{\mega\hertz}$ und einer Amplitude von beispielsweise $\SI{1}{\volt}$ eingestellt. Die Anstiegszeit $\Delta t_\mathrm{gemessen}$ wird bestimmt, indem die Zeitdifferenz zwischen dem Zeitpunkt, an dem $U(t)$ den Wert $0.1 U_0$ erreicht, und dem Zeitpunkt, an dem $U(t)$ den Wert $0.9 U_0$ erreicht, gemessen wird.
 
@@ -283,7 +319,7 @@ Mit der Anstiegszeit, welches die Zeit ist, die ein Signal braucht um von 10\% a
              \caption{Rechteckssignalanstieg (detailliert)}
              \label{fig:A0005DS}
          \end{figure}
-         Aus der Grafik \ref{fig:A0005DS} kann die Anstiegszeit $\Delta t_\mathrm{gemessen}$ abgelesen werden. Dafür wurden die $10\%$ und $90\%$ markiert und damit die Zeitpunkte ermittelt, an denen die Spannung $U(t)$ den Wert $0.1 U_0$ und $0.9 U_0$ erreicht. Die Anstiegszeit $\Delta t_\mathrm{gemessen}$ beträgt dann $\SI{16}{\nano\second}$ (Genau $8$ Einheiten der Skala, die je $\frac{1}{5}$ von $\SI{10}{\nano\second}$ sind). Der Messfehler beträgt $4$ Pixel, also $\Delta(\Delta t_\mathrm{gemessen}) =  \SI{1}{\nano\second}$. Der Betriebsanleitung des Oszilloskops \cite{oszibedienungsanleitung} zufolge beträgt die Bandbreite des Oszilloskops $B = \SI{50}{\mega\hertz}$. Daraus folgt mit der Formel $B \cdot \Delta t = \SI{0.35}{}$ (siehe Voraufgabe~\ref{voraufgabeD}) die Anstiegszeit:
+         Aus der Grafik \ref{fig:A0005DS} kann die Anstiegszeit $\Delta t_\mathrm{gemessen}$ abgelesen werden. Dafür wurden die $10\%$ und $90\%$ markiert und damit die Zeitpunkte ermittelt, an denen die Spannung $U(t)$ den Wert $0.1 U_0$ und $0.9 U_0$ erreicht. Die Anstiegszeit $\Delta t_\mathrm{gemessen}$ beträgt dann $\SI{16}{\nano\second}$ (Genau $8$ Einheiten der Skala, die je $\frac{1}{5}$ von $\SI{10}{\nano\second}$ sind). Der Messfehler beträgt $4$ Pixel, also $\Delta(\Delta t_\mathrm{gemessen}) =  \SI{1}{\nano\second}$. Der Betriebsanleitung des Oszilloskops \cite{anleitung} zufolge beträgt die Bandbreite des Oszilloskops $B = \SI{50}{\mega\hertz}$. Daraus folgt mit der Formel $B \cdot \Delta t = \SI{0.35}{}$ (siehe Voraufgabe~\ref{subsec:afgE}) die Anstiegszeit:
          \begin{align*}
              \Delta t_\mathrm{Oszi} = \frac{0.35}{\SI{50}{\mega\hertz}} = \SI{7}{\nano\second}
          \end{align*}
@@ -303,6 +339,17 @@ Mit der Anstiegszeit, welches die Zeit ist, die ein Signal braucht um von 10\% a
          \begin{align*}
              \Delta t_\mathrm{Signal} &= \SI{14.4}{\nano\second} \pm \SI{2.3}{\nano\second}
          \end{align*}
+
+         Hiermit lässt sich die Bandbreite des Funktionsgenerators bestimmen:
+        
+        \begin{align*}
+            B &=
+            \frac{0.35}{\Delta t_\mathrm{Signal}}\\
+            &=\frac{0.35}{\SI{14.4}{\nano\second}} \approx \SI{24.3}{\mega\hertz}\\
+            \Delta B &= \frac{0.35}{(\Delta t_\mathrm{Signal})^2} \cdot \Delta (\Delta t_\mathrm{Signal})\approx \SI{3.9}{\mega\hertz}\\
+        \end{align*}
+        
+        Also entspricht die Bandweite des Funktiongenerators. $B = \SI{24.3 \pm 3.9}{\mega\hertz} $
 
          \item Zuletzt wird der Generatorausgang mit einem R-C-Filter verbunden. Es soll eine 
          Zeitkonstante von $\tau = \mathcal{O}(\SI{10}{\micro\second} \text{ bis } \SI{100}{\micro\second})$ realisiert werden, also können 
@@ -356,11 +403,44 @@ Mit der Anstiegszeit, welches die Zeit ist, die ein Signal braucht um von 10\% a
              \label{0_1_(c)_Dämpfung}
          \end{figure}
 
-         Wie man aus der Grafik erkennen kann, die Mehrheit der gewählten Messpunkten waren nah zu dem 
-         berechneten Grenzfrequenz. Aus diesem Grund ist eine Haufen von Messwerten am Anfangs von Graphen
-         zu sehen. Die erwartete Kurve ist aber trotzdem zu erkennen. 
+        Wie man aus der Grafik erkennen kann, die Mehrheit der gewählten Messpunkten waren nah zu dem 
+         berechneten Grenzfrequenz, damit diese experimentell bestätigt werden kann. Aus diesem Grund ist eine Haufen von Messwerten am Anfangs von Graphen
+         zu sehen. Die erwartete Kurve ist aber trotzdem zu erkennen und man sieht, dass höhere Frequenzen mehr gedämpft werden, nachdem die Grenzfrequenz erreicht wurde.  
+         
+         
+         \begin{figure}[H]
+             \centering
+             \includegraphics[width=0.8\textwidth]{figs/versuch0_1cdet}
+             \caption{Dämpfungsplot in detaillierten Ansicht}
+             \label{0_1_(c)_Dämpfung_detail}
+         \end{figure}
+         
+         Wenn man nun die Dämpfungskurve im Bereich der Grenzfrequenz näher betrachtet, kann man anhand der $-3dB$ Linie den experimentellen Grenzfrequenz ablesen. In diesem Fall liegt er geschätzt bei $f_{\text{grenzE}} \approx \SI{6.65 \pm 0.1}{\hertz}$. 
+         
+        Somit ergibt sich eine absolute Abweichung von etwa $8.9 \% $. Diese Abweichung könnte aus verschiedenen Quellen entstanden sein. Einerseits haben die benutzen Widerstände und Kondensatoren eigene Fehler, weshalb die der theoretisch errechnete Wert auch nur eine Approximierung ist. Des Weiteren wurde mit realen Materialien gearbeitet, wo man systematische Fehler nicht ausschließen kann.
+         
         \end{enumerate}
 
         \section{Fazit bzw. Resultat}
+        
+        
+        In diesem Versuch wurden anhand eines Funktionsgenerators die Arbeit mit einem Oszilloskopen geübt. 
+        Hierzu wurde die realistische Anstiegszeit von einem Rechtecksignal 
+        $\Delta t_\text{Signal} = \SI{14.4 \pm 2.3}{\nano\second}$
+         und die Bandweite $B = \SI{24.3 \pm 3.9}{\mega\hertz}$ für den Funktionsgenerator bestimmt.
+         Des weiteren wurde ein Bode-Plot für einen Tiefpass aufgenommen, welches den Erwartungen entsprach, da es 
+         zeigte, dass hohe Frequenzen stärker gedämpft wurden. Anhand des Graphens wurde noch die Grenzfrequenz des 
+         Tiefpasses auf $f_{\text{grenzE}} \approx \SI{6.65 \pm 0.1}{\hertz}$ bestimmt, welches eine totale Abweichung
+           $8.9 \% $ von dem errechneten Wert $ f_{\text{grenz}}
+         \approx \SI{7.24}{\hertz}$ besaß.
+
+
+        \begin{thebibliography}{9}
+
+        \bibitem{anleitung}
+        \textit{Elektronikpraktikum -- Versuchsbeschreibungen}, Universität Bonn, 04.04.2025
+
+
+\end{thebibliography}
 
 \end{document} 

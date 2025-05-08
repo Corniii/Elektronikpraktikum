@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.2)  4 MAY 2025 13:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.2)  6 MAY 2025 01:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/pascu/Desktop/C-Kurs/Elektronikpraktikum/Versuch1/versuch_1.tex
-(c:/Users/pascu/Desktop/C-Kurs/Elektronikpraktikum/Versuch1/versuch_1.tex
+**c:/Users/pascu/Desktop/C-Kurs/Elektronikpraktikum/Versuch2/Versuch_2.tex
+(c:/Users/pascu/Desktop/C-Kurs/Elektronikpraktikum/Versuch2/versuch_2.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
 (c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -792,12 +792,8 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (./versuch_1.aux
-
-LaTeX Warning: Label `fig:DS0021' multiply defined.
-
-)
-\openout1 = `versuch_1.aux'.
+ (./Versuch_2.aux)
+\openout1 = `versuch_2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
 LaTeX Font Info:    ... okay on input line 97.
@@ -894,9 +890,9 @@ File: translations-basic-dictionary-german.trsl (german translation file `transl
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 97.
 Package hyperref Info: Link coloring ON on input line 97.
- (./versuch_1.out) (./versuch_1.out)
+ (./versuch_2.out) (./versuch_2.out)
 \@outlinefile=\write5
-\openout5 = `versuch_1.out'.
+\openout5 = `versuch_2.out'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 107.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -907,302 +903,41 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 107.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./versuch_1.toc)
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./versuch_2.toc)
 \tf@toc=\write6
-\openout6 = `versuch_1.toc'.
+\openout6 = `versuch_2.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.110 \newpage
-               [1] [1]
-<figs/Aufbau_1_1_Differenzierglied.png, id=76, 458.71375pt x 202.7575pt>
-File: figs/Aufbau_1_1_Differenzierglied.png Graphic file (type png)
-<use figs/Aufbau_1_1_Differenzierglied.png>
-Package pdftex.def Info: figs/Aufbau_1_1_Differenzierglied.png  used on input line 229.
-(pdftex.def)             Requested size: 241.84843pt x 106.90097pt.
- [2]
-<MesswerteVersuch1/DS0001.png, id=88, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0001.png Graphic file (type png)
-<use MesswerteVersuch1/DS0001.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0001.png  used on input line 238.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-<MesswerteVersuch1/DS0002.png, id=89, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0002.png Graphic file (type png)
-<use MesswerteVersuch1/DS0002.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0002.png  used on input line 239.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-<MesswerteVersuch1/DS0000.png, id=90, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0000.png Graphic file (type png)
-<use MesswerteVersuch1/DS0000.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0000.png  used on input line 245.
-(pdftex.def)             Requested size: 386.95897pt x 282.97336pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.37082pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.37082pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
-
-[3 <./figs/Aufbau_1_1_Differenzierglied.png> <./MesswerteVersuch1/DS0001.png> <./MesswerteVersuch1/DS0002.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.37082pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.37082pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
-
-[4 <./MesswerteVersuch1/DS0000.png>]
-<figs/Aufbau_1_2_Impulse_auf_Kabeln.png, id=110, 458.71375pt x 213.79875pt>
-File: figs/Aufbau_1_2_Impulse_auf_Kabeln.png Graphic file (type png)
-<use figs/Aufbau_1_2_Impulse_auf_Kabeln.png>
-Package pdftex.def Info: figs/Aufbau_1_2_Impulse_auf_Kabeln.png  used on input line 263.
-(pdftex.def)             Requested size: 386.95897pt x 180.36288pt.
-<MesswerteVersuch1/DS0004.png, id=115, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0004.png Graphic file (type png)
-<use MesswerteVersuch1/DS0004.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0004.png  used on input line 273.
-(pdftex.def)             Requested size: 386.95897pt x 282.97336pt.
-<MesswerteVersuch1/DS0005.png, id=116, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0005.png Graphic file (type png)
-<use MesswerteVersuch1/DS0005.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0005.png  used on input line 279.
-(pdftex.def)             Requested size: 386.95897pt x 282.97336pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.37082pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.37082pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
-
-[5
-
- <./figs/Aufbau_1_2_Impulse_auf_Kabeln.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.37082pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.37082pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
-
-[6 <./MesswerteVersuch1/DS0004.png> <./MesswerteVersuch1/DS0005.png>]
-<figs/Aufbau_1_3_Leitungsabschluss.png, id=133, 458.71375pt x 213.79875pt>
-File: figs/Aufbau_1_3_Leitungsabschluss.png Graphic file (type png)
-<use figs/Aufbau_1_3_Leitungsabschluss.png>
-Package pdftex.def Info: figs/Aufbau_1_3_Leitungsabschluss.png  used on input line 291.
-(pdftex.def)             Requested size: 386.95897pt x 180.36288pt.
-<MesswerteVersuch1/DS0006.png, id=136, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0006.png Graphic file (type png)
-<use MesswerteVersuch1/DS0006.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0006.png  used on input line 314.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-<MesswerteVersuch1/DS0007.png, id=137, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0007.png Graphic file (type png)
-<use MesswerteVersuch1/DS0007.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0007.png  used on input line 315.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-
-Overfull \hbox (7.77844pt too wide) in paragraph at lines 308--318
-\OT1/cmr/m/n/10 Zudem ist zu er-ken-nen, dass die Am-pli-tu-de mit der Zeit ab-nimmt, was auf die D[]ampfung der Lei-tung zur[]uckgef[]uhrt
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.37082pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.37082pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
-
-[7
-
- <./figs/Aufbau_1_3_Leitungsabschluss.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.37082pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.37082pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
-
-[8 <./MesswerteVersuch1/DS0006.png> <./MesswerteVersuch1/DS0007.png>]
-<MesswerteVersuch1/DS0009.png, id=155, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0009.png Graphic file (type png)
-<use MesswerteVersuch1/DS0009.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0009.png  used on input line 332.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-<MesswerteVersuch1/DS0008.png, id=156, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0008.png Graphic file (type png)
-<use MesswerteVersuch1/DS0008.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0008.png  used on input line 333.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.37082pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.37082pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
-
-[9
-
- <./MesswerteVersuch1/DS0009.png> <./MesswerteVersuch1/DS0008.png>]
-<MesswerteVersuch1/DS0012.png, id=164, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0012.png Graphic file (type png)
-<use MesswerteVersuch1/DS0012.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0012.png  used on input line 347.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-<MesswerteVersuch1/DS0011.png, id=165, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0011.png Graphic file (type png)
-<use MesswerteVersuch1/DS0011.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0011.png  used on input line 348.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.37082pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.37082pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
-
-[10
-
- <./MesswerteVersuch1/DS0012.png> <./MesswerteVersuch1/DS0011.png>]
-<MesswerteVersuch1/DS0013.png, id=173, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0013.png Graphic file (type png)
-<use MesswerteVersuch1/DS0013.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0013.png  used on input line 370.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-<MesswerteVersuch1/DS0014.png, id=174, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0014.png Graphic file (type png)
-<use MesswerteVersuch1/DS0014.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0014.png  used on input line 377.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 410--412
+               [1]
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.37082pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.37082pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
-
-[11
-
- <./MesswerteVersuch1/DS0013.png> <./MesswerteVersuch1/DS0014.png>]
-<MesswerteVersuch1/DS0015.png, id=185, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0015.png Graphic file (type png)
-<use MesswerteVersuch1/DS0015.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0015.png  used on input line 421.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-<MesswerteVersuch1/DS0016.png, id=186, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0016.png Graphic file (type png)
-<use MesswerteVersuch1/DS0016.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0016.png  used on input line 428.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.37082pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.37082pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
-
-[12 <./MesswerteVersuch1/DS0015.png> <./MesswerteVersuch1/DS0016.png>]
-<figs/Aufbau_1_4_Klippkabel.png, id=196, 458.71375pt x 213.79875pt>
-File: figs/Aufbau_1_4_Klippkabel.png Graphic file (type png)
-<use figs/Aufbau_1_4_Klippkabel.png>
-Package pdftex.def Info: figs/Aufbau_1_4_Klippkabel.png  used on input line 444.
-(pdftex.def)             Requested size: 241.84843pt x 112.7223pt.
-<MesswerteVersuch1/DS0017.png, id=199, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0017.png Graphic file (type png)
-<use MesswerteVersuch1/DS0017.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0017.png  used on input line 458.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.37082pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.37082pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
-
-[13
-
- <./figs/Aufbau_1_4_Klippkabel.png> <./MesswerteVersuch1/DS0017.png>]
-<MesswerteVersuch1/DS0025.png, id=212, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0025.png Graphic file (type png)
-<use MesswerteVersuch1/DS0025.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0025.png  used on input line 469.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-<MesswerteVersuch1/DS0021.png, id=213, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0021.png Graphic file (type png)
-<use MesswerteVersuch1/DS0021.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0021.png  used on input line 481.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-<MesswerteVersuch1/DS0022.png, id=214, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0022.png Graphic file (type png)
-<use MesswerteVersuch1/DS0022.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0022.png  used on input line 487.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.37082pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.37082pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
-
-[14
-
- <./MesswerteVersuch1/DS0025.png> <./MesswerteVersuch1/DS0021.png>]
-<MesswerteVersuch1/DS0027.png, id=223, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0027.png Graphic file (type png)
-<use MesswerteVersuch1/DS0027.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0027.png  used on input line 536.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-<MesswerteVersuch1/DS0026.png, id=224, 321.2pt x 234.8775pt>
-File: MesswerteVersuch1/DS0026.png Graphic file (type png)
-<use MesswerteVersuch1/DS0026.png>
-Package pdftex.def Info: MesswerteVersuch1/DS0026.png  used on input line 542.
-(pdftex.def)             Requested size: 241.84843pt x 176.85655pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.37082pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.37082pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
-
-[15 <./MesswerteVersuch1/DS0022.png>] [16 <./MesswerteVersuch1/DS0027.png> <./MesswerteVersuch1/DS0026.png>] [17] (./versuch_1.aux)
+[1] [2] (./Versuch_2.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package rerunfilecheck Info: File `versuch_1.out' has not changed.
-(rerunfilecheck)             Checksum: D7E2EFFA9E7A6E0ED396D4C0D93178B8;1677.
+Package rerunfilecheck Info: File `versuch_2.out' has not changed.
+(rerunfilecheck)             Checksum: C5BD1E06F1DB81B3E7410F2126F785D4;176.
  ) 
 Here is how much of TeX's memory you used:
- 32420 strings out of 474050
- 641810 string characters out of 5746299
- 1942754 words of memory out of 5000000
- 54309 multiletter control sequences out of 15000+600000
+ 32162 strings out of 474050
+ 634249 string characters out of 5746299
+ 1941754 words of memory out of 5000000
+ 54094 multiletter control sequences out of 15000+600000
  568275 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,13n,93p,981b,1015s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on versuch_1.pdf (19 pages, 450834 bytes).
+ 80i,11n,93p,605b,1139s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on versuch_2.pdf (4 pages, 213855 bytes).
 PDF statistics:
- 338 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 139 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 29 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.2)  3 MAY 2025 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.2)  4 MAY 2025 01:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -894,62 +894,73 @@ Package hyperref Info: Link coloring ON on input line 97.
 \@outlinefile=\write5
 \openout5 = `versuch_0.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 108.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 107.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 108.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 107.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./versuch_0.toc)
+) [1
+
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./versuch_0.toc)
 \tf@toc=\write6
 \openout6 = `versuch_0.toc'.
 
- [1
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.111 \newpage
+               [1]
+Underfull \hbox (badness 10000) in paragraph at lines 139--146
 
-LaTeX Warning: Reference `fig:elektronenstrahlröhre' on page 1 undefined on input line 135.
+ []
 
 
-Overfull \hbox (7.28062pt too wide) in paragraph at lines 140--141
+Overfull \hbox (7.28062pt too wide) in paragraph at lines 149--150
 []\OT1/cmr/m/n/10 Zeitablenkeinheit: Um ein ste-hen-des Bild ei-ner pe-ri-odi-schen Span-nung zu er-hal-ten, wird mit ei-nem S[]agezahn-
  []
 
-
-LaTeX Warning: Reference `fig:anstiegzeit' on page 1 undefined on input line 153.
-
-[1]
-Underfull \hbox (badness 10000) in paragraph at lines 164--166
+<figs/Versuch0_Elektrodenstrahlröhre.png, id=54, 360.59718pt x 144.54pt>
+File: figs/Versuch0_Elektrodenstrahlröhre.png Graphic file (type png)
+<use figs/Versuch0_Elektrodenstrahlröhre.png>
+Package pdftex.def Info: figs/Versuch0_Elektrodenstrahlröhre.png  used on input line 155.
+(pdftex.def)             Requested size: 338.58632pt x 135.71762pt.
+[1 <./figs/Versuch0_Elektrodenstrahlröhre.png>]
+<figs/Verusch0_Anstiegszeit.png, id=72, 227.34938pt x 158.09062pt>
+File: figs/Verusch0_Anstiegszeit.png Graphic file (type png)
+<use figs/Verusch0_Anstiegszeit.png>
+Package pdftex.def Info: figs/Verusch0_Anstiegszeit.png  used on input line 177.
+(pdftex.def)             Requested size: 241.84843pt x 168.1759pt.
+ [2 <./figs/Verusch0_Anstiegszeit.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 239--241
-
- []
-
-<figs/Aufbau_0_1_Oszilloskop.png, id=62, 458.71375pt x 202.7575pt>
+<figs/Versuch0_Ersatzbild.png, id=83, 152.82094pt x 139.27031pt>
+File: figs/Versuch0_Ersatzbild.png Graphic file (type png)
+<use figs/Versuch0_Ersatzbild.png>
+Package pdftex.def Info: figs/Versuch0_Ersatzbild.png  used on input line 219.
+(pdftex.def)             Requested size: 193.47578pt x 176.3294pt.
+[3 <./figs/Versuch0_Ersatzbild.png>]
+<figs/Aufbau_0_1_Oszilloskop.png, id=97, 458.71375pt x 202.7575pt>
 File: figs/Aufbau_0_1_Oszilloskop.png Graphic file (type png)
 <use figs/Aufbau_0_1_Oszilloskop.png>
-Package pdftex.def Info: figs/Aufbau_0_1_Oszilloskop.png  used on input line 256.
+Package pdftex.def Info: figs/Aufbau_0_1_Oszilloskop.png  used on input line 291.
 (pdftex.def)             Requested size: 386.95897pt x 171.04837pt.
-
-LaTeX Warning: Citation `anleitung' on page 3 undefined on input line 257.
-
-
-LaTeX Warning: Citation `anleitung' on page 3 undefined on input line 257.
-
-<MesswerteVersuch0/A0000DS.png, id=64, 321.2pt x 234.8775pt>
+ [4]
+<MesswerteVersuch0/A0000DS.png, id=106, 321.2pt x 234.8775pt>
 File: MesswerteVersuch0/A0000DS.png Graphic file (type png)
 <use MesswerteVersuch0/A0000DS.png>
-Package pdftex.def Info: MesswerteVersuch0/A0000DS.png  used on input line 265.
+Package pdftex.def Info: MesswerteVersuch0/A0000DS.png  used on input line 300.
 (pdftex.def)             Requested size: 338.58632pt x 247.5999pt.
-<MesswerteVersuch0/A0001DS.png, id=65, 321.2pt x 234.8775pt>
+<MesswerteVersuch0/A0001DS.png, id=107, 321.2pt x 234.8775pt>
 File: MesswerteVersuch0/A0001DS.png Graphic file (type png)
 <use MesswerteVersuch0/A0001DS.png>
-Package pdftex.def Info: MesswerteVersuch0/A0001DS.png  used on input line 266.
+Package pdftex.def Info: MesswerteVersuch0/A0001DS.png  used on input line 301.
 (pdftex.def)             Requested size: 338.58632pt x 247.5999pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.37082pt, for example:
@@ -957,11 +968,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
 
-[3 <./figs/Aufbau_0_1_Oszilloskop.png>]
-<MesswerteVersuch0/A0002DS.png, id=74, 321.2pt x 234.8775pt>
+[5 <./figs/Aufbau_0_1_Oszilloskop.png>]
+<MesswerteVersuch0/A0002DS.png, id=116, 321.2pt x 234.8775pt>
 File: MesswerteVersuch0/A0002DS.png Graphic file (type png)
 <use MesswerteVersuch0/A0002DS.png>
-Package pdftex.def Info: MesswerteVersuch0/A0002DS.png  used on input line 273.
+Package pdftex.def Info: MesswerteVersuch0/A0002DS.png  used on input line 308.
 (pdftex.def)             Requested size: 338.58632pt x 247.5999pt.
 
 
@@ -971,19 +982,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
 
-[4 <./MesswerteVersuch0/A0000DS.png> <./MesswerteVersuch0/A0001DS.png>]
-<MesswerteVersuch0/A0005DS.png, id=82, 321.2pt x 234.8775pt>
+[6 <./MesswerteVersuch0/A0000DS.png> <./MesswerteVersuch0/A0001DS.png>]
+<MesswerteVersuch0/A0005DS.png, id=124, 321.2pt x 234.8775pt>
 File: MesswerteVersuch0/A0005DS.png Graphic file (type png)
 <use MesswerteVersuch0/A0005DS.png>
-Package pdftex.def Info: MesswerteVersuch0/A0005DS.png  used on input line 282.
+Package pdftex.def Info: MesswerteVersuch0/A0005DS.png  used on input line 318.
 (pdftex.def)             Requested size: 338.58632pt x 247.5999pt.
 
 
-LaTeX Warning: Citation `oszibedienungsanleitung' on page 5 undefined on input line 286.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.37082pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.37082pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
 
-
-LaTeX Warning: Reference `voraufgabeD' on page 5 undefined on input line 286.
-
+[7 <./MesswerteVersuch0/A0002DS.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.37082pt, for example:
@@ -991,22 +1004,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
 
-[5 <./MesswerteVersuch0/A0002DS.png> <./MesswerteVersuch0/A0005DS.png>]
-
-LaTeX Warning: Citation `anleitung' on page 6 undefined on input line 290.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.37082pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.37082pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
-
-[6]
-<pythonAuswertungen/Versuch 0 Aufgabe 1 (c)_plot.jpg, id=99, 462.528pt x 346.896pt>
+[8 <./MesswerteVersuch0/A0005DS.png>]
+<pythonAuswertungen/Versuch 0 Aufgabe 1 (c)_plot.jpg, id=142, 462.528pt x 346.896pt>
 File: pythonAuswertungen/Versuch 0 Aufgabe 1 (c)_plot.jpg Graphic file (type jpg)
 <use pythonAuswertungen/Versuch 0 Aufgabe 1 (c)_plot.jpg>
-Package pdftex.def Info: pythonAuswertungen/Versuch 0 Aufgabe 1 (c)_plot.jpg  used on input line 354.
+Package pdftex.def Info: pythonAuswertungen/Versuch 0 Aufgabe 1 (c)_plot.jpg  used on input line 401.
 (pdftex.def)             Requested size: 386.95897pt x 290.23143pt.
 
 
@@ -1016,31 +1018,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
 
-[7 <./pythonAuswertungen/Versuch 0 Aufgabe 1 (c)_plot.jpg>] [8] (./versuch_0.aux)
+[9]
+<figs/versuch0_1cdet.jpeg, id=149, 481.8pt x 361.35pt>
+File: figs/versuch0_1cdet.jpeg Graphic file (type jpg)
+<use figs/versuch0_1cdet.jpeg>
+Package pdftex.def Info: figs/versuch0_1cdet.jpeg  used on input line 413.
+(pdftex.def)             Requested size: 386.95897pt x 290.22725pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.37082pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.37082pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.37082pt}.
+
+[10 <./pythonAuswertungen/Versuch 0 Aufgabe 1 (c)_plot.jpg>] [11 <./figs/versuch0_1cdet.jpeg>] (./versuch_0.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `versuch_0.out' has not changed.
-(rerunfilecheck)             Checksum: 8A887E258F24D45B1F16B23BE09E6C1F;653.
+(rerunfilecheck)             Checksum: DF8F25545EC7A7105CB67F80375BB33B;895.
  ) 
 Here is how much of TeX's memory you used:
- 32248 strings out of 474050
- 636722 string characters out of 5746299
- 1941754 words of memory out of 5000000
- 54169 multiletter control sequences out of 15000+600000
- 567622 words of font info for 72 fonts, out of 8000000 for 9000
+ 32308 strings out of 474050
+ 638415 string characters out of 5746299
+ 1940754 words of memory out of 5000000
+ 54218 multiletter control sequences out of 15000+600000
+ 568275 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,14n,93p,912b,1192s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on versuch_0.pdf (9 pages, 373108 bytes).
+ 80i,14n,93p,912b,1185s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on versuch_0.pdf (13 pages, 464916 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
- 128 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 75 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 239 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
