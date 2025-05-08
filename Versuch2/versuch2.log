@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.30)  8 MAY 2025 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.30)  8 MAY 2025 15:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -272,14 +272,38 @@ Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 Couldn't patch \@startsection
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen158
+\captionmargin=\dimen159
+\caption@leftmargin=\dimen160
+\caption@rightmargin=\dimen161
+\caption@width=\dimen162
+\caption@indent=\dimen163
+\caption@parindent=\dimen164
+\caption@hangindent=\dimen165
+Package caption Info: KOMA-Script document class detected.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption-koma.sto
+File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the KOMA-Script document classes (AR)
+))
+\c@caption@flags=\count282
+\c@continuedfloat=\count283
+Package caption Info: float package is loaded.
+)
+\c@subfigure=\count284
+\c@subtable=\count285
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count282
-\csq@gtype=\count283
-\csq@glevel=\count284
-\csq@qlevel=\count285
-\csq@maxlvl=\count286
-\csq@tshold=\count287
+\csq@reset=\count286
+\csq@gtype=\count287
+\csq@glevel=\count288
+\csq@qlevel=\count289
+\csq@maxlvl=\count290
+\csq@tshold=\count291
 \csq@ltx@everypar=\toks35
  (/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
@@ -293,22 +317,22 @@ Package csquotes Info: Enabling multilingual quotes.
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count288
+\lst@mode=\count292
 \lst@gtempboxa=\box58
 \lst@token=\toks36
-\lst@length=\count289
-\lst@currlwidth=\dimen158
-\lst@column=\count290
-\lst@pos=\count291
-\lst@lostspace=\dimen159
-\lst@width=\dimen160
-\lst@newlines=\count292
-\lst@lineno=\count293
-\lst@maxwidth=\dimen161
+\lst@length=\count293
+\lst@currlwidth=\dimen166
+\lst@column=\count294
+\lst@pos=\count295
+\lst@lostspace=\dimen167
+\lst@width=\dimen168
+\lst@newlines=\count296
+\lst@lineno=\count297
+\lst@maxwidth=\dimen169
  (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count294
-\lst@skipnumbers=\count295
+\c@lstnumber=\count298
+\lst@skipnumbers=\count299
 \lst@framebox=\box59
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -345,14 +369,14 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen162
-\Gin@req@width=\dimen163
+\Gin@req@height=\dimen170
+\Gin@req@width=\dimen171
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip70
-\multirow@cntb=\count296
+\multirow@cntb=\count300
 \multirow@dima=\skip71
-\bigstrutjot=\dimen164
+\bigstrutjot=\dimen172
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
  (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/lscape.sty
@@ -363,27 +387,27 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
 )
 Package: media9 2022/03/18 v1.24 acrobat-9/X compatible media
-\g_mix_pkgresizeflag_int=\count297
+\g_mix_pkgresizeflag_int=\count301
  (/usr/local/texlive/2022/texmf-dist/tex/latex/media9/pdfbase.sty
 Package: pdfbase 2022/03/18 v0.54 driver independent access to low-level PDF features
-\g_pbs_page_int=\count298
-\g_pbs_oc_int=\count299
+\g_pbs_page_int=\count302
+\g_pbs_oc_int=\count303
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/ocgx2/ocgbase.sty
 Package: ocgbase 2021/06/11 v0.20 support package for ocgx2.sty
-\g_ocgbase_nd_int=\count300
+\g_ocgbase_nd_int=\count304
 )
 \l_mix_poster_box=\box60
-\g_mix_wd_dim=\dimen165
-\g_mix_ht_dim=\dimen166
-\g_mix_dp_dim=\dimen167
-\g_mix_rmcnt_int=\count301
-\l_mix_viewcnt_int=\count302
-\g@mix@page@int=\count303
-\g_mix_resizeflag_int=\count304
-\l_mix_lineno_int=\count305
+\g_mix_wd_dim=\dimen173
+\g_mix_ht_dim=\dimen174
+\g_mix_dp_dim=\dimen175
+\g_mix_rmcnt_int=\count305
+\l_mix_viewcnt_int=\count306
+\g@mix@page@int=\count307
+\g_mix_resizeflag_int=\count308
+\l_mix_lineno_int=\count309
 \l_mix_pbtn_box=\box61
-\g_mix_mbtncnt_int=\count306
-\mix@btn@dim=\dimen168
+\g_mix_mbtncnt_int=\count310
+\mix@btn@dim=\dimen176
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
  (/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -396,7 +420,7 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count307
+\lrq@indent=\count311
  (/usr/local/texlive/2022/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
@@ -405,48 +429,48 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count308
-\c@listtotal=\count309
-\c@listcount=\count310
-\c@liststart=\count311
-\c@liststop=\count312
-\c@citecount=\count313
-\c@citetotal=\count314
-\c@multicitecount=\count315
-\c@multicitetotal=\count316
-\c@instcount=\count317
-\c@maxnames=\count318
-\c@minnames=\count319
-\c@maxitems=\count320
-\c@minitems=\count321
-\c@citecounter=\count322
-\c@maxcitecounter=\count323
-\c@savedcitecounter=\count324
-\c@uniquelist=\count325
-\c@uniquename=\count326
-\c@refsection=\count327
-\c@refsegment=\count328
-\c@maxextratitle=\count329
-\c@maxextratitleyear=\count330
-\c@maxextraname=\count331
-\c@maxextradate=\count332
-\c@maxextraalpha=\count333
-\c@abbrvpenalty=\count334
-\c@highnamepenalty=\count335
-\c@lownamepenalty=\count336
-\c@maxparens=\count337
-\c@parenlevel=\count338
-\blx@tempcnta=\count339
-\blx@tempcntb=\count340
-\blx@tempcntc=\count341
-\c@blx@maxsection=\count342
-\c@blx@maxsegment@0=\count343
-\blx@notetype=\count344
-\blx@parenlevel@text=\count345
-\blx@parenlevel@foot=\count346
-\c@blx@sectionciteorder@0=\count347
-\blx@entrysetcounter=\count348
-\blx@biblioinstance=\count349
+\c@tabx@nest=\count312
+\c@listtotal=\count313
+\c@listcount=\count314
+\c@liststart=\count315
+\c@liststop=\count316
+\c@citecount=\count317
+\c@citetotal=\count318
+\c@multicitecount=\count319
+\c@multicitetotal=\count320
+\c@instcount=\count321
+\c@maxnames=\count322
+\c@minnames=\count323
+\c@maxitems=\count324
+\c@minitems=\count325
+\c@citecounter=\count326
+\c@maxcitecounter=\count327
+\c@savedcitecounter=\count328
+\c@uniquelist=\count329
+\c@uniquename=\count330
+\c@refsection=\count331
+\c@refsegment=\count332
+\c@maxextratitle=\count333
+\c@maxextratitleyear=\count334
+\c@maxextraname=\count335
+\c@maxextradate=\count336
+\c@maxextraalpha=\count337
+\c@abbrvpenalty=\count338
+\c@highnamepenalty=\count339
+\c@lownamepenalty=\count340
+\c@maxparens=\count341
+\c@parenlevel=\count342
+\blx@tempcnta=\count343
+\blx@tempcntb=\count344
+\blx@tempcntc=\count345
+\c@blx@maxsection=\count346
+\c@blx@maxsegment@0=\count347
+\blx@notetype=\count348
+\blx@parenlevel@text=\count349
+\blx@parenlevel@foot=\count350
+\c@blx@sectionciteorder@0=\count351
+\blx@entrysetcounter=\count352
+\blx@biblioinstance=\count353
 \labelnumberwidth=\skip72
 \labelalphawidth=\skip73
 \biblabelsep=\skip74
@@ -458,9 +482,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language88
-\c@mincomprange=\count350
-\c@maxcomprange=\count351
-\c@mincompwidth=\count352
+\c@mincomprange=\count354
+\c@maxcomprange=\count355
+\c@mincompwidth=\count356
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -470,74 +494,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count353
-\c@savedafterword=\count354
-\c@annotator=\count355
-\c@savedannotator=\count356
-\c@author=\count357
-\c@savedauthor=\count358
-\c@bookauthor=\count359
-\c@savedbookauthor=\count360
-\c@commentator=\count361
-\c@savedcommentator=\count362
-\c@editor=\count363
-\c@savededitor=\count364
-\c@editora=\count365
-\c@savededitora=\count366
-\c@editorb=\count367
-\c@savededitorb=\count368
-\c@editorc=\count369
-\c@savededitorc=\count370
-\c@foreword=\count371
-\c@savedforeword=\count372
-\c@holder=\count373
-\c@savedholder=\count374
-\c@introduction=\count375
-\c@savedintroduction=\count376
-\c@namea=\count377
-\c@savednamea=\count378
-\c@nameb=\count379
-\c@savednameb=\count380
-\c@namec=\count381
-\c@savednamec=\count382
-\c@translator=\count383
-\c@savedtranslator=\count384
-\c@shortauthor=\count385
-\c@savedshortauthor=\count386
-\c@shorteditor=\count387
-\c@savedshorteditor=\count388
-\c@labelname=\count389
-\c@savedlabelname=\count390
-\c@institution=\count391
-\c@savedinstitution=\count392
-\c@lista=\count393
-\c@savedlista=\count394
-\c@listb=\count395
-\c@savedlistb=\count396
-\c@listc=\count397
-\c@savedlistc=\count398
-\c@listd=\count399
-\c@savedlistd=\count400
-\c@liste=\count401
-\c@savedliste=\count402
-\c@listf=\count403
-\c@savedlistf=\count404
-\c@location=\count405
-\c@savedlocation=\count406
-\c@organization=\count407
-\c@savedorganization=\count408
-\c@origlocation=\count409
-\c@savedoriglocation=\count410
-\c@origpublisher=\count411
-\c@savedorigpublisher=\count412
-\c@publisher=\count413
-\c@savedpublisher=\count414
-\c@language=\count415
-\c@savedlanguage=\count416
-\c@origlanguage=\count417
-\c@savedoriglanguage=\count418
-\c@pageref=\count419
-\c@savedpageref=\count420
+\c@afterword=\count357
+\c@savedafterword=\count358
+\c@annotator=\count359
+\c@savedannotator=\count360
+\c@author=\count361
+\c@savedauthor=\count362
+\c@bookauthor=\count363
+\c@savedbookauthor=\count364
+\c@commentator=\count365
+\c@savedcommentator=\count366
+\c@editor=\count367
+\c@savededitor=\count368
+\c@editora=\count369
+\c@savededitora=\count370
+\c@editorb=\count371
+\c@savededitorb=\count372
+\c@editorc=\count373
+\c@savededitorc=\count374
+\c@foreword=\count375
+\c@savedforeword=\count376
+\c@holder=\count377
+\c@savedholder=\count378
+\c@introduction=\count379
+\c@savedintroduction=\count380
+\c@namea=\count381
+\c@savednamea=\count382
+\c@nameb=\count383
+\c@savednameb=\count384
+\c@namec=\count385
+\c@savednamec=\count386
+\c@translator=\count387
+\c@savedtranslator=\count388
+\c@shortauthor=\count389
+\c@savedshortauthor=\count390
+\c@shorteditor=\count391
+\c@savedshorteditor=\count392
+\c@labelname=\count393
+\c@savedlabelname=\count394
+\c@institution=\count395
+\c@savedinstitution=\count396
+\c@lista=\count397
+\c@savedlista=\count398
+\c@listb=\count399
+\c@savedlistb=\count400
+\c@listc=\count401
+\c@savedlistc=\count402
+\c@listd=\count403
+\c@savedlistd=\count404
+\c@liste=\count405
+\c@savedliste=\count406
+\c@listf=\count407
+\c@savedlistf=\count408
+\c@location=\count409
+\c@savedlocation=\count410
+\c@organization=\count411
+\c@savedorganization=\count412
+\c@origlocation=\count413
+\c@savedoriglocation=\count414
+\c@origpublisher=\count415
+\c@savedorigpublisher=\count416
+\c@publisher=\count417
+\c@savedpublisher=\count418
+\c@language=\count419
+\c@savedlanguage=\count420
+\c@origlanguage=\count421
+\c@savedoriglanguage=\count422
+\c@pageref=\count423
+\c@savedpageref=\count424
 \shorthandwidth=\skip80
 \shortjournalwidth=\skip81
 \shortserieswidth=\skip82
@@ -561,19 +585,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-\c@textcitecount=\count421
-\c@textcitetotal=\count422
-\c@textcitemaxnames=\count423
-\c@biburlbigbreakpenalty=\count424
-\c@biburlbreakpenalty=\count425
-\c@biburlnumpenalty=\count426
-\c@biburlucpenalty=\count427
-\c@biburllcpenalty=\count428
+\c@textcitecount=\count425
+\c@textcitetotal=\count426
+\c@textcitemaxnames=\count427
+\c@biburlbigbreakpenalty=\count428
+\c@biburlbreakpenalty=\count429
+\c@biburlnumpenalty=\count430
+\c@biburlucpenalty=\count431
+\c@biburllcpenalty=\count432
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count429
+\c@smartand=\count433
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -583,8 +607,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count430
-\c@bbx:relatedtotal=\count431
+\c@bbx:relatedcount=\count434
+\c@bbx:relatedtotal=\count435
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -628,9 +652,9 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen169
-\Hy@linkcounter=\count432
-\Hy@pagecounter=\count433
+\@linkdim=\dimen177
+\Hy@linkcounter=\count436
+\Hy@pagecounter=\count437
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -640,7 +664,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count434
+\Hy@SavedSpaceFactor=\count438
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -653,17 +677,17 @@ Package hyperref Info: Plain pages OFF on input line 4152.
 Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count435
+\c@Hy@tempcnt=\count439
 LaTeX Info: Redefining \url on input line 4749.
-\XeTeXLinkMargin=\dimen170
+\XeTeXLinkMargin=\dimen178
  (/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count436
-\Field@Width=\dimen171
-\Fld@charsize=\dimen172
+\Fld@menulength=\count440
+\Field@Width=\dimen179
+\Fld@charsize=\dimen180
 Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
@@ -677,9 +701,9 @@ LaTeX Info: Redefining \pageref on input line 6101.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count437
-\c@Item=\count438
-\c@Hfootnote=\count439
+\Hy@abspage=\count441
+\c@Item=\count442
+\c@Hfootnote=\count443
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -688,8 +712,8 @@ File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count440
-\c@bookmark@seq@number=\count441
+\Fld@listcount=\count444
+\c@bookmark@seq@number=\count445
  (/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -702,30 +726,30 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2022-02-15 v3.0.49 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen173
+\l__siunitx_angle_tmp_dim=\dimen181
 \l__siunitx_angle_marker_box=\box62
 \l__siunitx_angle_unit_box=\box63
-\l__siunitx_compound_count_int=\count442
+\l__siunitx_compound_count_int=\count446
  (/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
 )
-\l__siunitx_number_exponent_fixed_int=\count443
-\l__siunitx_number_min_decimal_int=\count444
-\l__siunitx_number_min_integer_int=\count445
-\l__siunitx_number_round_precision_int=\count446
-\l__siunitx_number_group_minimum_int=\count447
+\l__siunitx_number_exponent_fixed_int=\count447
+\l__siunitx_number_min_decimal_int=\count448
+\l__siunitx_number_min_integer_int=\count449
+\l__siunitx_number_round_precision_int=\count450
+\l__siunitx_number_group_minimum_int=\count451
 \l__siunitx_table_tmp_box=\box64
-\l__siunitx_table_tmp_dim=\dimen174
-\l__siunitx_table_column_width_dim=\dimen175
+\l__siunitx_table_tmp_dim=\dimen182
+\l__siunitx_table_column_width_dim=\dimen183
 \l__siunitx_table_integer_box=\box65
 \l__siunitx_table_decimal_box=\box66
 \l__siunitx_table_before_box=\box67
 \l__siunitx_table_after_box=\box68
-\l__siunitx_table_before_dim=\dimen176
-\l__siunitx_table_carry_dim=\dimen177
-\l__siunitx_unit_tmp_int=\count448
-\l__siunitx_unit_position_int=\count449
-\l__siunitx_unit_total_int=\count450
+\l__siunitx_table_before_dim=\dimen184
+\l__siunitx_table_carry_dim=\dimen185
+\l__siunitx_unit_tmp_int=\count452
+\l__siunitx_unit_position_int=\count453
+\l__siunitx_unit_total_int=\count454
 
 Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 (siunitx)             this release.
@@ -739,9 +763,9 @@ Package siunitx Warning: Detected the "physics" package:
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen178
+\col@sep=\dimen186
 \ar@mcellbox=\box69
-\extrarowheight=\dimen179
+\extrarowheight=\dimen187
 \NC@list=\toks37
 \extratabsurround=\skip95
 \backup@length=\skip96
@@ -759,7 +783,7 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              `\addtokomafont' for the page style elements need
 (scrartcl)              explicite user intervention to work.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 25.
+(scrartcl)              package `fancyhdr' on input line 26.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
@@ -777,33 +801,6 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks38
 \verbatim@line=\toks39
 \verbatim@in@stream=\read4
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
- (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2022/03/01 v3.6b Customizing captions (AR)
- (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen180
-\captionmargin=\dimen181
-\caption@leftmargin=\dimen182
-\caption@rightmargin=\dimen183
-\caption@width=\dimen184
-\caption@indent=\dimen185
-\caption@parindent=\dimen186
-\caption@hangindent=\dimen187
-Package caption Info: KOMA-Script document class detected.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption-koma.sto
-File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the KOMA-Script document classes (AR)
-))
-\c@caption@flags=\count451
-\c@continuedfloat=\count452
-Package caption Info: float package is loaded.
-Package caption Info: hyperref package is loaded.
-Package caption Info: hypcap package is loaded.
-Package caption Info: listings package is loaded.
-)
-\c@subfigure=\count453
-\c@subtable=\count454
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )) (../aufgaben.sty
@@ -816,6 +813,9 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (./versuch2.aux
+
+LaTeX Warning: Label `aufbau_2_3' multiply defined.
+
 
 LaTeX Warning: Label `aufbau_2_3' multiply defined.
 
@@ -876,6 +876,11 @@ LaTeX Font Info:    ... okay on input line 43.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Couldn't patch \deferred@thm@head!
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: hypcap package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count460
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -954,8 +959,6 @@ File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 43.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 45.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -1058,462 +1061,21 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [10
 
  <./figs/fig2_6.png>]
-<MesswerteVersuch2/DS0000.png, id=178, 321.2pt x 234.8775pt>
-File: MesswerteVersuch2/DS0000.png Graphic file (type png)
-<use MesswerteVersuch2/DS0000.png>
-Package pdftex.def Info: MesswerteVersuch2/DS0000.png  used on input line 271.
-(pdftex.def)             Requested size: 102.43134pt x 74.9007pt.
-<MesswerteVersuch2/DS0001.png, id=179, 321.2pt x 234.8775pt>
-File: MesswerteVersuch2/DS0001.png Graphic file (type png)
-<use MesswerteVersuch2/DS0001.png>
-Package pdftex.def Info: MesswerteVersuch2/DS0001.png  used on input line 275.
-(pdftex.def)             Requested size: 341.43437pt x 249.68216pt.
+<figs/fig2_10.png, id=178, 525.965pt x 254.9525pt>
+File: figs/fig2_10.png Graphic file (type png)
+<use figs/fig2_10.png>
+Package pdftex.def Info: figs/fig2_10.png  used on input line 291.
+(pdftex.def)             Requested size: 341.43437pt x 165.51096pt.
+ [11]
 
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:278: Undefined control sequence.
-\subcaption@endminipage ...ption@endminipage@hook 
-                                                  \endminipage 
-l.278         \end{subfigure}
-                             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: File `figs/Aufbau_2_3.png' not found on input line 302.
 
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:278: Missing } inserted.
-<inserted text> 
-                }
-l.278         \end{subfigure}
-                             
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:278: Undefined control sequence.
-\endminipage ...\expandafter \@iiiparbox \@mpargs 
-                                                  {\unvbox \@tempboxa }
-l.278         \end{subfigure}
-                             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Missing number, treated as zero.
-<to be read again> 
-                   M
-l.280             \caption
-                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   M
-l.280             \caption
-                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-Overfull \hbox (71.07414pt too wide) in paragraph at lines 280--280
-[][][]|[] 
- []
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Missing number, treated as zero.
-<to be read again> 
-                   \def 
-l.280             \caption
-                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \def 
-l.280             \caption
-                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: LaTeX Error: \begin{figure} on input line 268 ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.280             \caption
-                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Missing endcsname inserted.
-<to be read again> 
-                   relax 
-l.280             \caption
-                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX3 Error: relax invalid in file name. Lost: .
-l.280             \caption
-                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Missing endcsname inserted.
-<to be read again> 
-                   relax 
-l.280             \caption
-                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX3 Error: relax invalid in file name. Lost: .
-l.280             \caption
-                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Missing endcsname inserted.
-<to be read again> 
-                   relax 
-l.280             \caption
-                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX3 Error: relax invalid in file name. Lost: .
-l.280             \caption
-                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: LaTeX Error: File `\relax ' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.280             \caption
-                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Missing \endcsname inserted.
-<to be read again> 
-                   \textwidth 
-l.280             \caption
-                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Missing number, treated as zero.
-<to be read again> 
-                   \endcsname 
-l.280             \caption
-                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \endcsname 
-l.280             \caption
-                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:280: Extra \endcsname.
-<recently read> \endcsname 
-                           
-l.280             \caption
-                          {oberer Teil des Diodenschaltbretts\cite{anleitung}}
-I'm ignoring this, since I wasn't doing a \csname.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:282: Undefined control sequence.
-\subcaption@endminipage ...ption@endminipage@hook 
-                                                  \endminipage 
-l.282         \end{subfigure}
-                             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:282: Extra }, or forgotten \endgroup.
-\endminipage ...pagefalse \color@endgroup \egroup 
-                                                  \expandafter \@iiiparbox \...
-l.282         \end{subfigure}
-                             
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:282: Undefined control sequence.
-\endminipage ...\expandafter \@iiiparbox \@mpargs 
-                                                  {\unvbox \@tempboxa }
-l.282         \end{subfigure}
-                             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Missing number, treated as zero.
-<to be read again> 
-                   \protect 
-l.290         \includegraphics
-                              [width=0.8\textwidth]{figs/fig2_10.png}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \protect 
-l.290         \includegraphics
-                              [width=0.8\textwidth]{figs/fig2_10.png}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Missing endcsname inserted.
-<to be read again> 
-                   scan_stop: 
-l.290         \includegraphics
-                              [width=0.8\textwidth]{figs/fig2_10.png}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX3 Error: scan_stop: invalid in file name. Lost: mode_...
-l.290         \includegraphics
-                              [width=0.8\textwidth]{figs/fig2_10.png}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Missing endcsname inserted.
-<to be read again> 
-                   scan_stop: 
-l.290         \includegraphics
-                              [width=0.8\textwidth]{figs/fig2_10.png}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX3 Error: scan_stop: invalid in file name. Lost: mode_...
-l.290         \includegraphics
-                              [width=0.8\textwidth]{figs/fig2_10.png}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Missing endcsname inserted.
-<to be read again> 
-                   scan_stop: 
-l.290         \includegraphics
-                              [width=0.8\textwidth]{figs/fig2_10.png}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX3 Error: scan_stop: invalid in file name. Lost: mode_...
-l.290         \includegraphics
-                              [width=0.8\textwidth]{figs/fig2_10.png}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: LaTeX Error: File `\@@par ' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.290         \includegraphics
-                              [width=0.8\textwidth]{figs/fig2_10.png}
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Runaway argument?
-{\@checkend {subfigure}\expandafter \endgroup \if@endpe \@doendpe \fi \ETC.
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Paragraph ended before \setlength was complete.
-<to be read again> 
-                   \par 
-l.290         \includegraphics
-                              [width=0.8\textwidth]{figs/fig2_10.png}
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Missing number, treated as zero.
-<to be read again> 
-                   ]
-l.290 ...    \includegraphics[width=0.8\textwidth]
-                                                  {figs/fig2_10.png}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   ]
-l.290 ...    \includegraphics[width=0.8\textwidth]
-                                                  {figs/fig2_10.png}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Missing $ inserted.
-<inserted text> 
-                $
-l.290 ...egraphics[width=0.8\textwidth]{figs/fig2_
-                                                  10.png}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:290: Extra }, or forgotten $.
-l.290 ...cs[width=0.8\textwidth]{figs/fig2_10.png}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:291: Missing $ inserted.
-<inserted text> 
-                $
-l.291 ...l des Diodenschaltbretts\cite{anleitung}}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:293: Package hypcap Error: You have forgotten to use \caption.
-
-See the hypcap package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.293     \end{figure}
-                      
-\global 
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:293: Missing } inserted.
-<inserted text> 
-                }
-l.293     \end{figure}
-                      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:293: Extra }, or forgotten \endgroup.
-\color@endbox ->\color@endgroup \egroup 
-                                        
-l.293     \end{figure}
-                      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:293: LaTeX Error: \begin{aufgabe} on input line 290 ended by \end{figure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.293     \end{figure}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-LaTeX Warning: File `figs/Aufbau_2_3.png' not found on input line 301.
-
-[11]
+[12 <./figs/fig2_10.png>]
 File: figs/fig2_11.png Graphic file (type png)
 <use figs/fig2_11.png>
-Package pdftex.def Info: figs/fig2_11.png  used on input line 311.
+Package pdftex.def Info: figs/fig2_11.png  used on input line 312.
 (pdftex.def)             Requested size: 341.43437pt x 121.85257pt.
-
-
-/Users/corneliusheiming/Documents/Elektronikpraktikum/Versuch2/versuch2.tex:322: LaTeX Error: \begin{aufgabe} on input line 259 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.322 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[12] (./versuch2.aux)
+ [13] (./versuch2.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1522,27 +1084,23 @@ Package rerunfilecheck Info: File `versuch2.out' has not changed.
 Package logreq Info: Writing requests to 'versuch2.run.xml'.
 \openout1 = `versuch2.run.xml'.
 
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 259 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 31873 strings out of 478268
- 621066 string characters out of 5846347
- 1448730 words of memory out of 5000000
- 49604 multiletter control sequences out of 15000+600000
- 492070 words of font info for 84 fonts, out of 8000000 for 9000
+ 31821 strings out of 478268
+ 620234 string characters out of 5846347
+ 1442509 words of memory out of 5000000
+ 49555 multiletter control sequences out of 15000+600000
+ 491307 words of font info for 83 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,12n,106p,10693b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{cite.0@anleitung} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on versuch2.pdf (12 pages, 2275595 bytes).
+Output written on versuch2.pdf (13 pages, 2317656 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
