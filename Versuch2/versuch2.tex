@@ -241,9 +241,9 @@ Also:
 
 
 \clearpage
+\section{Versuchsaufbau, -durchführung, Messwerte und Auswertung}
 % === Aufbau, Durchführung, Messwerte und Auswertung ===
 % == Aufgabe 1 ==
-\section{Versuchsaufbau, -durchführung, Messwerte und Auswertung}
 \begin{aufgabe}{Statische Messung der Diodenkennlinie} 
     \aufbau
     \begin{figure}[H]
@@ -329,31 +329,52 @@ Zunächst soll die Diodenkennlinie der unbekannten Dioden D1 und D2 mittels eine
 \newpage 
 % == Aufgabe 2 ==
 \begin{aufgabe}{Oszillogramm der Diodenkennlinie}
+    \aufbau
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth, draft]{figs/Aufbau_2_2.png}
         \caption{oberer Teil des Diodenschaltbretts\cite{anleitung}}
         \label{aufbau_2_2}
     \end{figure}
-Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillographens. Hierfür wird der Strom gemäß Voraufgabe~G~(\ref{G}) in eine Spannung umgewandelt und dann im Oszillographen im x-y-Modus gegen die anliegende Spannung aufgetragen. 
+Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillographens. Hierfür wird der Strom gemäß Voraufgabe~G~(\ref{G}) in eine Spannung umgewandelt und dann im Oszillographen im x-y-Modus gegen die anliegende Spannung aufgetragen.
+    \messwerte 
+    \begin{figure}[H]
+        \centering
+        \begin{subfigure}[b]{0.45 \textwidth}
+            \includegraphics[width=\textwidth]{MesswerteVersuch2/m2_0.png}
+            \caption{Silizium-Diode (D1)}
+            \label{a2_0}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.45 \textwidth}
+            \includegraphics[width=\textwidth]{MesswerteVersuch2/m2_1.png}
+            \caption{Schottky-Diode (D2)}
+            \label{a2_1}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.8 \textwidth}
+            \includegraphics[width=\textwidth]{MesswerteVersuch2/m2_2.png}
+            \caption{Zener-Diode (ZD)}
+            \label{a2_2}
+        \end{subfigure}
+        \caption{Kennlinien der verschiedenen Dioden}
+        \label{a2}
+    \end{figure}
+    \auswertung
+    Aus den x-y-Graphen für die an der jeweiligen Diode anliegende Spannung und dem Strom, der die Diode durchfließt (bzw. einer dazu proportionalen Spannung)(\ref{a2}) lassen sich nun Diffusionsspannung und Zenerspannung (bei der Zenerdiode) graphisch ermitteln:
+    \begin{align*}
+        U_\mathrm{Diffusion, D1} &= \SI{0.7 +- 0.06}{\volt} \\
+        U_\mathrm{Diffusion, D2} &= \SI{0.18 +- 0.06}{\volt} \\
+        U_\mathrm{Diffusion, ZD} &= \SI{0.8 +- 0.24}{\volt} \\
+        U_\mathrm{Zener, ZD} &= \SI{7.84 +- 0.24}{\volt} \\
+    \end{align*}
+    Bei den ersten beiden Dioden lässt sich keine Zenerspannung ermitteln, da im Experiment keine Spannung der passenden Größenordung verwendet wurde, um die Dioden nicht zu zerstören. Bei der Zenerdiode ist diese dann allerdings gut zu erkennen und liegt im von der Anleitung~\cite{anleitung} angegebenen Bereich von $\SIrange{3}{180}{\volt}$, der Literatur~\cite{zenerspannungen} zufolge könnte es sich um eine BZX55/C  gV2-Zenerdiode handeln, die eine Zenerspannung von $U_\mathrm{Zener}^\mathrm{theoretisch} = \SI{8.2}{\volt}$ besitzt.
 
-    % \begin{figure}[H]
-    %     \centering
-    %     \begin{subfigure}[b]{0.3 \textwidth}
-    %         \includegraphics[width=0.8\textwidth]{MesswerteVersuch2/DS0000.png}
-    %         \caption{Kennlinie der Siliziumdiode (D1)}
-    %         \label{a2_0}
-    %     \end{subfigure}
-    %     \begin{subfigure}[b]{0.3 \textwidth}
-    %         \includegraphics[width=0.8\textwidth]{MesswerteVersuch2/DS0001.png}
-    %         \caption{oberer Teil des Diodenschaltbretts\cite{anleitung}}
-    %         \label{a2_1}
-    %     \begin{subfigure}[b]{0.3 \textwidth}
-    %         \includegraphics[width=0.8\textwidth]{MesswerteVersuch2/DS0002.png}
-    %         \caption{oberer Teil des Diodenschaltbretts\cite{anleitung}}
-    %         \label{a2_2}
-    %     \end{subfigure}
-    % \end{figure}
+    Für die Diffusionsspannung der Siliziumdiode entspricht der ermittelte Wert von $U_\mathrm{Diffusion, D1} = \SI{0.7 +- 0.06}{\volt}$ gerade dem Theoriewert $\SI{0.7}{\volt}$ der Anleitung~\cite{anleitung}. Die Diffusionsspannung der Schottkydiode soll der Theorie nach niedriger sein, was hier auch bestätigt wird: 
+    \begin{equation*}
+        U_\mathrm{Diffusion, D2} = \SI{0.18 +- 0.06}{\volt} < \SI{0.7 +- 0.06}{\volt} = U_\mathrm{Diffusion, D1}
+    \end{equation*}
+    
 \end{aufgabe}
 
 % == Aufgabe 3 ==

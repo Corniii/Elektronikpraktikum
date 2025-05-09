@@ -1,7 +1,0 @@
-\babel@toc {ngerman}{}\relax 
-\contentsline {section}{\numberline {1}Theorie}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Das Oszilloskop}{1}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Bandbreite}{2}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Voraufgaben}{3}{section.2}%
-\contentsline {section}{\numberline {3}Versuchsaufbau, -durchführung, Messwerte und Auswertung}{5}{section.3}%
-\contentsline {section}{\numberline {4}Fazit bzw. Resultat}{11}{section.4}%
