@@ -1,5 +1,5 @@
 % !TeX spellcheck = de_DE
-\documentclass[ngerman]{scrartcl} 
+\documentclass{article} 
 %\KOMAoptions{fontsize=12pt, paper=a4}
 %\KOMAoptions{DIV=11}
 \usepackage[ngerman]{babel}
@@ -10,22 +10,18 @@
 %TODO: Name, Nummer, Datum	
 \title{Versuch \nummer~-  \titel}
 \date{\datum}
-\author{Cornelius Heiming}
 \usepackage{amsmath, amssymb, amsthm} 
 \usepackage{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{enumerate}
 \usepackage[shortlabels]{enumitem}
+\usepackage{authblk}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
 
 \usepackage{../pakete}
 \usepackage{../aufgaben}
 
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{Cornelius Heiming}
-\chead{Versuch {\nummer}}
-\lhead{\datum}
-\rfoot{\thepage}
 
 \addbibresource{../referenzen.bib}
 \geometry{a4paper, left=3cm, right=3cm, top=3cm, bottom=3cm}
@@ -40,10 +36,27 @@
 
 %\displaystyle \lim_{x \to \infty}
 
+
+
 \begin{document}
-\maketitle
+    \title{Elektronikpraktikum \\ \textbf{Versuch 2: Diodenkennlinien}}
+    \author[1]{Carlos Pascua \thanks{s87cpasc@uni-bonn.de}}
+    \author[1]{Anna Maróti\thanks{s32amaro@uni-bonn.de}}
+    \author[1]{Cornelius Heiming\thanks{s64cheim@uni-bonn.de}}
+    \affil[1]{Uni Bonn}
+    %\date{\today}
+	\pagenumbering{gobble}
+    \begin{titlepage}
+     \maketitle   
+    \end{titlepage}
+        
 \tableofcontents
-\clearpage
+\newpage
+\pagenumbering{arabic}
+
+\pagestyle{fancy}
+\fancyhead[R]{\thepage}
+\fancyhead[L]{\leftmark}
 
 % === Einleitung ===
 \section{Einleitung}
