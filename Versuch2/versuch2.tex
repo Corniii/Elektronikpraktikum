@@ -252,9 +252,81 @@ Also:
         \caption{oberer Teil des Diodenschaltbretts\cite{anleitung}}
         \label{aufbau_2_1}
     \end{figure}
-Zunächst soll die Diodenkennlinie der unbekannten Dioden D1 und D2 mittels einer statischen Messung ermittelt werden. Dafür wird entsprechend der Voraufgabe~F~(\ref{F}) mit Ampère- und Voltmeter gemessen.
-\end{aufgabe}
+Zunächst soll die Diodenkennlinie der unbekannten Dioden D1 und D2 mittels einer statischen Messung ermittelt werden.
+ Dafür wird entsprechend der Voraufgabe~F~(\ref{F}) mit Ampère- und Voltmeter gemessen. Die Messwerte werden dann in einer 
+ Tabelle aufgelistet, wie zum Beispiel \ref{tab:D1duchlass}, \ref{tab:D1sperr}. 
 
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|l|l|}
+    \hline
+    \textbf{Spannung $U$ in $[V]$} & \textbf{Strom $A$ in $[mA]$} \\
+    \hline
+    $0.104$ & $0$ \\
+    $0.201$ & $0$\\
+    $0.304$ &  $2 \cdot 10^-3$ \\
+    $0.401$ & $2 \cdot 10^-3$\\
+    $0.501$ & $0.13$ \\
+    $0.601$ & $0.50$ \\
+    $0.701$ & $1.1$ \\
+    $0.802$ & $1.9$ \\
+    $0.902$ & $2.7$ \\
+    $1.003$ & $3.5$ \\
+    $1.513$ & $8.5$ \\
+    $2.061$ & $13.5$ \\
+    $5.02$ & $41.8$ \\
+    \hline
+    \end{tabular}
+    \caption{Kennlinie D1 in Durchlassrichtung}
+    \label{tab:D1duchlass}
+    \end{table}
+    
+    \newpage
+
+    \begin{table}[h!]
+    \centering
+    \begin{tabular}{|l|l|}
+    \hline
+    \textbf{Spannung $U$ in $[V]$} & \textbf{Strom $A$ in $[\mu A]$} \\
+    \hline
+    $-1.004$ & $0$ \\
+    $-2.009$ & $0$\\
+    $-3.009$ & $0$\\
+    $-4.002$ & $0$\\
+    $-5.10$ & $0.5$\\
+    $-6.04$ & $0.5$\\
+    $-7.05$ & $0.8$\\
+    $-8.07$ & $0.9$\\
+    $-9.004$ & $1$\\
+    $-10.05$ & $1$\\
+    $-11.00$ & $1,1$\\
+    $-12.03$ & $1.2$\\
+    \hline
+    \end{tabular}
+    \caption{Kennlinie D1 in Sperrrichtung}
+    \label{tab:D1sperr}
+    \end{table}
+
+    Nun bringt man die 2 Tabellen zusammen und erstellt man damit eine graphische Darstellung, wobei $5\%$ der ausgemessenen Werte
+    gewählt wird. Die Rest der Tabellen sowie Abbildungen für den Schottky-Diode
+     sind im Anhang zu finden. 
+     \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{figs/dioden_d1_combined.png}
+        \caption{Kennlinienverlauf der Siliziumdiode in Durchlassrichtung und Sperrrichtung aus Tabellen \ref{tab:D1duchlass}, \ref{tab:D1sperr} }
+        \label{dioden_d1_combined}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{figs/dioden_d2_combined.png}
+        \caption{Kennlinienverlauf der Schottky-Diode in Durchlassrichtung und Sperrrichtung aus Tabellen \ref{tab:D2duchlass}, \ref{tab:D2sperr}}
+        \label{dioden_d1_combined}
+    \end{figure}
+
+    
+\end{aufgabe}
+\newpage 
 % == Aufgabe 2 ==
 \begin{aufgabe}{Oszillogramm der Diodenkennlinie}
     \begin{figure}[H]
@@ -318,6 +390,87 @@ Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillogr
 
 % === Fazit ===
 \section{Fazit}
+
+% === Anhang ===%
+\section{Anhang}
+
+    
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|l|l|}
+    \hline
+    \textbf{Spannung $U$ in $[V]$} & \textbf{Strom $A$ in $[mA]$} \\
+    \hline
+    $0.050$ & $0.02$ \\
+    $0.100$ & $0.14$ \\
+    $0.150$ & $0.59$ \\
+    $0.200$ & $0.94$\\
+    $0.247$ & $1.4$ \\
+    $0.299$ & $1.8$ \\
+    $0.352$ & $2.3$ \\
+    $0.398$ & $2.7$\\
+    $0.448$ & $3.1$ \\
+    $0.502$ & $3.6$ \\
+    $0.600$ & $4.5$ \\
+    $2.016$ & $9.5$ \\
+    $5.100$ & $45.0$ \\
+    \hline
+    \end{tabular}
+    \caption{Kennlinie D2 in Durchlassrichtung}
+    \label{tab:D2duchlass}
+    \end{table}
+    
+    
+    \begin{table}[h!]
+    \centering
+    \begin{tabular}{|l|l|}
+    \hline
+    \textbf{Spannung $U$ in $[V]$} & \textbf{Strom $A$ in $[\mu A]$} \\
+    \hline
+    $-1.010$ & $23$ \\
+    $-2.074$ & $29$\\
+    $-3.042$ & $32$\\
+    $-4.03$ & $38$\\
+    $-5.02$ & $43$\\
+    $-6.07$ & $48$\\
+    $-7.01$ & $55$\\
+    $-8.01$ & $60$\\
+    $-9.02$ & $65$\\
+    $-10.04$ & $70$\\ 
+    \hline
+    \end{tabular}
+    \caption{Kennlinie D2 in Sperrrichtung}
+    \label{tab:D2sperr}
+    \end{table}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figs/dioden_d1.png}
+    \caption{Kennlinienverlauf der Siliziumdiode in Durchlassrichtung MRA4004; Sperrspannung 400V\cite{anleitung} }
+    \label{dioden_d1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figs/dioden_d1_sperr.png}
+    \caption{Kennlinienverlauf der Siliziumdiode in Sperrrichtung MRA4004; Sperrspannung 400V\cite{anleitung}}
+    \label{dioden_d1_sperr}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figs/dioden_d2.png}
+    \caption{Kennlinienverlauf der Schottky-Diode in Durchlassrichtung 10BQ015; Sperrspannung 15V\cite{anleitung}}
+    \label{dioden_d2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figs/dioden_d2_sperr.png}
+    \caption{Kennlinienverlauf der Schottky-Diode in Durchlassrichtung 10BQ015; Sperrspannung 15V\cite{anleitung}}
+    \label{dioden_d2_sperr}
+\end{figure}
 
 
 \end{document}
