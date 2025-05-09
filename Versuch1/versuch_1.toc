@@ -1,9 +1,0 @@
-\babel@toc {ngerman}{}\relax 
-\contentsline {section}{\numberline {1}Theorie}{1}{section.1}%
-\contentsline {section}{\numberline {2}Voraufgaben}{2}{section.2}%
-\contentsline {section}{\numberline {3}Versuchsaufbau, -durchführung, Messwerte und Auswertung}{3}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Versuchsaufgabe 1: Differenzierglied}{3}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Versuchsaufgabe 2: Impulse auf Kabeln}{5}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Versuchsaufgabe 3: Leitungsabschluss, Verzögerungszeit}{7}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Versuchsaufgabe 4: Klippkabel, Dämpfung}{13}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Fazit}{16}{section.4}%
