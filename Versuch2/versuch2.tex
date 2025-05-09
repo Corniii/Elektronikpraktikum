@@ -344,7 +344,7 @@ Zunächst soll die Diodenkennlinie der unbekannten Dioden D1 und D2 mittels eine
     \aufbau
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.8\textwidth, draft]{figs/Aufbau_2_2.png}
+        \includegraphics[width=0.8\textwidth]{figs/Aufbau2.png}
         \caption{oberer Teil des Diodenschaltbretts\cite{anleitung}}
         \label{aufbau_2_2}
     \end{figure}
@@ -364,7 +364,7 @@ Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillogr
             \label{a2_1}
         \end{subfigure}
         \hfill
-        \begin{subfigure}[b]{0.8 \textwidth}
+        \begin{subfigure}[b]{0.45 \textwidth}
             \includegraphics[width=\textwidth]{MesswerteVersuch2/m2_2.png}
             \caption{Zener-Diode (ZD)}
             \label{a2_2}
@@ -391,23 +391,111 @@ Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillogr
 
 % == Aufgabe 3 ==
 \begin{aufgabe}{Oszillogramm des Einweggleichrichters}
+    \aufbau
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.8\textwidth]{figs/fig2_10.png}
+        \includegraphics[width=0.8\textwidth]{figs/Aufbau3.png}
         \caption{unterer Teil des Diodenschaltbretts\cite{anleitung}}
-        \label{aufbau_2_3}
+        \label{aufbau3}
     \end{figure}
+    Das Schaltbrett wird auf die Einweggleichrichtung eingestellt. Daran wird eine $\SI{50}{\hertz}$ Wechselspannung eingestellt. Als Verbraucher dient das Oszilloskop, welches die zeitliche Spannungsänderung darstellt. Zum Glätten der gleichgerichteten Spannung werden vier verschiedene Kapazitäten dem Verbraucher parallelgeschaltet.
+    \messwerte
+    \begin{figure}[H]
+        \begin{subfigure}[b]{0.49 \textwidth}
+            \includegraphics[width=\textwidth]{MesswerteVersuch2/DS0003.png}
+            \caption{keine Glättung}
+            \label{a3_a}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.49 \textwidth}
+            \includegraphics[width=\textwidth]{MesswerteVersuch2/DS0004.png}
+            \caption{Glättung mit $C = \SI{2.2}{\micro\farad}$}
+            \label{a3_b}
+        \end{subfigure}
+        \vspace{1em}
+        \begin{subfigure}[b]{0.49 \textwidth}
+            \includegraphics[width=\textwidth]{MesswerteVersuch2/DS0005.png}
+            \caption{Glättung mit $C = \SI{22}{\micro\farad}$}
+            \label{a3_c}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.49 \textwidth}
+            \includegraphics[width=\textwidth]{MesswerteVersuch2/DS0006.png}
+            \caption{Glättung mit $C = \SI{1000}{\micro\farad}$}
+            \label{a3_d}
+        \end{subfigure}
+        \caption{Verschiedene Glättungen eines einweggleichgerichteten Signals}
+    \end{figure}
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|l|l|l|l|}
+            \hline
+            Schaltung & Glättkapazität & mittlere Höhe der Gleichspannung & Brumm-Amplitude  \\
+            \hline
+            a) & $\SI{0}{\micro\farad}$ & $\SI{7.7}{\volt}$ & $\SI{24}{\volt}$ \\
+            b) & $\SI{2.2}{\micro\farad}$ & $\SI{17.6}{\volt}$ & $\SI{12.6}{\volt}$ \\
+            c) & $\SI{22}{\micro\farad}$ & $\SI{22.3}{\volt}$ & $\SI{2.2}{\volt}$ \\
+            d) & $\SI{1000}{\micro\farad}$ & $\SI{22.4}{\volt}$ & $\SI{0.8}{\volt}$ \\
+            \hline
+        \end{tabular}
+        \caption{Brumm- und mittlere Spannung nach Glättung}
+    \end{table}
+    \auswertung
+
 \end{aufgabe}
 
 
 % == Aufgabe 4 ==
 \begin{aufgabe}{Oszillogramm des Zweiweggleichrichters}
+    \aufbau
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.8\textwidth, draft]{figs/Aufbau_2_3.png}
+        \includegraphics[width=0.8\textwidth]{figs/Aufbau4.png}
         \caption{unterer Teil des Diodenschaltbretts\cite{anleitung}}
-        \label{aufbau_2_3}
+        \label{aufbau4}
     \end{figure}
+    \messwerte
+    \begin{figure}[H]
+        \begin{subfigure}[b]{0.49 \textwidth}
+            \includegraphics[width=\textwidth]{MesswerteVersuch2/DS0003.png}
+            \caption{keine Glättung}
+            \label{a3_a}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.49 \textwidth}
+            \includegraphics[width=\textwidth]{MesswerteVersuch2/DS0004.png}
+            \caption{Glättung mit $C = \SI{2.2}{\micro\farad}$}
+            \label{a3_b}
+        \end{subfigure}
+        \vspace{1em}
+        \begin{subfigure}[b]{0.49 \textwidth}
+            \includegraphics[width=\textwidth]{MesswerteVersuch2/DS0005.png}
+            \caption{Glättung mit $C = \SI{22}{\micro\farad}$}
+            \label{a3_c}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.49 \textwidth}
+            \includegraphics[width=\textwidth]{MesswerteVersuch2/DS0006.png}
+            \caption{Glättung mit $C = \SI{1000}{\micro\farad}$}
+            \label{a3_d}
+        \end{subfigure}
+        \caption{Verschiedene Glättungen eines zweiweggleichgerichteten Signals}
+    \end{figure}
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|l|l|l|l|}
+            \hline
+            Schaltung & Glättkapazität & mittlere Höhe der Gleichspannung & Brumm-Amplitude  \\
+            \hline
+            a) & $\SI{0}{\micro\farad}$ & $\SI{15}{\volt}$ & $\SI{24}{\volt}$ \\
+            b) & $\SI{2.2}{\micro\farad}$ & $\SI{21}{\volt}$ & $\SI{6.8}{\volt}$ \\
+            c) & $\SI{22}{\micro\farad}$ & $\SI{23}{\volt}$ & $\SI{1.3}{\volt}$ \\
+            d) & $\SI{1000}{\micro\farad}$ & $\SI{23.1}{\volt}$ & $\SI{1}{\volt}$ \\
+            \hline
+        \end{tabular}
+        \caption{Brumm- und mittlere Spannung nach Glättung}
+    \end{table}
+    \auswertung
 \end{aufgabe}
 
 % == Aufgabe 5 ==
@@ -505,5 +593,10 @@ Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillogr
     \label{dioden_d2_sperr}
 \end{figure}
 
+\clearpage
+% === Abbildungsverzeichnis ===
+\listoffigures
+% === Literaturverzeichnis
+\printbibliography
 
 \end{document}
