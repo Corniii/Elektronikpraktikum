@@ -14,7 +14,6 @@
 **/*.vrb
 **/*.lof
 **/*.lot
-**/*.pdf
 **/.DS_Store
 **/*.bcf
 **/*.run.xml
