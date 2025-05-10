@@ -8,7 +8,8 @@
  \newenvironment{voraufgabe}[1]% environment name
 {% begin code
 	\par\vspace{\baselineskip}\refstepcounter{voraufgabe}\noindent
-	\textbf{\large Voraufgabe \Alph{voraufgabe}:~#1}%\begin{itshape}%
+	\addcontentsline{toc}{subsection}{Voraufgabe \thevoraufgabe}
+  \textbf{\large Voraufgabe \Alph{voraufgabe}:~#1}%\begin{itshape}%
 		\par\vspace{\baselineskip}\noindent\ignorespaces
 	}%
 	{% end code
@@ -30,6 +31,7 @@
 	\textbf{\Large Versuchsaufgabe \theaufgabe:~#1}%\begin{itshape}%
 		\par\vspace{\baselineskip}\noindent\ignorespaces
 		\setcounter{unteraufgabe}{0}%
+  \addcontentsline{toc}{subsection}{Versuchsaufgabe \theaufgabe:~#1}
 	}%
 	{% end code
 	%\end{itshape}\ignorespacesafterend
