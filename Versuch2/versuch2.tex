@@ -66,7 +66,7 @@ In diesem Versuch liegt der Fokus auf Dioden und ihren elektrischen Eigenschafte
 Als erstes werden die Kennlinien verschiedener Dioden aufgezeichnet. 
 Danach wird mit Hilfe eines Gleichrichters eine Wechselspannung in Gleichstrom umgewandelt, 
 was dann unter der Verwendung eines Kondensators noch weiter geglättet wird. 
-Und zuletzt wird analysiert wie eine Zenerdiode die Spannung in einem Stromkreis stabilisieren kann.
+Und zuletzt wird analysiert, wie eine Zenerdiode die Spannung in einem Stromkreis stabilisieren kann.
 
 % === Theorie ====
 \section{Theorie}
@@ -112,14 +112,13 @@ Und zuletzt wird analysiert wie eine Zenerdiode die Spannung in einem Stromkreis
         \label{fig:Abb2.2}
     \end{figure}
 
-\section{Zenerdiode}
+    \subsection{Zenerdiode}
 
-Die Zenerdiode ist eine spezielle Diode, die gezielt im Durchbrchbereich betrieben werden kann. 
+Die Zenerdiode ist eine spezielle Diode, die gezielt im Durchbruchbereich in Sperrrichtung betrieben werden kann. 
 Hierdurch kann sie benutzt werden, um Spannungen einzugrenzen und zu stabilisieren. 
 
     \subsection{Gleichrichter}
-    Die grundlegende Eigenschaft einer Diode kann verwendet werden, um eine Wechselspannung in eine Gleichspannung umzuwandeln. Am einfachsten geschieht dies durch in-Reihe-Schalten einer Diode, sodass nur Spannungen einer Richtung auftauchen (vgl. \ref{fig:Abb2.4mod} a)). Nachteil daran ist, dass dann mit der Frequenz der Wechselspannnung negative Spannungen, welche durch die Diode annuliert werden, vorliegen. Um dies zu vermeiden, wird ein Zweiweggleichrichter verwendet (vgl. \ref{fig:Abb2.4mod} a)).
-    - die Diodenkennlinie \ref{fig:Abb2.2}:
+    Die grundlegende Eigenschaft einer Diode kann verwendet werden, um eine Wechselspannung in eine Gleichspannung umzuwandeln. Am einfachsten geschieht dies durch in-Reihe-Schalten einer Diode, sodass nur Spannungen einer Richtung auftauchen (vgl. \ref{fig:Abb2.4mod} a)). Nachteil daran ist, dass dann mit der Frequenz der Wechselspannnung negative Spannungen, welche durch die Diode annuliert werden, vorliegen. Um dies zu vermeiden, wird ein Zweiweggleichrichter verwendet (vgl. \ref{fig:Abb2.4mod} b)).
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{figs/fig2_4mod.png}
@@ -366,7 +365,7 @@ Zunächst soll die Diodenkennlinie der unbekannten Dioden D1 und D2 mittels eine
     \label{tab:D1sperr}
     \end{table}
 
-    Nun bringt man die 2 Tabellen zusammen und erstellt man damit eine graphische Darstellung, wobei $5\%$ der ausgemessenen Werte
+    Nun bringt man die beiden Tabellen zusammen und erstellt man damit eine graphische Darstellung, wobei $5\%$ der ausgemessenen Werte als Messungenauigkeit
     gewählt wird. Die Rest der Tabellen sowie Abbildungen für den Schottky-Diode
      sind im Anhang zu finden. 
      \begin{figure}[H]
@@ -549,7 +548,7 @@ Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillogr
         \caption{Brumm- und mittlere Spannung nach Glättung}
     \end{table}
     \auswertung
-    Qualitativ verhalten sich die Glättungen gleich zu denen der Einweggleichrichtung. Im Fall ohne Glättkapazität wird allerdings die mittlere Höhe der Gleichspannung verdoppelt, da hier doppelt so viele Peaks durch die Zweigweggleichrichtung entstehen: $\frac{\SI{15}{\volt}}{\SI{7.7}{\volt}} \approx 2$. Die Brummamplitude ist für jede Kapazität innerhalb einer Messungenauigkeit von $\SI{0.5}{\volt}$ kleiner als die bei der Einweggleichrichtung, was dadurch erklärt werden kann, dass die Spannung im Fall der Zweigweggleichrichtung schon "glatter" ist. Bei der stärksten Glättung ist dieser Unterschied allerdings fast schon vernachlässigbar bzw. gar nicht vorhanden, da die Glättung insgesamt stark genug ist. 
+    Qualitativ verhalten sich die Glättungen gleich zu denen der Einweggleichrichtung. Im Fall ohne Glättkapazität wird allerdings die mittlere Höhe der Gleichspannung verdoppelt, da hier doppelt so viele Peaks durch die Zweigweggleichrichtung entstehen: $\frac{\SI{15}{\volt}}{\SI{7.7}{\volt}} \approx 2$. Die Brummamplitude ist für jede Kapazität innerhalb einer Messungenauigkeit von $\SI{0.5}{\volt}$ kleiner als die bei der Einweggleichrichtung, was dadurch erklärt werden kann, dass die Spannung im Fall der Zweigweggleichrichtung schon \glqq glatter\grqq\ ist. Bei der stärksten Glättung ist dieser Unterschied allerdings fast schon vernachlässigbar bzw. gar nicht vorhanden, da die Glättung insgesamt stark genug ist. 
 
     Zusammenfassend lässt sich sagen, dass der Zweiweggleichrichter für geringe Glättkapazitäten besser glättet, als der Einweggleichrichter, dieser Effekt aber mit zunehmenden Kapazitäten abklingt. Im Zweigwegefall sind vier Dioden nötig, bei Einweggleichrichtung reicht eine einzige, also muss für die Bevorzugung einer der Methoden die Kosten der Dioden im Verhältnis zu größeren Kapazitäten untersucht werden.
 
@@ -558,7 +557,7 @@ Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillogr
 % == Aufgabe 5 ==
 
 \begin{aufgabe}{Stabilisierung mit Zenerdiode}
-    
+    \aufbau
 
 \begin{figure}[H]
              \centering
@@ -567,18 +566,18 @@ Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillogr
              \label{fig:Zenerdiode}
          \end{figure}
 
-Dann wurde das Verhalten von Spannungsstabilisierung durch eine Zenerdiode weiter untersucht. Hierzu wurde die Schaltung 
-\autoref{fig:Zenerdiode} aufgebaut, um eine Einweggleichrichter zu erzeugen. Die Spannung wurde zusätzlich mit einem Kondensator
- mit $C= \SI{22}{\micro \farad}$ geglättet. Dieses hat dazu beigetragen, dass statt der positiven Halbwelle des Sinussignals, die 
+Dann wird das Verhalten von Spannungsstabilisierung durch eine Zenerdiode weiter untersucht. Hierzu wird die Schaltung 
+\autoref{fig:Zenerdiode} aufgebaut, um eine Einweggleichrichter zu erzeugen. Die Spannung wird zusätzlich mit einem Kondensator
+ mit $C= \SI{22}{\micro \farad}$ geglättet. Dieses trägt dazu bei, dass, statt der positiven Halbwelle des Sinussignals, die 
  Spannung langsamer abnimmt und es einen sägezahnförmigen Verlauf ergibt, wie in \autoref{Aufgabe3} schon betrachtet 
  und erklärt.
-Der Lastwiderstand $R= \SI{150}{\ohm}$ wurde anhand der Voraufgabe K gewählt, da diese im errechneten Wertebereich 
-liegt(\autoref{VoraufgabeK}). Dann wurden die aufgebauten Schaltungen untersucht, indem die Spannung und Stromstärke am 
-Lastwiderstand $R_L$ gemessen wurden, indem mit einem Potentiometer der Lastwiderstand verändert wurde. Beim Aufbau ohne 
-der Zenerdiode wurde zusätzlich die Brummspannung aufgenommen, indem vom Oszillographen der peakpeak-Spannung abgelesen wurde. 
-Die angegebenen Messunsicherheiten aus \autoref{tab:Lastwiderstand_mit_Fehlern} und \autoref{tab:Stabilisierung_mit_Fehlern} wurden 
+Der Lastwiderstand $R= \SI{150}{\ohm}$ wird anhand der Voraufgabe K gewählt, da diese im errechneten Wertebereich 
+liegt(\autoref{VoraufgabeK}). Dann werden die aufgebauten Schaltungen untersucht, indem die Spannung und Stromstärke am 
+Lastwiderstand $R_L$ gemessen werden, indem mit einem Potentiometer der Lastwiderstand verändert wird. Beim Aufbau ohne 
+die Zenerdiode wird zusätzlich die Brummspannung aufgenommen, indem vom Oszillographen der peakpeak-Spannung abgelesen wird. 
+Die angegebenen Messunsicherheiten aus \autoref{tab:Lastwiderstand_mit_Fehlern} und \autoref{tab:Stabilisierung_mit_Fehlern} werden 
 basierend auf die Genauigkeit des Multimeters bestimmt. \cite{m2005-multimeter}
-
+\messwerte
 \begin{table}[h!]
 \centering
 \begin{tabular}{|c|c|c|c|c|c|}
@@ -633,8 +632,8 @@ basierend auf die Genauigkeit des Multimeters bestimmt. \cite{m2005-multimeter}
              \label{fig:Stabilisierung}
          \end{figure}
          
-         
-Am \autoref{fig:Stabilisierung} kann man nun die Kennlinien von Widerständen mit und ohne Stabilisierung gut erkennen. Zunächst gibt es einen linearen Zusammenhang zwischen $U$ und $I$ ohne Stabilisierung. Dieses war aus dem ohmschen Gesetz $U= R \cdot I$ zu erwarten und bestätigt die richtige Aufnahme der Daten. Mit der Zenerdiode, kann man erkennen, dass die Spannung für kleine Ströme stabilisiert. Dieses erkennt man daran, dass es einen Knick im Graphen gibt und die Spannung im Intervall $[\SI{0}{\milli \ampere}, \SI{30}{\milli \ampere}]$ zwischen $\SI{8.5}{\volt}$ und $\SI{5}{\volt}$ bleibt. Diese Stabilisierung wurde durch die Zenerdiode erreicht. Sie wurde in Sperrrichtung betrieben und lass nur kleinere vom Widerstand unabhängige Ströme hindurch, weshalb der Betrag der Spannung über einen Bereich nur wenig Veränderung aufweist. Nach dem Ohmschen Gesetz kann nun bestimmt werden, aber welcher Lastspannung die Stabilisierung erfolgt. Hierzu wird aus dem Graphen der Knickpunkt bei $U' = \SI{5\pm 1}{\volt}$ und $I = \SI{30 \pm 2}{\milli \ampere}$ verwendet.
+\auswertung
+Am \autoref{fig:Stabilisierung} kann man nun die Kennlinien von Widerständen mit und ohne Stabilisierung gut erkennen. Zunächst gibt es einen linearen Zusammenhang zwischen $U$ und $I$ ohne Stabilisierung. Dieses ist aus dem ohmschen Gesetz $U= R \cdot I$ zu erwarten und bestätigt die richtige Aufnahme der Daten. Mit der Zenerdiode kann man erkennen, dass sich die Spannung für kleine Ströme stabilisiert. Dies erkennt man daran, dass es einen Knick im Graphen gibt und die Spannung im Intervall $[\SI{0}{\milli\ampere}, \SI{30}{\milli\ampere}]$ zwischen $\SI{8.5}{\volt}$ und $\SI{5}{\volt}$ bleibt. Diese Stabilisierung wird durch die Zenerdiode erreicht. Sie wird in Sperrrichtung betrieben und lässt nur kleinere, vom Widerstand unabhängige Ströme hindurch, weshalb der Betrag der Spannung über einen Bereich nur wenig Veränderung aufweist. Nach dem Ohmschen Gesetz kann nun bestimmt werden, ab welcher Lastspannung die Stabilisierung erfolgt. Hierzu wird aus dem Graphen der Knickpunkt bei $U' = \SI{5 +- 1}{\volt}$ und $I = \SI{30 +- 2}{\milli \ampere}$ verwendet.
 
 \begin{align}
     R_L &= \frac{U'}{I} = \frac{\SI{5}{\volt}}{\SI{30}{\milli \ampere}} \approx \SI{166.7}{\ohm} \\
@@ -642,7 +641,7 @@ Am \autoref{fig:Stabilisierung} kann man nun die Kennlinien von Widerständen mi
 \end{align}
 
 
-Die Stabilisierung wirkt also ab einem Lastwiderstand von $R_L = \SI{166.7\pm 35.1}{\ohm}$. In der Voraufgabe K wurde der Arbeitswiderstand bestimmt, damit die Stabilisierung für den Lastwiderstand von $R_L > \SI{200}{\ohm}$ erfolgt. Der berechnete Wert schließt diesen mit seiner Unsicherheit ein. Ohne der Betrachtung der Unsicherheit gibt es eine totale Abweichung von etwa $17\%$. Diese größere Abweichung entstand, da man aus dem Graphen schwierig einen genauen Knickpunkt ablesen konnte, weshalb die Unsicherheiten auch so groß gewählt wurden. Außerdem kann es bei der Messung auch durch weitere Messunsicherheiten gekommen sein, da in der Realität systematische Fehler der Geräte und Schaltungen eine Rolle spielen.
+Die Stabilisierung wirkt also ab einem Lastwiderstand von $R_L = \SI{166.7 +- 35.1}{\ohm}$. In der Voraufgabe K ist der Arbeitswiderstand bestimmt, damit die Stabilisierung für den Lastwiderstand von $R_L > \SI{200}{\ohm}$ erfolgt. Der berechnete Wert schließt diesen mit seiner Unsicherheit ein. Ohne die Betrachtung der Unsicherheit gibt es eine totale Abweichung von etwa $17\%$. Diese größere Abweichung entsteht, da man aus dem Graphen schwierig einen genauen Knickpunkt ablesen kann, weshalb die Unsicherheiten auch so groß gewählt werden müssen. Außerdem können die Messungen auch ungenau sein, da in der Realität systematische Fehler der Geräte und Schaltungen eine Rolle spielen.
 
 
 \begin{figure}[h!]
@@ -675,7 +674,7 @@ Die Stabilisierung wirkt also ab einem Lastwiderstand von $R_L = \SI{166.7\pm 35
     \label{fig:StabBrumm}
 \end{figure}
 
-In \autoref{fig:StabBrumm} kann man den Unterschied zwischen einer Glättung und einer Glättung mit zusätzlicher Stabilisierung erkennen. Anhand der \autoref{fig:StabBrumm} und sowie der letzten Spalte \autoref{tab:Lastwiderstand_mit_Fehlern}, kann man erkennen, dass die Glättung mit zunehmender Lastwiderstand auch steigt. Dieses war zu erwarten, da die Aufladezeit des Kondensators proportional zum Widerstand ist $\tau = R \cdot C$. Bei der Stabilisierung kann man erkennen, dass diese Dazu führt, dass die Brummspannung auch geringer wird. Dieses führt zu einer stärkeren Glättung.
+In \autoref{fig:StabBrumm} kann man den Unterschied zwischen einer Glättung und einer Glättung mit zusätzlicher Stabilisierung erkennen. Anhand der \autoref{fig:StabBrumm} und sowie der letzten Spalte \autoref{tab:Lastwiderstand_mit_Fehlern} kann man erkennen, dass die Glättung mit zunehmendem Lastwiderstand auch steigt. Dies war zu erwarten, da die Aufladezeit des Kondensators proportional zum Widerstand ist: $\tau = R \cdot C$. Bei der Stabilisierung kann man erkennen, dass diese dazu führt, dass die Brummspannung auch geringer wird. Dies führt zu einer stärkeren Glättung.
 
 \end{aufgabe}
 
@@ -685,13 +684,13 @@ In \autoref{fig:StabBrumm} kann man den Unterschied zwischen einer Glättung und
 % === Fazit ===
 \section{Fazit}
 In diesem Versuch wurden Dioden und ihre Gebrauchsweisen in Stromkreisen als Gleichrichter und als Stabilisierer untersucht. 
-Zunächst wurden hierfür Kennlinien einer Siliziumdiode und einer Schottky-Diode vermessen. Dabei konnte die Durchlassspannung von ?? gemsessen werden, 
-welches mit dem tehoretischen Wert gut/schlecht?? übereinstimmt. Die Durchlassspannung der Schottky-diode wurde auf ?? ermittelt, welches auch gut/shclecht ?? mit dem theoretischen Wert übereinstimmte. 
-Hiernach wurden Kennlinien der Silizium-, Schottky, und der Zenerdiode vermessen und auf dem Oszillosgraphen dargestellt. Diese wurden mit den Literaturwerten verglichen und hatten eine Abweichung ??. 
-Dann wurde ein Gleichstrom mit unterschiedlichen Gleichrichtern hergestellt. Zunächst wurde untersucht, wie ein Kondensator die Spannung glättet und festgestellt, dass höhere Kapazitäten eine höhere Glättung bewirken. 
+Zunächst wurden hierfür Kennlinien einer Siliziumdiode und einer Schottky-Diode vermessen. Dabei konnte die Durchlassspannung der Siliziumdiode von $\SI{0.7 +- 0.06}{\volt}$ gemsessen werden, 
+welche mit dem theoretischen Wert sehr genau übereinstimmt. Die Durchlassspannung der Schottky-Diode wurde auf $\SI{0.18 +- 0.06}{\volt}$ ermittelt, was auch gut mit dem theoretischen Wert übereinstimmte. 
+Hiernach wurden Kennlinien der Silizium-, Schottky, und der Zenerdiode vermessen und auf dem Oszillosgraphen dargestellt. Diese wurden miteinander verglichen und hatten die theoretisch ermittelte Ordnung, nämlich, dass die Durchlassspannung der Siliziumdiode die der Schottkydiode übersteigt. Auch die Durchlass- und Zenerspannung sind mit den Literaturwerten im Einklang.
+Dann wurde ein Gleichstrom mit unterschiedlichen Gleichrichtern hergestellt. Zunächst wurde untersucht, wie ein Kondensator die Spannung glättet und festgestellt, dass höhere Kapazitäten eine höhere Glättung bewirken. Außerdem sorgte die Zweiweggleichrichtung für ein gleichgerichteteres Signal für niedrige Kapazitäten, als die Einweggleichrichtung
 Zuletzt wurde noch ein Gleichstrom mit einer Zenerdiode hergestellt und unterucht, wie dieser die Spannung stabiliert. 
 Die Messergebnisse bestätigen die Spannungsstabilisierung durch die Zenerdiode im Bereich kleiner Ströme. 
-Der ermittelte Lastwiderstand von \( R_L = (166{,}7 \pm 35{,}1)\,\Omega \) liegt im erwarteten Bereich. 
+Der ermittelte Lastwiderstand von \( R_L = (166{,}7 \pm 35{,}1)\,\Omega \) lag im erwarteten Bereich. 
 Die Stabilisierung reduzierte zudem die Brummspannung.
 
 % === Anhang ===%
