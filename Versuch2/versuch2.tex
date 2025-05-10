@@ -348,7 +348,7 @@ Zunächst soll die Diodenkennlinie der unbekannten Dioden D1 und D2 mittels eine
         \caption{oberer Teil des Diodenschaltbretts\cite{anleitung}}
         \label{aufbau_2_2}
     \end{figure}
-Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillographens. Hierfür wird der Strom gemäß Voraufgabe~G~(\ref{G}) in eine Spannung umgewandelt und dann im Oszillographen im x-y-Modus gegen die anliegende Spannung aufgetragen.
+Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillographens. Hierfür wird der Strom gemäß Voraufgabe~G~(\ref{G}) in eine Spannung umgewandelt und dann im Oszillographen im x-y-Modus gegen die anliegende Spannung aufgetragen. Außerdem wird das Bild auf dem Oszilloskop zentriert, indem bei einer sehr geringen Amplitude des Signalgenerators ein Punkt entsteht, der mit den Offsets des Oszillographen auf den Ursprung verschoben wird.
     \messwerte 
     \begin{figure}[H]
         \centering
@@ -388,7 +388,7 @@ Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillogr
     \end{equation*}
     
 \end{aufgabe}
-
+\clearpage
 % == Aufgabe 3 ==
 \begin{aufgabe}{Oszillogramm des Einweggleichrichters}
     \aufbau
@@ -425,7 +425,9 @@ Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillogr
             \label{a3_d}
         \end{subfigure}
         \caption{Verschiedene Glättungen eines einweggleichgerichteten Signals}
+        \label{a3}
     \end{figure}
+    Die mittlere Höhe der Gleichspannung und die Brumm-Amplitude werden dem Oszillographen direkt entnommen:
     \begin{table}[H]
         \centering
         \begin{tabular}{|l|l|l|l|}
@@ -441,10 +443,12 @@ Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillogr
         \caption{Brumm- und mittlere Spannung nach Glättung}
     \end{table}
     \auswertung
+    In den Grafiken~\ref{a3} kann man die Änderung des Signals für verschiedene Kapazitäten erkennen. In \ref{a3_a} ist keine Kapazität zum Glätten zwischengeschaltet, also ist das in \ref{figI} theoretisch bestimmte Bild ersichtlich. Die Brummspannung ist hier maximal und entspricht gerade der Amplitude von $\SI{24}{\volt}$. Der Mittelwert liegt deutlich unter der Amplitude, er sollte in der Theorie $\frac{\sqrt{2}}{4} U_\mathrm{Amplitude}$ entsprechen, was mit $\frac{\sqrt{2}}{4} \SI{24}{\volt} \approx \SI{8.5}{\volt}$ im Vergleich zum gemessenen Wert $\SI{7.7}{\volt}$ grob der Fall ist.
 
+    Beim Einschalten der Kapazitäten lässt sich eine immer stärkere Glättung feststellen, einerseits in der Kurve, die immer glatter wird, andererseits in der kleiner werdenden Brumm-Amlplitude und im Steigen der mittleren Höhe der Gleichspannung.
 \end{aufgabe}
 
-
+\clearpage
 % == Aufgabe 4 ==
 \begin{aufgabe}{Oszillogramm des Zweiweggleichrichters}
     \aufbau
@@ -454,6 +458,7 @@ Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillogr
         \caption{unterer Teil des Diodenschaltbretts\cite{anleitung}}
         \label{aufbau4}
     \end{figure}
+    Es wird genauso vorgegangen, wie im Einweggleichrichtungsversuchsteil, nur wird der rückläufige Gleichrichtungsweg eingeschaltet.
     \messwerte
     \begin{figure}[H]
         \begin{subfigure}[b]{0.49 \textwidth}
@@ -496,8 +501,12 @@ Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillogr
         \caption{Brumm- und mittlere Spannung nach Glättung}
     \end{table}
     \auswertung
-\end{aufgabe}
+    Qualitativ verhalten sich die Glättungen gleich zu denen der Einweggleichrichtung. Im Fall ohne Glättkapazität wird allerdings die mittlere Höhe der Gleichspannung verdoppelt, da hier doppelt so viele Peaks durch die Zweigweggleichrichtung entstehen: $\frac{\SI{15}{\volt}}{\SI{7.7}{\volt}} \approx 2$. Die Brummamplitude ist für jede Kapazität innerhalb einer Messungenauigkeit von $\SI{0.5}{\volt}$ kleiner als die bei der Einweggleichrichtung, was dadurch erklärt werden kann, dass die Spannung im Fall der Zweigweggleichrichtung schon "glatter" ist. Bei der stärksten Glättung ist dieser Unterschied allerdings fast schon vernachlässigbar bzw. gar nicht vorhanden, da die Glättung insgesamt stark genug ist. 
 
+    Zusammenfassend lässt sich sagen, dass der Zweiweggleichrichter für geringe Glättkapazitäten besser glättet, als der Einweggleichrichter, dieser Effekt aber mit zunehmenden Kapazitäten abklingt. Im Zweigwegefall sind vier Dioden nötig, bei Einweggleichrichtung reicht eine einzige, also muss für die Bevorzugung einer der Methoden die Kosten der Dioden im Verhältnis zu größeren Kapazitäten untersucht werden.
+
+\end{aufgabe}
+\clearpage
 % == Aufgabe 5 ==
 \begin{aufgabe}{Oszillogramm des Einweggleichrichters}
     \begin{figure}[H]
