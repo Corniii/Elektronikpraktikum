@@ -248,7 +248,8 @@ Also:
         I_\mathrm{Z,min} &= I_\mathrm{R}-I_\mathrm{L} \\
         &= \frac{U_\mathrm{0,min}-U_\mathrm{Z}}{R}-\frac{U_\mathrm{Z}}{R_\mathrm{L,min}} \\
         \Rightarrow R &< \frac{U_\mathrm{0,min}-U_\mathrm{Z}}{I_\mathrm{Z,min}+\frac{U_\mathrm{Z}}{R_\mathrm{L,min}}} = \SI{181}{\ohm}
-    \end{align*}    
+    \end{align*} 
+    \label{VoraufgabeK}   
 \end{voraufgabe}
 
 
@@ -391,6 +392,7 @@ Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillogr
 \clearpage
 % == Aufgabe 3 ==
 \begin{aufgabe}{Oszillogramm des Einweggleichrichters}
+    \label{Aufgabe3}
     \aufbau
     \begin{figure}[H]
         \centering
@@ -508,18 +510,135 @@ Nun soll die Messung nicht mehr analog erfolgen, sondern mittels eines Oszillogr
 \end{aufgabe}
 \clearpage
 % == Aufgabe 5 ==
-\begin{aufgabe}{Oszillogramm des Einweggleichrichters}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.8\textwidth]{figs/fig2_11.png}
-        \caption{Spannungsstabilisierung mittels Zenerdiode~\cite{anleitung}}
-        \label{aufbau_2_3}
-    \end{figure}
-\end{aufgabe}
+\section{Stabilisierung mit Zenerdiode}
+
+\begin{figure}[H]
+             \centering
+             \includegraphics[width=0.8\textwidth]{figs/fig2_11.png}
+             \caption{Spannungsstabilisierung ohne/mit Zenerdiode \cite{anleitung}}
+             \label{fig:Zenerdiode}
+         \end{figure}
+
+Dann wurde das Verhalten von Spannungsstabilisierung durch eine Zenerdiode weiter untersucht. Hierzu wurde die Schaltung 
+\autoref{fig:Zenerdiode} aufgebaut, um eine Einweggleichrichter zu erzeugen. Die Spannung wurde zusätzlich mit einem Kondensator
+ mit $C= \SI{22}{\micro \farad}$ geglättet. Dieses hat dazu beigetragen, dass statt der positiven Halbwelle des Sinussignals, die 
+ Spannung langsamer abnimmt und es einen sägezahnförmigen Verlauf ergibt, wie in \autoref{Aufgabe3} schon betrachtet 
+ und erklärt.
+Der Lastwiderstand $R= \SI{150}{\ohm}$ wurde anhand der Voraufgabe K gewählt, da diese im errechneten Wertebereich 
+liegt(\autoref{VoraufgabeK}). Dann wurden die aufgebauten Schaltungen untersucht, indem die Spannung und Stromstärke am 
+Lastwiderstand $R_L$ gemessen wurden, indem mit einem Potentiometer der Lastwiderstand verändert wurde. Beim Aufbau ohne 
+der Zenerdiode wurde zusätzlich die Brummspannung aufgenommen, indem vom Oszillographen der peakpeak-Spannung abgelesen wurde. 
+Die angegebenen Messunsicherheiten aus \autoref{tab:Lastwiderstand_mit_Fehlern} und \autoref{tab:Stabilisierung_mit_Fehlern} wurden 
+basierend auf die Genauigkeit des Multimeters bestimmt. \cite{m2005-multimeter}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{$U'$ [V]} & \textbf{$\Delta U'$ [V]} & \textbf{$I$ [$m$A]} & \textbf{$\Delta I$ [$m$A]} & \textbf{$V_\text{Brumm}$ [V]} & \textbf{$\Delta V_\text{Brumm}$ [V]} \\
+\hline
+0.022 & 0.001 & 44.3 & 0.5 & 1.2 & 0.1 \\
+1.642 & 0.009 & 39.9 & 0.4 & 4.4 & 0.1 \\
+5.120 & 0.026 & 31.9 & 0.3 & 8.8 & 0.1 \\
+7.050 & 0.036 & 28.1 & 0.3 & 10.3 & 0.1 \\
+9.060 & 0.046 & 24.3 & 0.3 & 10.6 & 0.1 \\
+11.390 & 0.058 & 20.1 & 0.2 & 10.2 & 0.1 \\
+13.980 & 0.071 & 15.4 & 0.2 & 9.2 & 0.1 \\
+16.920 & 0.086 & 10.4 & 0.1 & 6.8 & 0.1 \\
+19.940 & 0.101 & 5.3 & 0.1 & 4.0 & 0.1 \\
+21.940 & 0.111 & 2.2 & 0.0 & 2.2 & 0.1 \\
+\hline
+\end{tabular}
+\caption{Messwerte ohne Stabilisierung mit Lastwiderstand (aktualisierte Unsicherheiten)}
+\label{tab:Lastwiderstand_mit_Fehlern}
+\end{table}
+
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{$U'$ [V]} & \textbf{$\Delta U'$ [V]} & \textbf{$I$ [$m$A]} & \textbf{$\Delta I$ [$m$A]} \\
+\hline
+0.021 & 0.001 & 44.0 & 0.5 \\
+2.456 & 0.013 & 37.6 & 0.4 \\
+4.690 & 0.024 & 30.8 & 0.3 \\
+5.200 & 0.027 & 27.9 & 0.3 \\
+6.170 & 0.032 & 21.7 & 0.2 \\
+6.980 & 0.036 & 16.0 & 0.2 \\
+7.320 & 0.038 & 13.5 & 0.1 \\
+7.980 & 0.041 & 7.9 & 0.1 \\
+8.250 & 0.042 & 4.8 & 0.1 \\
+8.410 & 0.043 & 0.8 & 0.0 \\
+\hline
+\end{tabular}
+\caption{Messwerte mit Stabilisierung und Lastwiderstand (aktualisierte Unsicherheiten)}
+\label{tab:Stabilisierung_mit_Fehlern}
+\end{table}
+
+
+\begin{figure}[H]
+             \centering
+             \includegraphics[width=0.8\textwidth]{figs/2.5.png}
+             \caption{Kennlinie mit und ohne Stabilisierung einer Zenerdiode. Unsicherheiten sind eingetragen, treten im Graphen nicht auf, wenn sie zu klein zum Abbilden sind.}
+             \label{fig:Stabilisierung}
+         \end{figure}
+         
+         
+Am \autoref{fig:Stabilisierung} kann man nun die Kennlinien von Widerständen mit und ohne Stabilisierung gut erkennen. Zunächst gibt es einen linearen Zusammenhang zwischen $U$ und $I$ ohne Stabilisierung. Dieses war aus dem ohmschen Gesetz $U= R \cdot I$ zu erwarten und bestätigt die richtige Aufnahme der Daten. Mit der Zenerdiode, kann man erkennen, dass die Spannung für kleine Ströme stabilisiert. Dieses erkennt man daran, dass es einen Knick im Graphen gibt und die Spannung im Intervall $[\SI{0}{\milli \ampere}, \SI{30}{\milli \ampere}]$ zwischen $\SI{8.5}{\volt}$ und $\SI{5}{\volt}$ bleibt. Diese Stabilisierung wurde durch die Zenerdiode erreicht. Sie wurde in Sperrrichtung betrieben und lass nur kleinere vom Widerstand unabhängige Ströme hindurch, weshalb der Betrag der Spannung über einen Bereich nur wenig Veränderung aufweist. Nach dem Ohmschen Gesetz kann nun bestimmt werden, aber welcher Lastspannung die Stabilisierung erfolgt. Hierzu wird aus dem Graphen der Knickpunkt bei $U' = \SI{5\pm 1}{\volt}$ und $I = \SI{30 \pm 2}{\milli \ampere}$ verwendet.
+
+\begin{align}
+    R_L &= \frac{U'}{I} = \frac{\SI{5}{\volt}}{\SI{30}{\milli \ampere}} \approx \SI{166.7}{\ohm} \\
+    \Delta R_L &= \sqrt{\left( \frac{\Delta U'}{I}\right)^2 + \left( \frac{\Delta I \cdot U'}{I^2}\right)^2} \approx \SI{35.1}{\ohm}
+\end{align}
+
+
+Die Stabilisierung wirkt also ab einem Lastwiderstand von $R_L = \SI{166.7\pm 35.1}{\ohm}$. In der Voraufgabe K wurde der Arbeitswiderstand bestimmt, damit die Stabilisierung für den Lastwiderstand von $R_L > \SI{200}{\ohm}$ erfolgt. Der berechnete Wert schließt diesen mit seiner Unsicherheit ein. Ohne der Betrachtung der Unsicherheit gibt es eine totale Abweichung von etwa $17\%$. Diese größere Abweichung entstand, da man aus dem Graphen schwierig einen genauen Knickpunkt ablesen konnte, weshalb die Unsicherheiten auch so groß gewählt wurden. Außerdem kann es bei der Messung auch durch weitere Messunsicherheiten gekommen sein, da in der Realität systematische Fehler der Geräte und Schaltungen eine Rolle spielen.
+
+
+\begin{figure}[h!]
+    \centering
+    % Erste Reihe
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{MesswerteVersuch2/DS0014.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{MesswerteVersuch2/DS0017.png}
+      
+    \end{subfigure}
+
+    \vspace{0.5cm} % Abstand zwischen den Zeilen
+
+    % Zweite Reihe
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{MesswerteVersuch2/DS0013.png}
+          \caption{Ohne Stabilisierung}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{MesswerteVersuch2/DS0016.png}
+        \caption{Mit Stabilisierung}
+    \end{subfigure}
+
+
+    \caption{Darstellung der Glättung und Brummspannung bei unterschiedlichen Laswiderständen.}
+    \label{fig:StabBrumm}
+\end{figure}
+
+In \autoref{fig:StabBrumm} kann man den Unterschied zwischen einer Glättung und einer Glättung mit zusätzlicher Stabilisierung erkennen. Anhand der \autoref{fig:StabBrumm} und sowie der letzten Spalte \autoref{tab:Lastwiderstand_mit_Fehlern}, kann man erkennen, dass die Glättung mit zunehmender Lastwiderstand auch steigt. Dieses war zu erwarten, da die Aufladezeit des Kondensators proportional zum Widerstand ist $\tau = R \cdot C$. Bei der Stabilisierung kann man erkennen, dass diese Dazu führt, dass die Brummspannung auch geringer wird. Dieses führt zu einer stärkeren Glättung.
+
+
+
+
 
 
 % === Fazit ===
 \section{Fazit}
+
+
+
 
 % === Anhang ===%
 \section{Anhang}
