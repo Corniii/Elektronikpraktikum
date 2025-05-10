@@ -310,9 +310,14 @@ Also:
         \caption{oberer Teil des Diodenschaltbretts\cite{anleitung}}
         \label{aufbau_2_1}
     \end{figure}
-Zunächst soll die Diodenkennlinie der unbekannten Dioden D1 und D2 mittels einer statischen Messung ermittelt werden.
- Dafür wird entsprechend der Voraufgabe~F~(\ref{F}) mit Ampère- und Voltmeter gemessen. Die Messwerte werden dann in einer 
- Tabelle aufgelistet, wie zum Beispiel \ref{tab:D1duchlass}, \ref{tab:D1sperr}. 
+    Zunächst wird die Diodenkennlinie der unbekannten Dioden D1 und D2 im Rahmen einer statischen Messung bestimmt. 
+    Hierzu erfolgt die Spannungs- und Strommessung entsprechend dem Messaufbau aus der vorangegangenen Aufgabe~F~(\ref{F}) 
+    unter Verwendung eines Amperemeters und eines Voltmeters. 
+    
+    Die erfassten Messwerte werden anschließend in tabellarischer Form dokumentiert, wie exemplarisch in Tabelle~\ref{tab:D1duchlass} 
+    sowie Tabelle~\ref{tab:D1sperr} dargestellt. Diese Tabellen enthalten die charakteristischen Kennlinien der Dioden in 
+    Durchlass- bzw.\ Sperrrichtung und bilden die Grundlage für die anschließende Auswertung.
+    
 
 \begin{table}[h!]
     \centering
@@ -365,9 +370,12 @@ Zunächst soll die Diodenkennlinie der unbekannten Dioden D1 und D2 mittels eine
     \label{tab:D1sperr}
     \end{table}
 
-    Nun bringt man die beiden Tabellen zusammen und erstellt man damit eine graphische Darstellung, wobei $5\%$ der ausgemessenen Werte als Messungenauigkeit
-    gewählt wird. Die Rest der Tabellen sowie Abbildungen für den Schottky-Diode
-     sind im Anhang zu finden. 
+    Anschließend werden die beiden Messwerttabellen zusammengeführt und in einer graphischen Darstellung visualisiert, 
+wobei jeweils $5\,\%$ der gemessenen Werte als Fehlerabschätzung berücksichtigt werden. 
+
+Die verbleibenden Tabellen sowie weiterführende Abbildungen, insbesondere zur Kennlinie der Schottky-Diode, 
+sind im Anhang aufgeführt.
+
      \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{figs/dioden_d1_combined.png}
@@ -382,7 +390,14 @@ Zunächst soll die Diodenkennlinie der unbekannten Dioden D1 und D2 mittels eine
         \label{dioden_d1_combined}
     \end{figure}
 
-    
+    Wie den Abbildungen zu entnehmen ist, unterscheiden sich die Schwellspannungen der beiden Dioden geringfügig. 
+Die Schwellspannung der Siliziumdiode liegt bei etwa $0{,}6\,\mathrm{V}$ und ist damit etwas höher als die 
+der Schottky-Diode, deren Schwellspannung bei rund $0{,}1\,\mathrm{V}$ liegt. 
+
+Ab diesen Werten beginnt der Strom zunächst linear anzusteigen, bevor er im weiteren Verlauf 
+einen exponentiellen Verlauf zeigt. Dieser Effekt lässt sich dadurch erklären, dass der Schaltbrett ein 
+integrierter Widerstand hat. 
+
 \end{aufgabe}
 \newpage 
 % == Aufgabe 2 ==
@@ -693,6 +708,7 @@ Die Messergebnisse bestätigen die Spannungsstabilisierung durch die Zenerdiode 
 Der ermittelte Lastwiderstand von \( R_L = (166{,}7 \pm 35{,}1)\,\Omega \) lag im erwarteten Bereich. 
 Die Stabilisierung reduzierte zudem die Brummspannung.
 
+\newpage
 % === Anhang ===%
 \section{Anhang}
 
