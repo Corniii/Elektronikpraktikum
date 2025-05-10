@@ -60,16 +60,35 @@
 % === Einleitung ===
 \section{Einleitung}
 
+In diesem Versuch liegt der Fokus auf Dioden und ihren elektrischen Eigenschaften. 
+Als erstes werden die Kennlinien verschiedener Dioden aufgezeichnet. 
+Danach wird mit Hilfe eines Gleichrichters eine Wechselspannung in Gleichstrom umgewandelt, 
+was dann unter der Verwendung eines Kondensators noch weiter geglättet wird. 
+Und zuletzt wird analysiert wie eine Zenerdiode die Spannung in einem Stromkreis stabilisieren kann.
+
 % === Theorie ====
 \section{Theorie}
     \subsection{Halbleiter und Dotierung}
-    Halbleiter sind im allgemeinsten Falle Stoffe, die sich unter verschiedenen Umständen wie Leiter oder aber wie Nichtleiter verhalten. Dies liegt an der geringen Anzahl an vorhandenen Ladungsträgern, welche man durch gezielte Verunreinigung des Stoffes (sogennante Dotierung) explizit beeinflussen kann. 
+    Halbleiter besitzen eine elektrische Leitfähigkeit, die zwischen der von Metallen und Isolatoren
+    liegt. Sie kann gezielt durch Anlegen einer Spannung oder Erhöhung der Temperatur beeinflusst
+    werden. Dieses lässt sich mit dem Bändermodell erklären. Das Bändermodell besagt, dass man
+    Halbleiter als Valenzband und Leitungsband approximieren kann. Zwischen den beiden Gebieten
+    existiert eine Bandlücke mit der Breite der materialabhängigen Gap-Energie. Damit also Strom
+    fließen kann, müssen die Elektronen genug Energie haben, um diese Bandlücke zu passieren.
+    Wie viele Ladungsträger vorhanden sind, kann durch gezielte Verunreinigung des Stoffes (sogennante Dotierung) explizit beeinflussen kann. 
+    Konkret verwendet man häufig Kristalle von Elementen mit vier Valenzelektronen (bspw. Silizium oder Germanium), welche mit Elementen der 
+    dritten bzw. fünften Hauptgruppe verunreinigt, d.h. dotiert werden. Ersteres liefert einen Mangel an freien Elektronen, um die vervollständigte 
+    Kristallstruktur zu erreichen, weshalb diese als p(ositiv)-dotiert gelten. Andersherum sorgen Elemente der fünften Hauptgruppe für einen Elektronenüberschuss,
+     also eine n(egativ)-Dotierung.
 
-    Konkret verwendet man häufig Kristalle von Elementen mit vier Valenzelektronen (bspw. Silizium oder Germanium), welche mit Elementen der dritten bzw. fünften Hauptgruppe verunreinigt, d.h. dotiert werden. Ersteres liefert einen Mangel an freien Elektronen, um die vervollständigte Kristallstruktur zu erreichen, weshalb diese als p(ositiv)-dotiert gelten. Andersherum sorgen Elemente der fünften Hauptgruppe für einen Elektronenüberschuss, also eine n(egativ)-Dotierung.
-
-    Bringt man nun eine p-Dotierte und eine n-Dotierte Schicht zusammen, können Elektronen übergehen. Dadurch entsteht allerdings eine elektrische Kraft, welches der molekularen Bindungskraft entgegen wirkt, es ergibt sich also ein Gleichgewicht von Kräften. In dem Bereich des Kräftegleichgewichts liegen keine freien Ladungsträger vor, da diese vollständig gebunden sind, d.h. diese Schicht ist nichtleitend. Durch ein äußeres elektrisches Feld (Spannung) kann aber das innere elektrische Feld überlagert werden, was, je nach Richtung der Spannung eine Vergrößerung bzw. Verkleinerung des elektrischen Felds zufolge hat. Ab dem Punkt, an welchem sich äußeres und inneres Feld ausgleichen, liegt keine Grenzschicht mehr vor, die Kombination ist also leitend.  
+    Bringt man nun eine p-Dotierte und eine n-Dotierte Schicht zusammen, können Elektronen übergehen. Dadurch entsteht allerdings eine elektrische Kraft, welches der molekularen Bindungskraft entgegen wirkt, 
+    es ergibt sich also ein Gleichgewicht von Kräften. In dem Bereich des Kräftegleichgewichts liegen keine freien Ladungsträger vor, da diese vollständig gebunden sind, 
+    d.h. diese Schicht ist nichtleitend. Durch ein äußeres elektrisches Feld (Spannung) kann aber das innere elektrische Feld überlagert werden, was, je nach Richtung der 
+    Spannung eine Vergrößerung bzw. Verkleinerung des elektrischen Felds zufolge hat. Ab dem Punkt, an welchem sich äußeres und inneres Feld ausgleichen, liegt keine 
+    Grenzschicht mehr vor, die Kombination ist also leitend.  
     \subsection{Diode}
-    Eine Diode ist ein elektronisches Bauelement, welches den Strom in genau einer Richtung durchlässt. Man spricht von Durchlass- und Sperrrichtung Diese wird zumeist mit einem Halbleiter, wie oben beschrieben, umgesetzt.
+    Eine Diode ist ein elektronisches Bauelement, welches den Strom in genau einer Richtung durchlässt. 
+    Man spricht von Durchlass- und Sperrrichtung Diese wird zumeist mit einem Halbleiter, wie oben beschrieben, umgesetzt.
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{figs/fig2_1.png}
@@ -78,13 +97,24 @@
     \end{figure}
 
     \subsection{Realität \& Diodenkennlinien}
-    In der Realität kann eine Diode die idealisierende Bedingung von Durchlass in einer Richtung und Sperrung in der entgegengesetzten nicht erreichen. In Durchlassrichtung muss zunächst die Grenzschicht mittels eines äußeren Felds überwunden werden, danach verhält sich die Diode wie ein Leiter. In der Sperrichtung kann zunächst stets ein kleiner Strom beobachtet werden, da die freien Ladungsträger der n-dotierten Schicht sich an der Kathode befinden, also einfach abfließen können. Die Elektronen fließen dann durch den Halbleiter nach. Wenn die Spannung in Sperrrichtung groß genug wird, durchbricht die Diode, ist zerstört und leitet den Strom ebenfalls. Dadurch kann man die U-I-Beziehung an einer Diode betrachten - die Diodenkennlinie \ref{fig:Abb2.2}:
+    In der Realität kann eine Diode die idealisierende Bedingung von Durchlass in einer Richtung und Sperrung 
+    in der entgegengesetzten nicht erreichen. In Durchlassrichtung muss zunächst die Grenzschicht mittels eines 
+    äußeren Felds überwunden werden, danach verhält sich die Diode wie ein Leiter. In der Sperrichtung kann zunächst stets 
+    ein kleiner Strom beobachtet werden, da die freien Ladungsträger der n-dotierten Schicht sich an der Kathode befinden, also einfach 
+    abfließen können. Die Elektronen fließen dann durch den Halbleiter nach. Wenn die Spannung in Sperrrichtung groß genug wird, durchbricht 
+    die Diode, ist zerstört und leitet den Strom ebenfalls. Dadurch kann man die U-I-Beziehung an einer Diode betrachten - die Diodenkennlinie \ref{fig:Abb2.2}:
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{figs/fig2_2.png}
         \caption{Diodenkennlinie\cite{anleitung}}
         \label{fig:Abb2.2}
     \end{figure}
+
+\section{Zenerdiode}
+
+Die Zenerdiode ist eine spezielle Diode, die gezielt im Durchbrchbereich betrieben werden kann. 
+Hierdurch kann sie benutzt werden, um Spannungen einzugrenzen und zu stabilisieren. 
+
     \subsection{Gleichrichter}
     Die grundlegende Eigenschaft einer Diode kann verwendet werden, um eine Wechselspannung in eine Gleichspannung umzuwandeln. Am einfachsten geschieht dies durch in-Reihe-Schalten einer Diode, sodass nur Spannungen einer Richtung auftauchen (vgl. \ref{fig:Abb2.4mod} a)). Nachteil daran ist, dass dann mit der Frequenz der Wechselspannnung negative Spannungen, welche durch die Diode annuliert werden, vorliegen. Um dies zu vermeiden, wird ein Zweiweggleichrichter verwendet (vgl. \ref{fig:Abb2.4mod} a)).
     - die Diodenkennlinie \ref{fig:Abb2.2}:
@@ -94,6 +124,7 @@
         \caption{Ein- und Zweiweggleichrichter\cite{anleitung}}
         \label{fig:Abb2.4mod}
     \end{figure}
+
     
 
     Auch wenn dies die Spannung gleichrichtet, kommen diverse realistische Effekte zu tragen, welche dafür sorgen, dass keine glatte Gleichspannung entsteht, diese Abweichung wird "Brumm" genannt. Um dies nun auch noch auszuglätten wird parallel zum Verbraucher ein Kondensator angelegt.
@@ -102,11 +133,14 @@
 
 % == A ==
     \begin{voraufgabe}{Was bestimmt die Dicke der Grenzschicht bei einem p-n-Halbleiter?}
-        Die Dicke der Grenzschicht ist abhängig von der Dotierung und dem äußeren elektrischen Feld. Erstere sorgt für die Bereitstellung von Ladungsträgern (Elektronen oder "Löcher"), welche die Grenzschicht bilden und durch das äußere elektrische Feld beeinflusst werden.
+        Die Dicke der Grenzschicht ist erstmal materialabhängig. Trotzdem kann ihre relative Dicke durch die Dotierung und einem äußeren elektrischen Feld beeinflusst werden.
+        Die Dotierung sorgt für die Bereitstellung von Ladungsträgern (Elektronen oder "Löcher"), welche die Grenzschicht bilden und durch das äußere elektrische Feld beeinflusst werden.
     \end{voraufgabe}
 % == B ==
     \begin{voraufgabe}{Wie ändert sich die Kapazität einer Diode im Sperrfall mit der angelegten Spannung?}
-        Im Sperrfall kann die Diode Modellhaft als Plattenkondensator mit dem Sperrband als Dielektrikum modelliert werden. Für die Dicke des Sperrbands $d$, dessen relative elektische Permeabilität $\epsilon_r$ und die Durchschnittsfläche der Diode $A$ gilt:
+        Im Sperrfall kann die Diode Modellhaft als Plattenkondensator mit dem Sperrband als Dielektrikum modelliert werden.
+         Für die Dicke des Sperrbands $d$, dessen relative elektische Permeabilität $\epsilon_r$ und die Durchschnittsfläche 
+         der Diode $A$ gilt:
         \begin{equation}
             C = \epsilon_0 \epsilon_r \frac{A}{d} \propto \frac{1}{\sqrt{U_\mathrm{ext}}}
             \label{Kapazität einer Diode}
@@ -149,13 +183,23 @@
 \end{voraufgabe}
 % == E ==
 \begin{voraufgabe}{Wie muss $C$ dimensioniert sein, um die Welligkeit der Spannung über $R$ möglichst klein zu halten?}
-Je größer die Kapazität $C$, desto länger dauert der Entladevorgang des Kondensators, was eine längere Kompensation des Brummens und somit eine stärkere Stabilisierung der Ausgansspannung zufolge hat.
+Ein Glättungskondensator lädt sich durch die Spitzen des gepulsten Stroms und entlädt sich wenn
+dieser nachlässt. Auf dieser Weise wird der Stromfluss geglättet und der Gleichstrom ist stabiler.
+Die Welligkeit der Ausgangsspannung wird durch die Entladung des Kondensators bestimmt
+Je größer die Kapazität $C$, desto länger dauert der Entladevorgang des Kondensators,
+was eine längere Kompensation des Brummens und somit eine stärkere Stabilisierung der 
+Ausgansspannung zufolge hat.
 
 \end{voraufgabe}
 % == F ==
 \label{F}
 \begin{voraufgabe}{Wie würden Sie Strom- und Spannungsmessgerät zur Messung der Kennlinie in Durchlassrichtung und in Sperrrichtung anordnen? Berückstichtigen Sie die Innenwiderstände der beiden Geräte.}
-Im Allgemeinen müssen Strommessgeräte in Reihe und Spannungsmessgeräte parallelgeschaltet werden. In Sperrichtung hat die Diode einen vergleichsweise hohen Widerstand, welcher für einen geringen Strom durch die Diode sorgt. Dieser sollte möglichst genau gemessen werden, weshalb die Spannungsmessung um die Diode und das Strommessgerät herum erfolgen sollte. Andersherum hat die Diode in Durchlassrichtung einen geringen Widerstand, was für einen hohen Strom sorgt, die Abweichung durch eine Spannungsmessung direkt an der Diode sind also eher gering, also zu bevorzugen.
+Im Allgemeinen müssen Strommessgeräte in Reihe und Spannungsmessgeräte parallelgeschaltet werden. 
+In Sperrichtung hat die Diode einen vergleichsweise hohen Widerstand, welcher für einen geringen 
+Strom durch die Diode sorgt. Dieser sollte möglichst genau gemessen werden, weshalb die Spannungsmessung 
+um die Diode und das Strommessgerät herum erfolgen sollte. Andersherum hat die Diode in Durchlassrichtung 
+einen geringen Widerstand, was für einen hohen Strom sorgt, die Abweichung durch eine Spannungsmessung direkt 
+an der Diode sind also eher gering, also zu bevorzugen.
 
 
 \end{voraufgabe}
@@ -163,7 +207,7 @@ Im Allgemeinen müssen Strommessgeräte in Reihe und Spannungsmessgeräte parall
 \label{G}
 \begin{voraufgabe}{Wie kann man sich eine zu einem Strom proportionale Spannung herstellen?}
     Über einen ohmschen Widerstand fällt die Spannung proportional zur Stromstärke ab.
-    
+     \[U = R \cdot I\]
 
 \end{voraufgabe}
 % == H ==
@@ -638,9 +682,15 @@ In \autoref{fig:StabBrumm} kann man den Unterschied zwischen einer Glättung und
 
 % === Fazit ===
 \section{Fazit}
-
-
-
+In diesem Versuch wurden Dioden und ihre Gebrauchsweisen in Stromkreisen als Gleichrichter und als Stabilisierer untersucht. 
+Zunächst wurden hierfür Kennlinien einer Siliziumdiode und einer Schottky-Diode vermessen. Dabei konnte die Durchlassspannung von ?? gemsessen werden, 
+welches mit dem tehoretischen Wert gut/schlecht?? übereinstimmt. Die Durchlassspannung der Schottky-diode wurde auf ?? ermittelt, welches auch gut/shclecht ?? mit dem theoretischen Wert übereinstimmte. 
+Hiernach wurden Kennlinien der Silizium-, Schottky, und der Zenerdiode vermessen und auf dem Oszillosgraphen dargestellt. Diese wurden mit den Literaturwerten verglichen und hatten eine Abweichung ??. 
+Dann wurde ein Gleichstrom mit unterschiedlichen Gleichrichtern hergestellt. Zunächst wurde untersucht, wie ein Kondensator die Spannung glättet und festgestellt, dass höhere Kapazitäten eine höhere Glättung bewirken. 
+Zuletzt wurde noch ein Gleichstrom mit einer Zenerdiode hergestellt und unterucht, wie dieser die Spannung stabiliert. 
+Die Messergebnisse bestätigen die Spannungsstabilisierung durch die Zenerdiode im Bereich kleiner Ströme. 
+Der ermittelte Lastwiderstand von \( R_L = (166{,}7 \pm 35{,}1)\,\Omega \) liegt im erwarteten Bereich. 
+Die Stabilisierung reduzierte zudem die Brummspannung.
 
 % === Anhang ===%
 \section{Anhang}
